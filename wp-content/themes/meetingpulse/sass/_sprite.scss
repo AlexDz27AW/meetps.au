@@ -1,0 +1,382 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$sprite-icon-email-name: 'sprite-icon-email';
+$sprite-icon-email-x: 0px;
+$sprite-icon-email-y: 0px;
+$sprite-icon-email-offset-x: 0px;
+$sprite-icon-email-offset-y: 0px;
+$sprite-icon-email-width: 15px;
+$sprite-icon-email-height: 10px;
+$sprite-icon-email-total-width: 157px;
+$sprite-icon-email-total-height: 338px;
+$sprite-icon-email-image: 'images/sprite.png';
+$sprite-icon-email: (0px, 0px, 0px, 0px, 15px, 10px, 157px, 338px, 'images/sprite.png', 'sprite-icon-email', );
+$sprite-icon-phone-name: 'sprite-icon-phone';
+$sprite-icon-phone-x: 0px;
+$sprite-icon-phone-y: 15px;
+$sprite-icon-phone-offset-x: 0px;
+$sprite-icon-phone-offset-y: -15px;
+$sprite-icon-phone-width: 15px;
+$sprite-icon-phone-height: 15px;
+$sprite-icon-phone-total-width: 157px;
+$sprite-icon-phone-total-height: 338px;
+$sprite-icon-phone-image: 'images/sprite.png';
+$sprite-icon-phone: (0px, 15px, 0px, -15px, 15px, 15px, 157px, 338px, 'images/sprite.png', 'sprite-icon-phone', );
+$sprite-icon-plus-name: 'sprite-icon-plus';
+$sprite-icon-plus-x: 0px;
+$sprite-icon-plus-y: 135px;
+$sprite-icon-plus-offset-x: 0px;
+$sprite-icon-plus-offset-y: -135px;
+$sprite-icon-plus-width: 24px;
+$sprite-icon-plus-height: 24px;
+$sprite-icon-plus-total-width: 157px;
+$sprite-icon-plus-total-height: 338px;
+$sprite-icon-plus-image: 'images/sprite.png';
+$sprite-icon-plus: (0px, 135px, 0px, -135px, 24px, 24px, 157px, 338px, 'images/sprite.png', 'sprite-icon-plus', );
+$sprite-payments-name: 'sprite-payments';
+$sprite-payments-x: 0px;
+$sprite-payments-y: 195px;
+$sprite-payments-offset-x: 0px;
+$sprite-payments-offset-y: -195px;
+$sprite-payments-width: 157px;
+$sprite-payments-height: 66px;
+$sprite-payments-total-width: 157px;
+$sprite-payments-total-height: 338px;
+$sprite-payments-image: 'images/sprite.png';
+$sprite-payments: (0px, 195px, 0px, -195px, 157px, 66px, 157px, 338px, 'images/sprite.png', 'sprite-payments', );
+$sprite-social-facebook-name: 'sprite-social-facebook';
+$sprite-social-facebook-x: 0px;
+$sprite-social-facebook-y: 83px;
+$sprite-social-facebook-offset-x: 0px;
+$sprite-social-facebook-offset-y: -83px;
+$sprite-social-facebook-width: 21px;
+$sprite-social-facebook-height: 21px;
+$sprite-social-facebook-total-width: 157px;
+$sprite-social-facebook-total-height: 338px;
+$sprite-social-facebook-image: 'images/sprite.png';
+$sprite-social-facebook: (0px, 83px, 0px, -83px, 21px, 21px, 157px, 338px, 'images/sprite.png', 'sprite-social-facebook', );
+$sprite-social-google-name: 'sprite-social-google';
+$sprite-social-google-x: 0px;
+$sprite-social-google-y: 58px;
+$sprite-social-google-offset-x: 0px;
+$sprite-social-google-offset-y: -58px;
+$sprite-social-google-width: 31px;
+$sprite-social-google-height: 20px;
+$sprite-social-google-total-width: 157px;
+$sprite-social-google-total-height: 338px;
+$sprite-social-google-image: 'images/sprite.png';
+$sprite-social-google: (0px, 58px, 0px, -58px, 31px, 20px, 157px, 338px, 'images/sprite.png', 'sprite-social-google', );
+$sprite-social-linkedin-name: 'sprite-social-linkedin';
+$sprite-social-linkedin-x: 0px;
+$sprite-social-linkedin-y: 109px;
+$sprite-social-linkedin-offset-x: 0px;
+$sprite-social-linkedin-offset-y: -109px;
+$sprite-social-linkedin-width: 21px;
+$sprite-social-linkedin-height: 21px;
+$sprite-social-linkedin-total-width: 157px;
+$sprite-social-linkedin-total-height: 338px;
+$sprite-social-linkedin-image: 'images/sprite.png';
+$sprite-social-linkedin: (0px, 109px, 0px, -109px, 21px, 21px, 157px, 338px, 'images/sprite.png', 'sprite-social-linkedin', );
+$sprite-social-twitter-name: 'sprite-social-twitter';
+$sprite-social-twitter-x: 0px;
+$sprite-social-twitter-y: 35px;
+$sprite-social-twitter-offset-x: 0px;
+$sprite-social-twitter-offset-y: -35px;
+$sprite-social-twitter-width: 22px;
+$sprite-social-twitter-height: 18px;
+$sprite-social-twitter-total-width: 157px;
+$sprite-social-twitter-total-height: 338px;
+$sprite-social-twitter-image: 'images/sprite.png';
+$sprite-social-twitter: (0px, 35px, 0px, -35px, 22px, 18px, 157px, 338px, 'images/sprite.png', 'sprite-social-twitter', );
+$sprite-ssl-name: 'sprite-ssl';
+$sprite-ssl-x: 0px;
+$sprite-ssl-y: 266px;
+$sprite-ssl-offset-x: 0px;
+$sprite-ssl-offset-y: -266px;
+$sprite-ssl-width: 150px;
+$sprite-ssl-height: 72px;
+$sprite-ssl-total-width: 157px;
+$sprite-ssl-total-height: 338px;
+$sprite-ssl-image: 'images/sprite.png';
+$sprite-ssl: (0px, 266px, 0px, -266px, 150px, 72px, 157px, 338px, 'images/sprite.png', 'sprite-ssl', );
+$sprite-stripe-name: 'sprite-stripe';
+$sprite-stripe-x: 0px;
+$sprite-stripe-y: 164px;
+$sprite-stripe-offset-x: 0px;
+$sprite-stripe-offset-y: -164px;
+$sprite-stripe-width: 143px;
+$sprite-stripe-height: 26px;
+$sprite-stripe-total-width: 157px;
+$sprite-stripe-total-height: 338px;
+$sprite-stripe-image: 'images/sprite.png';
+$sprite-stripe: (0px, 164px, 0px, -164px, 143px, 26px, 157px, 338px, 'images/sprite.png', 'sprite-stripe', );
+$sprite-icon-email-2x-name: 'sprite-icon-email@2x';
+$sprite-icon-email-2x-x: 0px;
+$sprite-icon-email-2x-y: 0px;
+$sprite-icon-email-2x-offset-x: 0px;
+$sprite-icon-email-2x-offset-y: 0px;
+$sprite-icon-email-2x-width: 30px;
+$sprite-icon-email-2x-height: 20px;
+$sprite-icon-email-2x-total-width: 314px;
+$sprite-icon-email-2x-total-height: 676px;
+$sprite-icon-email-2x-image: 'images/sprite@2x.png';
+$sprite-icon-email-2x: (0px, 0px, 0px, 0px, 30px, 20px, 314px, 676px, 'images/sprite@2x.png', 'sprite-icon-email@2x', );
+$sprite-icon-phone-2x-name: 'sprite-icon-phone@2x';
+$sprite-icon-phone-2x-x: 0px;
+$sprite-icon-phone-2x-y: 30px;
+$sprite-icon-phone-2x-offset-x: 0px;
+$sprite-icon-phone-2x-offset-y: -30px;
+$sprite-icon-phone-2x-width: 30px;
+$sprite-icon-phone-2x-height: 30px;
+$sprite-icon-phone-2x-total-width: 314px;
+$sprite-icon-phone-2x-total-height: 676px;
+$sprite-icon-phone-2x-image: 'images/sprite@2x.png';
+$sprite-icon-phone-2x: (0px, 30px, 0px, -30px, 30px, 30px, 314px, 676px, 'images/sprite@2x.png', 'sprite-icon-phone@2x', );
+$sprite-icon-plus-2x-name: 'sprite-icon-plus@2x';
+$sprite-icon-plus-2x-x: 0px;
+$sprite-icon-plus-2x-y: 270px;
+$sprite-icon-plus-2x-offset-x: 0px;
+$sprite-icon-plus-2x-offset-y: -270px;
+$sprite-icon-plus-2x-width: 48px;
+$sprite-icon-plus-2x-height: 48px;
+$sprite-icon-plus-2x-total-width: 314px;
+$sprite-icon-plus-2x-total-height: 676px;
+$sprite-icon-plus-2x-image: 'images/sprite@2x.png';
+$sprite-icon-plus-2x: (0px, 270px, 0px, -270px, 48px, 48px, 314px, 676px, 'images/sprite@2x.png', 'sprite-icon-plus@2x', );
+$sprite-payments-2x-name: 'sprite-payments@2x';
+$sprite-payments-2x-x: 0px;
+$sprite-payments-2x-y: 390px;
+$sprite-payments-2x-offset-x: 0px;
+$sprite-payments-2x-offset-y: -390px;
+$sprite-payments-2x-width: 314px;
+$sprite-payments-2x-height: 132px;
+$sprite-payments-2x-total-width: 314px;
+$sprite-payments-2x-total-height: 676px;
+$sprite-payments-2x-image: 'images/sprite@2x.png';
+$sprite-payments-2x: (0px, 390px, 0px, -390px, 314px, 132px, 314px, 676px, 'images/sprite@2x.png', 'sprite-payments@2x', );
+$sprite-social-facebook-2x-name: 'sprite-social-facebook@2x';
+$sprite-social-facebook-2x-x: 0px;
+$sprite-social-facebook-2x-y: 166px;
+$sprite-social-facebook-2x-offset-x: 0px;
+$sprite-social-facebook-2x-offset-y: -166px;
+$sprite-social-facebook-2x-width: 42px;
+$sprite-social-facebook-2x-height: 42px;
+$sprite-social-facebook-2x-total-width: 314px;
+$sprite-social-facebook-2x-total-height: 676px;
+$sprite-social-facebook-2x-image: 'images/sprite@2x.png';
+$sprite-social-facebook-2x: (0px, 166px, 0px, -166px, 42px, 42px, 314px, 676px, 'images/sprite@2x.png', 'sprite-social-facebook@2x', );
+$sprite-social-google-2x-name: 'sprite-social-google@2x';
+$sprite-social-google-2x-x: 0px;
+$sprite-social-google-2x-y: 116px;
+$sprite-social-google-2x-offset-x: 0px;
+$sprite-social-google-2x-offset-y: -116px;
+$sprite-social-google-2x-width: 62px;
+$sprite-social-google-2x-height: 40px;
+$sprite-social-google-2x-total-width: 314px;
+$sprite-social-google-2x-total-height: 676px;
+$sprite-social-google-2x-image: 'images/sprite@2x.png';
+$sprite-social-google-2x: (0px, 116px, 0px, -116px, 62px, 40px, 314px, 676px, 'images/sprite@2x.png', 'sprite-social-google@2x', );
+$sprite-social-linkedin-2x-name: 'sprite-social-linkedin@2x';
+$sprite-social-linkedin-2x-x: 0px;
+$sprite-social-linkedin-2x-y: 218px;
+$sprite-social-linkedin-2x-offset-x: 0px;
+$sprite-social-linkedin-2x-offset-y: -218px;
+$sprite-social-linkedin-2x-width: 42px;
+$sprite-social-linkedin-2x-height: 42px;
+$sprite-social-linkedin-2x-total-width: 314px;
+$sprite-social-linkedin-2x-total-height: 676px;
+$sprite-social-linkedin-2x-image: 'images/sprite@2x.png';
+$sprite-social-linkedin-2x: (0px, 218px, 0px, -218px, 42px, 42px, 314px, 676px, 'images/sprite@2x.png', 'sprite-social-linkedin@2x', );
+$sprite-social-twitter-2x-name: 'sprite-social-twitter@2x';
+$sprite-social-twitter-2x-x: 0px;
+$sprite-social-twitter-2x-y: 70px;
+$sprite-social-twitter-2x-offset-x: 0px;
+$sprite-social-twitter-2x-offset-y: -70px;
+$sprite-social-twitter-2x-width: 44px;
+$sprite-social-twitter-2x-height: 36px;
+$sprite-social-twitter-2x-total-width: 314px;
+$sprite-social-twitter-2x-total-height: 676px;
+$sprite-social-twitter-2x-image: 'images/sprite@2x.png';
+$sprite-social-twitter-2x: (0px, 70px, 0px, -70px, 44px, 36px, 314px, 676px, 'images/sprite@2x.png', 'sprite-social-twitter@2x', );
+$sprite-ssl-2x-name: 'sprite-ssl@2x';
+$sprite-ssl-2x-x: 0px;
+$sprite-ssl-2x-y: 532px;
+$sprite-ssl-2x-offset-x: 0px;
+$sprite-ssl-2x-offset-y: -532px;
+$sprite-ssl-2x-width: 300px;
+$sprite-ssl-2x-height: 144px;
+$sprite-ssl-2x-total-width: 314px;
+$sprite-ssl-2x-total-height: 676px;
+$sprite-ssl-2x-image: 'images/sprite@2x.png';
+$sprite-ssl-2x: (0px, 532px, 0px, -532px, 300px, 144px, 314px, 676px, 'images/sprite@2x.png', 'sprite-ssl@2x', );
+$sprite-stripe-2x-name: 'sprite-stripe@2x';
+$sprite-stripe-2x-x: 0px;
+$sprite-stripe-2x-y: 328px;
+$sprite-stripe-2x-offset-x: 0px;
+$sprite-stripe-2x-offset-y: -328px;
+$sprite-stripe-2x-width: 286px;
+$sprite-stripe-2x-height: 52px;
+$sprite-stripe-2x-total-width: 314px;
+$sprite-stripe-2x-total-height: 676px;
+$sprite-stripe-2x-image: 'images/sprite@2x.png';
+$sprite-stripe-2x: (0px, 328px, 0px, -328px, 286px, 52px, 314px, 676px, 'images/sprite@2x.png', 'sprite-stripe@2x', );
+$spritesheet-width: 157px;
+$spritesheet-height: 338px;
+$spritesheet-image: 'images/sprite.png';
+$spritesheet-sprites: ($sprite-icon-email, $sprite-icon-phone, $sprite-icon-plus, $sprite-payments, $sprite-social-facebook, $sprite-social-google, $sprite-social-linkedin, $sprite-social-twitter, $sprite-ssl, $sprite-stripe, );
+$spritesheet: (157px, 338px, 'images/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 314px;
+$retina-spritesheet-height: 676px;
+$retina-spritesheet-image: 'images/sprite@2x.png';
+$retina-spritesheet-sprites: ($sprite-icon-email-2x, $sprite-icon-phone-2x, $sprite-icon-plus-2x, $sprite-payments-2x, $sprite-social-facebook-2x, $sprite-social-google-2x, $sprite-social-linkedin-2x, $sprite-social-twitter-2x, $sprite-ssl-2x, $sprite-stripe-2x, );
+$retina-spritesheet: (314px, 676px, 'images/sprite@2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$sprite-icon-email-group-name: 'sprite-icon-email';
+$sprite-icon-email-group: ('sprite-icon-email', $sprite-icon-email, $sprite-icon-email-2x, );
+$sprite-icon-phone-group-name: 'sprite-icon-phone';
+$sprite-icon-phone-group: ('sprite-icon-phone', $sprite-icon-phone, $sprite-icon-phone-2x, );
+$sprite-icon-plus-group-name: 'sprite-icon-plus';
+$sprite-icon-plus-group: ('sprite-icon-plus', $sprite-icon-plus, $sprite-icon-plus-2x, );
+$sprite-payments-group-name: 'sprite-payments';
+$sprite-payments-group: ('sprite-payments', $sprite-payments, $sprite-payments-2x, );
+$sprite-social-facebook-group-name: 'sprite-social-facebook';
+$sprite-social-facebook-group: ('sprite-social-facebook', $sprite-social-facebook, $sprite-social-facebook-2x, );
+$sprite-social-google-group-name: 'sprite-social-google';
+$sprite-social-google-group: ('sprite-social-google', $sprite-social-google, $sprite-social-google-2x, );
+$sprite-social-linkedin-group-name: 'sprite-social-linkedin';
+$sprite-social-linkedin-group: ('sprite-social-linkedin', $sprite-social-linkedin, $sprite-social-linkedin-2x, );
+$sprite-social-twitter-group-name: 'sprite-social-twitter';
+$sprite-social-twitter-group: ('sprite-social-twitter', $sprite-social-twitter, $sprite-social-twitter-2x, );
+$sprite-ssl-group-name: 'sprite-ssl';
+$sprite-ssl-group: ('sprite-ssl', $sprite-ssl, $sprite-ssl-2x, );
+$sprite-stripe-group-name: 'sprite-stripe';
+$sprite-stripe-group: ('sprite-stripe', $sprite-stripe, $sprite-stripe-2x, );
+$retina-groups: ($sprite-icon-email-group, $sprite-icon-phone-group, $sprite-icon-plus-group, $sprite-payments-group, $sprite-social-facebook-group, $sprite-social-google-group, $sprite-social-linkedin-group, $sprite-social-twitter-group, $sprite-ssl-group, $sprite-stripe-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

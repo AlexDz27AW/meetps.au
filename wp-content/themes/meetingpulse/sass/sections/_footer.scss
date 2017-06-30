@@ -1,0 +1,168 @@
+.b-footer {
+	background-color: #464952;
+	color: #fff;
+
+	a:hover,
+	a:focus {
+		text-decoration: underline;
+	}
+
+	&__top-line {
+		padding: 55px 0;
+
+		p {
+			margin: 0;
+		}
+
+		&__nav {
+			display: none;
+		}
+	}
+		&__about {
+			width: 290px;
+			padding-right: 75px;
+			font-size: 14px;
+
+			p + p {
+				margin-top: 1.7em;
+			}
+		}
+
+		&__contacts {
+			p {
+				& + p {
+					margin-top: .5em;
+				}
+
+				.sprite-icon {
+					margin-right: .65em;
+				}
+			}
+		}
+			&__social {
+				margin-top: 1.1em;
+
+				a {
+					display: inline-block;
+
+					& + a {
+						margin-left: 15px;
+					}
+				}
+			}
+
+		&__payments {
+			width: 157px;
+		}
+
+		&__safety {
+			width: 182px;
+			padding-left: 75px;
+
+			text-align: center;
+
+			p + p {
+				margin-top: 1.3em;
+			}
+		}
+
+		&__grid-delimiter {
+			display: none;
+		}
+
+	&__bottom-line {
+		padding: 42px 0;
+		background-color: #43464f;
+		font-size: 16px;
+	}
+		&__copy {
+			color: #a1a3a7;
+		}
+		&__nav {
+			text-align: right;
+
+			a {
+				display: inline-block;
+
+				& + a {
+					margin-left: 36px;
+				}
+			}
+		}
+}
+
+@media screen and (max-width: 1200px) {
+	.b-footer {
+		&__about {
+			width: 275px;
+			padding-right: 40px;
+		}
+		&__contacts {
+			font-size: 15px;
+		}
+		&__safety {
+			padding-left: 40px;
+		}
+	}
+}
+@media screen and (max-width: 900px) {
+	.b-footer {
+		&__top-line {
+			text-align: center;
+		}
+
+		&__about,
+		&__contacts,
+		&__payments,
+		&__safety {
+			width: 50%;
+			padding: 0 3%;
+		}
+		&__about,
+		&__contacts {
+			padding-bottom: 35px;
+		}
+
+		&__grid-delimiter {
+			display: table-row;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.b-footer {
+		&__top-line {
+			padding: 35px 0;
+
+			&__nav {
+				display: block;
+				text-align: center;
+				margin-bottom: 45px;
+			}
+
+			.grid-table {
+				&,
+				& > * {
+					display: block;
+					width: 100%;
+
+					& + * {
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+			&__grid-delimiter {
+				display: none;
+			}
+
+		&__bottom-line {
+			padding: 15px 0;
+			font-size: 14px;
+			text-align: center;
+
+			&__nav {
+				display: none;
+			}
+		}
+	}
+}

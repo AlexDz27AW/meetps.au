@@ -1,0 +1,28 @@
+/*
+	Theme Name: Meeting Pulse
+	Description: Hello world!
+	Version: 1
+*/
+
+// Tools & helpers
+@import 'variables';
+@import 'sprite';
+
+// Libs
+@import 'vendor/normalize';
+
+// Commons styles
+@import 'common';
+
+// Load sections
+@import 'sections/header';
+@import 'sections/blog';
+@import 'sections/landing';
+@import 'sections/footer';
+
+// Generate sprite's css code
+@include retina-sprites($retina-groups);
+i.sprite-icon {
+	display: inline-block;
+	vertical-align: middle;
+}

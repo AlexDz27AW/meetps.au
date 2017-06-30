@@ -1,0 +1,92 @@
+<?php
+global $post,
+$mk_options;
+$page_layout = get_post_meta( $post->ID, '_layout', true );
+$padding = get_post_meta( $post->ID, '_padding', true );
+
+
+if ( empty( $page_layout ) ) {
+	$page_layout = 'full';
+}
+$padding = ($padding == 'true') ? 'no-padding' : '';
+
+get_header(); ?>
+<div id="theme-page" <?php echo get_schema_markup('main'); ?>>
+	<div class="mk-main-wrapper-holder">
+		<div id="mk-page-id-<?php echo $post->ID; ?>" class="theme-page-wrapper mk-main-wrapper <?php echo $page_layout; ?>-layout <?php echo $padding; ?> mk-grid vc_row-fluid">
+			<div class="theme-content <?php echo $padding; ?>" itemprop="mainContentOfPage">
+				<?php if ( have_posts() ) while ( have_posts() ) : the_post();?>
+						<?php the_content();?>
+						<div class="clearboth"></div>
+						<?php wp_link_pages( 'before=<div id="mk-page-links">'.__( 'Pages:', 'mk_framework' ).'&after=</div>' ); ?>
+				<?php endwhile; ?>
+
+<?php
+
+do {
+
+    $current_user = wp_get_current_user();
+    if (!$current_user->user_login) {
+        echo "<p>You must be logged in if you want to participate in a meeting.</p>";
+        break;
+    }
+
+    // Get the access token
+    // Insantiate the iframe.
+    $payload = array(
+        "key" => "4GvXisPMqyKF3Ve4",
+        "id" => $current_user->user_login,
+        "name" => $current_user->user_firstname . ' ' . $current_user->user_lastname
+    );
+
+    // Configure cURL
+    $curl = \curl_init();
+    $headers = [
+        "Accept: application/json",
+        "Content-Type: application/json"
+    ];
+
+    $opts =  array(
+      CURLOPT_CAINFO => $_SERVER['DOCUMENT_ROOT'] . '/wp-includes/certificates/ca-bundle.crt',
+      CURLOPT_HEADER => 0,
+      CURLOPT_HTTPHEADER => &$headers,
+      CURLOPT_RETURNTRANSFER => 1,
+      CURLOPT_FOLLOWLOCATION => 1,
+      CURLOPT_URL => "https://app.meetingpulse.net/api/auth/attendee",
+      CURLOPT_POST => 1,
+      CURLOPT_POSTFIELDS => \json_encode($payload)
+    );
+
+    // Execute the request
+    \curl_setopt_array($curl, $opts);
+    $output = \curl_exec($curl);
+    $json = \json_decode($output, true);
+
+    if (!$json || !$json["result"]) {
+        echo "<p>Failed to obtain the access data for the meeting. ({$output})</p>";
+        if (isset($json["error"]) && isset($json["error"]["message"]))
+            echo "<p>Error: {$json['error']['message']}</p>";
+        break;
+    }
+
+    $token = $json["result"]["token"];
+
+    echo "<iframe src='https://app.meetingpulse.net/login.html?t={$token}&mr=app-web-integration' style='height: 640px; width: 480px; border: solid 0px transparent;'></iframe>";
+
+} while(0);
+
+?>
+
+			</div>
+			<?php
+				if($mk_options['pages_comments'] == 'true') {
+					comments_template( '', true ); 	
+				}
+			?>
+		<?php if ( $page_layout != 'full' ) get_sidebar(); ?>
+		<div class="clearboth"></div>
+		</div>
+		<div class="clearboth"></div>
+	</div>	
+</div>
+<?php get_footer(); ?>
