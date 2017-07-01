@@ -4992,7 +4992,7 @@ class ET_Monarch {
 
 		wp_enqueue_script( 'et_monarch-idle', ET_MONARCH_PLUGIN_URI . '/js/idle-timer.min.js', array( 'jquery' ), $this->plugin_version, true );
 		wp_enqueue_script( 'et_monarch-custom-js', ET_MONARCH_PLUGIN_URI . '/js/custom.js', array( 'jquery' ), $this->plugin_version, true );
-		wp_enqueue_style( 'et-gf-open-sans', esc_url_raw( "{$this->protocol}://fonts.googleapis.com/css?family=Open+Sans:400,700" ), array(), null );
+		// wp_enqueue_style( 'et-gf-open-sans', esc_url_raw( "{$this->protocol}://fonts.googleapis.com/css?family=Open+Sans:400,700" ), array(), null );
 		wp_enqueue_style( 'et_monarch-css', ET_MONARCH_PLUGIN_URI . '/css/style.css', array(), $this->plugin_version );
 		wp_localize_script( 'et_monarch-custom-js', 'monarchSettings', array(
 			'ajaxurl'                   => admin_url( 'admin-ajax.php', $this->protocol ),

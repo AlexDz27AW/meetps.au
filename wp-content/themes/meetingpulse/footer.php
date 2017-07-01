@@ -112,7 +112,7 @@
             e.preventDefault();
 
             var slug = $('#enter-meeting_form').find('[name="slug"]').val();
-            window.location = 'https://meet.ps/' + slug;
+            window.location = '/' + slug;
         });
     });
 </script>
@@ -149,7 +149,7 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 
 		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/scrollreveal.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.bxslider.min_.js"></script>
+		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.bxslider.min.js"></script>
 
 <?php if (!is_page( 7638 )) :  ?> 
 		<!-- BEGIN JIVOSITE CODE -->
@@ -168,7 +168,7 @@
     color: #444;
 }
 </style>
-<script src="/wp-includes/intl-tel-input/build/js/intlTelInput.js"></script>
+<script src="/wp-includes/intl-tel-input/build/js/intlTelInput.min.js"></script>
 <script>
 	jQuery(document).ready(function($) {
 		$("#phone").intlTelInput();
@@ -180,6 +180,78 @@ jQuery(document).ready(function($) {
 $('.i-header').find('a[href*="/pages/get-started"]').addClass('js-modal').data('target', '#get-started-modal');
 });
 </script>
+
+
+
+
+
+<script type="text/javascript">
+activateCustomForm = function() {
+    $('#contact_form').submit(function(e) {
+      var form = $(this);
+      if (!e.isDefaultPrevented()) {
+        e.preventDefault();
+
+        var country_data = $("#phone").intlTelInput("getSelectedCountryData");
+        var data = {
+          action: 'mk_contact_form',
+          email: form.find('input[name="email"]').val().replace("*", "@"),
+          name: form.find('input[name="name"]').val(),
+          phone: form.find('input[name="phone"]').val(),
+          country: country_data,
+          size: form.find('select[name="size"]').val(),
+          frequency: form.find('select[name="frequency"]').val(),
+          features: []
+        };
+
+$("input[name='features[]']:checked").each(function ()
+{
+    data.features.push( $(this).parent().find('label').text() );
+});
+
+        sendForm = function() {
+          $.post('https://spl.meet.ps/pipeform', data, function(response) {
+            form.find('input#email, input#name, input#phone').val("");
+            setTimeout(function(){
+               window.location.href = 'https://meet.ps/pages/get-started-thanks/';
+            },1000);
+          });
+        }; 
+
+        if(data.email && data.name){
+        sendForm();
+}
+        ga('send','event','User_Action','get_started_contact_modal_home',1);
+      }
+    });
+};
+
+function defer(method) {
+    if (jQuery) {
+        window.$ = jQuery;
+        method() ;    
+   } else {
+        setTimeout(function() { defer(method) }, 200);
+   }
+}
+defer(activateCustomForm);
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50037100-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="https://app.meet.ps/js/app/cm.js"></script>
+<!-- Twitter AMP-compatible universal website tag code -->
+<amp-img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxb5c&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0"></amp-img>
+<amp-img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxb5c&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0"></amp-img>
+<!-- End Twitter AMP-compatible universal website tag code -->
+
 
 	</body>
 </html>

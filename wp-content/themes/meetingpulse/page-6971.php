@@ -54,10 +54,10 @@
 					</div>
 					<div class="aside-block">
 						<div class="take-audience-pic">
-							<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-1.jpg" alt="Audience questions" />
+							<img src="/wp-content/uploads/2015/12/feat-image-1.jpg" alt="Audience questions" />
 						</div>
 						<figure class="compatible-devices">
-							<img src="https://meet.ps/wp-content/uploads/2015/12/compatible-devices.png" alt="Responsive Devices" />
+							<img src="/wp-content/uploads/2015/12/compatible-devices.png" alt="Responsive Devices" />
 							<figcaption>Compatible with any connected device</figcaption>
 						</figure>
 					</div>
@@ -74,7 +74,7 @@
 					</div>
 					<div class="aside-block">
 						<div class="poll-audience-pic">
-							<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-2.jpg" alt="Poll your audience" />
+							<img src="/wp-content/uploads/2015/12/feat-image-2.jpg" alt="Poll your audience" />
 						</div>
 					</div>
 				</div>
@@ -85,7 +85,7 @@
 			<div class="second-features clearfix">
 				<div class="second-feature-block">
 					<div class="aside-block">
-						<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-3.png" alt="Pulse" />
+						<img src="/wp-content/uploads/2015/12/feat-image-3.png" alt="Pulse" />
 					</div>
 					<div class="text-block">
 						<h4 class="color-blue"><i class="edicon edicon-pulse"></i> Pulse</h4>
@@ -95,7 +95,7 @@
 				</div>
 				<div class="second-feature-block">
 					<div class="aside-block">
-						<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-4.png" alt="Surveys" />
+						<img src="/wp-content/uploads/2015/12/feat-image-4.png" alt="Surveys" />
 					</div>
 					<div class="text-block">
 						<h4 class="color-salat"><i class="edicon edicon-surveys"></i> Surveys</h4>
@@ -105,7 +105,7 @@
 				</div>
 				<div class="second-feature-block">
 					<div class="aside-block">
-						<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-5.png" alt="Collect info" />
+						<img src="/wp-content/uploads/2015/12/feat-image-5.png" alt="Collect info" />
 					</div>
 					<div class="text-block">
 						<h4 class="color-pink"><i class="edicon edicon-persona"></i> Collect info</h4>
@@ -115,7 +115,7 @@
 				</div>
 				<div class="second-feature-block">
 					<div class="aside-block">
-						<img src="https://meet.ps/wp-content/uploads/2015/12/feat-image-6.png" alt="Raffles" />
+						<img src="/wp-content/uploads/2015/12/feat-image-6.png" alt="Raffles" />
 					</div>
 					<div class="text-block">
 						<h4 class="color-gold"><i class="edicon edicon-dice"></i> Raffles</h4>
@@ -195,7 +195,7 @@
 		<div class="wrap">
 			<h2>Trusted by</h2>
 			
-				<img src="https://meet.ps/wp-content/uploads/2017/04/clients.png" alt="Companies that trust MeetingPulse for their meetings" style="max-width:100%">
+				<img src="/wp-content/uploads/2017/04/clients.png" alt="Companies that trust MeetingPulse for their meetings" style="max-width:100%">
 	
 			<ul class="keywords nav clearfix">
 				<li>Conference calls</li>
@@ -215,7 +215,7 @@
 				and worked with us step-by-step to provide the desired product.<br />
 				The result was an engaging activity which our guests thoroughly enjoyed!
 				</blockquote>
-				<p class="author">– <img src="https://meet.ps/wp-content/uploads/2016/03/maristpoll-logo.png" alt="Marist Poll" class="marist"></p>
+				<p class="author">– <img src="/wp-content/uploads/2016/03/maristpoll-logo.png" alt="Marist Poll" class="marist"></p>
 		</div>
 	</section>
 

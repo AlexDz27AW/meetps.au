@@ -133,7 +133,7 @@ img {
 	background-repeat:no-repeat;
 }
 .edicon.edicon-email {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-email.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-email.png");
 	-moz-background-size:15px 10px;
 	-o-background-size:15px 10px;
 	-webkit-background-size:15px 10px;
@@ -142,7 +142,7 @@ img {
 	height:10px;
 }
 .edicon.edicon-pulse {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-pulse.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-pulse.png");
 	-moz-background-size:36px 16px;
 	-o-background-size:36px 16px;
 	-webkit-background-size:36px 16px;
@@ -151,7 +151,7 @@ img {
 	height:16px;
 }
 .edicon.edicon-surveys {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-surveys.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-surveys.png");
 	-moz-background-size:20px 25px;
 	-o-background-size:20px 25px;
 	-webkit-background-size:20px 25px;
@@ -160,7 +160,7 @@ img {
 	height:25px;
 }
 .edicon.edicon-persona {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-persona.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-persona.png");
 	-moz-background-size:24px 23px;
 	-o-background-size:24px 23px;
 	-webkit-background-size:24px 23px;
@@ -169,7 +169,7 @@ img {
 	height:23px;
 }
 .edicon.edicon-dice {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-dice.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-dice.png");
 	-moz-background-size:35px 29px;
 	-o-background-size:35px 29px;
 	-webkit-background-size:35px 29px;
@@ -178,7 +178,7 @@ img {
 	height:29px;
 }
 .edicon.edicon-check {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-check.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-check.png");
 	-moz-background-size:19px 13px;
 	-o-background-size:19px 13px;
 	-webkit-background-size:19px 13px;
@@ -187,7 +187,7 @@ img {
 	height:13px;
 }
 .edicon.edicon-uncheck {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-uncheck.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-uncheck.png");
 	-moz-background-size:17px;
 	-o-background-size:17px;
 	-webkit-background-size:17px;
@@ -196,7 +196,7 @@ img {
 	height:17px;
 }
 .edicon.edicon-arrow-right {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-arrow-right.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-arrow-right.png");
 	-moz-background-size:8px 13px;
 	-o-background-size:8px 13px;
 	-webkit-background-size:8px 13px;
@@ -205,7 +205,7 @@ img {
 	height:13px;
 }
 .edicon.edicon-phone {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-phone.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-phone.png");
 	-moz-background-size:15px;
 	-o-background-size:15px;
 	-webkit-background-size:15px;
@@ -214,7 +214,7 @@ img {
 	height:15px;
 }
 .edicon.edicon-twitter {
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/icon-twitter.png");
+	background-image:url("/wp-content/uploads/2015/12/icon-twitter.png");
 	-moz-background-size:19px 15px;
 	-o-background-size:19px 15px;
 	-webkit-background-size:19px 15px;
@@ -223,7 +223,7 @@ img {
 	height:15px;
 }
 .edicon.edicon-taptap {
-	background-image:url("https://meet.ps/wp-content/uploads/2016/01/icon_emoji-taptap.png");
+	background-image:url("/wp-content/uploads/2016/01/icon_emoji-taptap.png");
 	-moz-background-size:35px;
 	-o-background-size:35px;
 	-webkit-background-size:35px;
@@ -233,7 +233,7 @@ img {
 	margin-right:10px;
 }
 .edicon.edicon-twitter_2 {
-	background-image:url("https://meet.ps/wp-content/uploads/2016/01/icon-twitter_2.png");
+	background-image:url("/wp-content/uploads/2016/01/icon-twitter_2.png");
 	-moz-background-size:23px 18px;
 	-o-background-size:23px 18px;
 	-webkit-background-size:23px 18px;
@@ -242,7 +242,7 @@ img {
 	height:18px;
 }
 .edicon.edicon-gplus {
-	background-image:url("https://meet.ps/wp-content/uploads/2016/01/icon-gplus.png");
+	background-image:url("/wp-content/uploads/2016/01/icon-gplus.png");
 	-moz-background-size:31px 20px;
 	-o-background-size:31px 20px;
 	-webkit-background-size:31px 20px;
@@ -251,7 +251,7 @@ img {
 	height:20px;
 }
 .edicon.edicon-linkedin {
-	background-image:url("https://meet.ps/wp-content/uploads/2016/01/icon-linkedin.png");
+	background-image:url("/wp-content/uploads/2016/01/icon-linkedin.png");
 	-moz-background-size:21px;
 	-o-background-size:21px;
 	-webkit-background-size:21px;
@@ -265,12 +265,12 @@ img {
 	margin: 0 !important;
 	padding:32px 0 39px;
 	background-color:#0673ee;
-	background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiM5NzVmZmMiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTc1ZmZjIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'),url("https://meet.ps/wp-content/uploads/2015/12/header_background.jpg");
+	background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiM5NzVmZmMiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTc1ZmZjIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'),url("/wp-content/uploads/2015/12/header_background.jpg");
 	background-size:100%;
-	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(25%,rgba(151,95,252,0)),color-stop(100%,#975ffc)),url("https://meet.ps/wp-content/uploads/2015/12/header_background.jpg");
-	background-image:-moz-linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("https://meet.ps/wp-content/uploads/2015/12/header_background.jpg");
-	background-image:-webkit-linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("https://meet.ps/wp-content/uploads/2015/12/header_background.jpg");
-	background-image:linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("https://meet.ps/wp-content/uploads/2015/12/header_background.jpg");
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(25%,rgba(151,95,252,0)),color-stop(100%,#975ffc)),url("/wp-content/uploads/2015/12/header_background.jpg");
+	background-image:-moz-linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("/wp-content/uploads/2015/12/header_background.jpg");
+	background-image:-webkit-linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("/wp-content/uploads/2015/12/header_background.jpg");
+	background-image:linear-gradient(rgba(151,95,252,0) 25%,#975ffc 100%),url("/wp-content/uploads/2015/12/header_background.jpg");
 }
 #header .headbar {
 	margin-bottom:144px;
@@ -354,7 +354,7 @@ img {
 	height:52px;
 	margin:110px auto 0;
 	cursor:pointer;
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/scroll-down.png");
+	background-image:url("/wp-content/uploads/2015/12/scroll-down.png");
 	-moz-background-size:52px;
 	-o-background-size:52px;
 	-webkit-background-size:52px;
@@ -430,7 +430,7 @@ img {
 #features .checks-list li {
 	margin-bottom:17px;
 	padding-left:40px;
-	background:url("https://meet.ps/wp-content/uploads/2015/12/icon-check.png") no-repeat 0 50%;
+	background:url("/wp-content/uploads/2015/12/icon-check.png") no-repeat 0 50%;
 	-moz-background-size:19px 13px;
 	-o-background-size:19px 13px;
 	-webkit-background-size:19px 13px;
@@ -670,7 +670,7 @@ img {
 	}
 }
 #try-trial {
-	background:#dbd9dd url("https://meet.ps/wp-content/uploads/2015/12/try-trial_background.jpg") no-repeat 0 0;
+	background:#dbd9dd url("/wp-content/uploads/2015/12/try-trial_background.jpg") no-repeat 0 0;
 	padding:186px 0 157px;
 }
 #try-trial .holder-block {
@@ -729,7 +729,7 @@ img {
 }
 @media screen and (max-width: 1200px) {
 	#try-trial {
-		background:#dbd9dd url("https://meet.ps/wp-content/uploads/2015/12/try-trial_background_resp.jpg") no-repeat 50% 100%;
+		background:#dbd9dd url("/wp-content/uploads/2015/12/try-trial_background_resp.jpg") no-repeat 50% 100%;
 		padding:38px 0 255px;
 	}
 	#try-trial .holder-block {
@@ -813,7 +813,7 @@ img {
 }
 #used-for {
 	padding:88px 0 106px;
-	background:#7429e5 url("https://meet.ps/wp-content/uploads/2017/04/used-for_background.jpg") no-repeat 50% 100%;
+	background:#7429e5 url("/wp-content/uploads/2017/04/used-for_background.jpg") no-repeat 50% 100%;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -1183,12 +1183,12 @@ img {
 	background-color:#6f24e7;
 	background-position:50% 200px;
 	background-repeat:no-repeat;
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background.png"),url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmMjRlNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg0MmJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background.png"),url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmMjRlNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg0MmJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
 	background-size:100%;
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background.png"),-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#6f24e7),color-stop(100%,#842beb));
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background.png"),-moz-linear-gradient(#6f24e7 0%,#842beb 100%);
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background.png"),-webkit-linear-gradient(#6f24e7 0%,#842beb 100%);
-	background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background.png"),linear-gradient(#6f24e7 0%,#842beb 100%);
+	background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background.png"),-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#6f24e7),color-stop(100%,#842beb));
+	background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background.png"),-moz-linear-gradient(#6f24e7 0%,#842beb 100%);
+	background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background.png"),-webkit-linear-gradient(#6f24e7 0%,#842beb 100%);
+	background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background.png"),linear-gradient(#6f24e7 0%,#842beb 100%);
 	-moz-background-size:auto;
 	-o-background-size:auto;
 	-webkit-background-size:auto;
@@ -1262,12 +1262,12 @@ img {
 		padding:66px 0 188px;
 		text-align:center;
 		background-position:50% 100%;
-		background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmMjRlNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg0MmJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+		background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmMjRlNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg0MmJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
 		background-size:100%;
-		background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#6f24e7),color-stop(100%,#842beb));
-		background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-moz-linear-gradient(#6f24e7 0%,#842beb 100%);
-		background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-webkit-linear-gradient(#6f24e7 0%,#842beb 100%);
-		background-image:url("https://meet.ps/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),linear-gradient(#6f24e7 0%,#842beb 100%);
+		background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#6f24e7),color-stop(100%,#842beb));
+		background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-moz-linear-gradient(#6f24e7 0%,#842beb 100%);
+		background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),-webkit-linear-gradient(#6f24e7 0%,#842beb 100%);
+		background-image:url("/wp-content/uploads/2015/12/try-purple-trial_background_resp.png"),linear-gradient(#6f24e7 0%,#842beb 100%);
 		-moz-background-size:auto;
 		-o-background-size:auto;
 		-webkit-background-size:auto;
@@ -1459,7 +1459,7 @@ img {
 }
 
 #try-trial-2 {
-	background: #6925cd url("https://meet.ps/wp-content/uploads/2016/03/trynow_background.png") no-repeat 50% 0;
+	background: #6925cd url("/wp-content/uploads/2016/03/trynow_background.png") no-repeat 50% 0;
 	height: 474px;
 	color: #fff;
 }
