@@ -384,7 +384,7 @@
 						</div>
 						<div class="cell">
 							<div class="va">
-								<a href="mailto:info@meetingpulse.net?subject='Enterprise package inquiry'" class="btn">Talk to us</a>
+								<a href="#" data-target="#get-started-modal" show-comment="true" class="btn js-modal">Talk to us</a>
 							</div>
 						</div>
 					</div>
@@ -568,7 +568,7 @@
 						</div>
 						<div class="cell">
 							<div class="va">
-								<a href="mailto:info@meetingpulse.net?subject='Enterprise package inquiry'" class="btn">Talk to us</a>
+								<a href="#" data-target="#get-started-modal" show-comment="true" class="btn js-modal">Talk to us</a>
 							</div>
 						</div>
 					</div>
@@ -583,7 +583,7 @@
 			<div class="get-started-block">
 				<p>Claim your free 2 week trial, no obligation</p>
 				<div class="get-started-animation">
-					<a href="/pages/get-started/" class="get-started js-modal" data-target="#get-started-modal">Get started</a>
+					<a href="#" data-target="#get-started-modal" show-comment="true" class="btn js-modal">Get started</a>
 				</div>
 				<p class="whitebigger">Questions? Call now: <a href="tel:+14158706338">(415) 870 6338</a></p>
 			</div>

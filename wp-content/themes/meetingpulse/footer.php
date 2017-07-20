@@ -123,17 +123,30 @@
 				<form action="#" method="post" class="form" id="contact_form">
 					<div class="subcaption">Claim Your Free 2-week Trial</div>
 					<div class="form-row">
-						<p>Business E-mail *</p>
-						<input type="email" name="email" required />
-					</div>
-					<div class="form-row">
 						<p>Name *</p>
 						<input type="text" name="name" required />
+					</div>
+					<div class="form-row">
+						<p>Business E-mail *</p>
+						<input type="email" name="email" required />
 					</div>
 					<div class="form-row">
 						<p>Phone *</p>
 						<input style="padding-left:50px;" type="text" id="phone" name="phone" required />
 					</div>
+					<div class="form-row">
+						<p>Company</p>
+						<input type="text" name="company" />
+					</div>
+					<div class="form-row">
+						<p>Title</p>
+						<input type="text" name="title" />
+					</div>
+					<div class="form-row comment">
+						<p>What are your goals? </p>
+						<textarea  name="comment" id="comment" ></textarea>
+					</div>
+
 					<div class="submit-row">
 						<button type="submit">Request Trial</button>
 					</div>
@@ -199,21 +212,24 @@ activateCustomForm = function() {
           name: form.find('input[name="name"]').val(),
           phone: form.find('input[name="phone"]').val(),
           country: country_data,
+          title: form.find('input[name="title"]').val(),
+		  company: form.find('input[name="company"]').val(),
+		  comment: form.find('textarea[name="comment"]').val(),
           size: form.find('select[name="size"]').val(),
           frequency: form.find('select[name="frequency"]').val(),
           features: []
         };
 
-$("input[name='features[]']:checked").each(function ()
-{
-    data.features.push( $(this).parent().find('label').text() );
-});
+		$("input[name='features[]']:checked").each(function ()
+		{
+		    data.features.push( $(this).parent().find('label').text() );
+		});
 
         sendForm = function() {
-          $.post('https://spl.meet.ps/pipeform', data, function(response) {
-            form.find('input#email, input#name, input#phone').val("");
+          $.post('https://spl.meet.ps/pipeform1', data, function(response) {
+            form.find('input#email, input#name, input#phone, input#title, input#company, textarea#comment').val("");
             setTimeout(function(){
-               window.location.href = 'https://meet.ps/pages/get-started-thanks/';
+               window.location.href = '/pages/get-started-thanks/';
             },1000);
           });
         }; 
@@ -246,6 +262,27 @@ defer(activateCustomForm);
   ga('send', 'pageview');
 
 </script>
+
+<script type="text/javascript">
+	window._fs_debug = false;
+	window._fs_host = "www.fullstory.com";
+	window._fs_org = "1J9MS";
+	window._fs_namespace = "FS";
+	 
+	(function(m,n,e,t,l,o,g,y){
+	 
+	if (e in m && m.console && m.console.log) { m.console.log("FullStory namespace conflict. Please set window._fs_namespace"); return;}
+	g=m[e]=function(a,b){if(g.q)g.q.push([a,b]);else g._api(a,b);};g.q=[];
+	o=n.createElement(t);o.async=1;o.src="https://"+_fs_host+"/s/fs.js";
+	y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+	g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v);};g.setUserVars=function(v){g(l,v);};
+	g.identifyAccount=function(i,v){o="account";v=v||{};v.acctId=i;g(o,v);};
+	g.clearUserCookie=function(d,i){d=n.domain;while(1){n.cookie="fs_uid=;domain="+d+
+	";path=/;expires="+new Date(0);i=d.indexOf(".");if(i<0)break;d=d.slice(i+1);}};
+	 
+	})(window,document,window._fs_namespace,"script","user");
+</script>
+
 <script src="https://app.meet.ps/js/app/cm.js"></script>
 <!-- Twitter AMP-compatible universal website tag code -->
 <amp-img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxb5c&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0"></amp-img>
