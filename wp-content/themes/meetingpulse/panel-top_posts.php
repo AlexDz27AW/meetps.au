@@ -21,7 +21,7 @@
 			$background_src = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), "pop-card" );
 			$background_src = $background_src[0];
 		} ?>
-		<div class="blog-cards__cover">
+		<div class="blog-cards__cover" style="background-image: url('<?php echo $background_src ?>');">
 			<article class="blog-cards__inner">
 				<header class="article-author article-author--white">
 					<div class="article-author__pic">

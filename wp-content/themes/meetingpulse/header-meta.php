@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="shortcut icon" href="/wp-content/themes/meetingpulse/icons/favicon.png" type="image/png">
 <?php wp_head(); ?>
 
 <meta name="google-site-verification" content="tPbciVLTs8ZHQ68a-62D_xpgH__GvIovsHH3iOi8bcU" />

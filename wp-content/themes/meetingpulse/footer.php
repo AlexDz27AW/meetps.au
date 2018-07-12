@@ -1,7 +1,71 @@
 		</main>
+<!--        --><?php //if (! is_front_page() && ! is_page(7894)) { ?>
+        <?php if (true) { ?>
+            <!-- description-->
+            <div class="description">
+                <div class="description__center center">
+                    <div class="description__row">
+                        <div class="description__col">
+                            <div class="description__title">FAQ</div>
+                            <!-- question-->
+                            <div class="description__question question">
+                                <div class="question__wrap">
+                                    <div class="question__item js-accord-item">
+                                        <div class="question__head js-accord-head">Does MeetingPulse work with PowerPoint?
+                                            <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
+                                        </div>
+                                        <div class="question__body js-accord-body">Sure, more about it <a href="https://help.meet.ps/meetingpulse-introduction/presenting-meetin" target="_blanck">here</a></div>
+                                    </div>
+                                    <div class="question__item js-accord-item">
+                                        <div class="question__head js-accord-head">What platforms do you support?
+                                            <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
+                                        </div>
+                                        <div class="question__body js-accord-body">We want 100% of your audience to be engaged, which is why we developed MeetingPulse to work in a web browser. Your audience can join from their iPhone, their Amazon fire tablet, their Linux laptop, their Windows PC or any other device
+                                            that has a web browser.</div>
+                                    </div>
+                                    <div class="question__item js-accord-item">
+                                        <div class="question__head js-accord-head">Can I customize MeetingPulse?
+                                            <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
+                                        </div>
+                                        <div class="question__body js-accord-body"> To make MeetingPulse a seamless addition to your meetings, we offer custom themes. We'll use your logo and your colors for the attendee and broadcast view. Your company name will be included in the webpage's title.<br><br>Your meeting
+                                            can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="acme2018.com">acme2018.com</a> instead of <a href="meet.ps/acme-all-hands">meet.ps/acme-all-hands</a></div>
+                                    </div>
+                                    <div class="question__item js-accord-item">
+                                        <div class="question__head js-accord-head"> <a href="https://help.meet.ps/" data-gaevent="faq_morequestions">More questions?</a></div>
+                                    </div>
+                                    <div class="question__help">
+                                        <div class="question__item">Want to know more about what MeetingPulse can do? Go to the <a class="question__link" href="/features">features page</a>.</div>
+                                        <div class="question__item">Still need help? <a class="question__link" href="mailto:support@meetingpulse.net">Contact us</a>.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description__col">
+                            <div class="description__title">The Agenda <span>// Blog</span></div>
+                            <div class="description__blog">
 
-<?php get_template_part( 'panel', 'top_posts' ); ?>
-<?php get_template_part( 'panel', 'subscribe' ); ?>
+                                <?php
+                                $args = array(
+                                    'numberposts' => 2,
+//                                    'category' => 5,
+                                    'post_status' => 'publish',
+                                );
+
+                                $result = wp_get_recent_posts($args);
+
+                                foreach( $result as $p ){ ?>
+                                    <div class="description__box">
+                                        <div class="description__preview"><img class="description__pic" src="<?php echo get_the_post_thumbnail( $p['ID'], array(74, 74), array('class' => 'post_thumbnail') )?>"></div>
+                                        <div class="description__info"><a href="<?php echo get_permalink($p['ID']) ?>"><?php echo $p['post_title'] ?></a></div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php }?>
 
 <?php
 	$footer_menuParameters = array(
@@ -15,280 +79,128 @@
 	$footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
 ?>
 
-		<!-- Footer -->
-		<div class="b-footer">
-			<div class="b-footer__top-line">
-				<div class="wrap">
-					<div class="grid-table grid-table--middle">
-						<nav class="b-footer__top-line__nav b-footer__nav"><?php echo $footer_menu ?></nav>
-
-						<div class="b-footer__about">
-							<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png 1x, <?php echo esc_url( get_template_directory_uri() ); ?>/images/logo@2x.png 2x" alt="<?php bloginfo( 'name' ); ?>" /></a></p>
-							<p>An easy-to-use solution for your meetings with live audience Q&amp;A, polls, feedback, surveys and more.</p>
-						</div>
-
-						<div class="b-footer__contacts">
-							<p><a href="tel:+4158706338"><i class="sprite-icon sprite-icon-phone" aria-hidden="true"></i> (415) 870 6338</a></p>
-							<p><a href="mailto:info@meetingpulse.net"><i class="sprite-icon sprite-icon-email" aria-hidden="true"></i> info@meetingpulse.net</a></p>
-
-							<div class="b-footer__social">
-								<a href="https://twitter.com/inmomentco" target="_blank" aria-label="Twitter"><i class="sprite-icon sprite-social-twitter" aria-hidden="true"></i></a>
-								<a href="https://www.facebook.com/MeetingPulse-595373143885894/" target="_blank" aria-label="Facebook"><i class="sprite-icon sprite-social-facebook" aria-hidden="true"></i></a>
-								<a href="https://plus.google.com/u/0/b/110501359949806734544/110501359949806734544" aria-label="Google Plus"><i class="sprite-icon sprite-social-google" target="_blank" aria-hidden="true"></i></a>
-								<a href="https://linkedin.com/company/inmoment" target="_blank" aria-label="Linkedin"><i class="sprite-icon sprite-social-linkedin" aria-hidden="true"></i></a>
-							</div>
-						</div>
-
-						<div class="b-footer__grid-delimiter"></div>
-
-						<div class="b-footer__payments">
-							<i class="sprite-icon sprite-payments" aria-hidden="true"></i>
-						</div>
-
-						<div class="b-footer__safety">
-							<p><i class="sprite-icon sprite-stripe" aria-label="Powered by Stripe"></i></p>
-							<p><i class="sprite-icon sprite-ssl" aria-label="SSL Secure Connection"></i></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="b-footer__bottom-line">
-				<div class="wrap">
-					<div class="grid-table">
-						<div class="b-footer__copy">2013–<?php echo date("Y") ?> &copy; <a href="http://inmomentsoftware.com/" target="_blank">inMoment Software</a></div>
-						<nav class="b-footer__bottom-line__nav b-footer__nav"><?php echo $footer_menu ?></nav>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- // Footer -->
-
-		<!-- MODAL -->
-		<div id="subscribe-modal" class="b-modal">
-			<div class="content">
-				<div class="caption">Keep me posted</div>
-				<form class="form" action="//meetingpulse.us3.list-manage.com/subscribe/post?u=1c901156b0bf4962b8e5bc627&amp;id=46928fc9b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-					<div class="subcaption">Sign up for blog updates and<br />get a free ebook</div>
-					<div class="form-row">
-						<p>E-mail *</p>
-						<input name="EMAIL" id="field-email" required type="email">
-					</div>
-					<div class="form-row">
-						<p>First Name</p>
-						<input type="text" name="FNAME" id="field-FNAME" />
-					</div>
-					<div class="form-row">
-						<p>Last Name</p>
-						<input type="text" name="LNAME" id="field-LNAME" />
-					</div>
-					<div class="submit-row">
-						<button type="submit"  name="subscribe">Subscribe</button>
-					</div>
-					<input name="b_1c901156b0bf4962b8e5bc627_46928fc9b2" tabindex="-1" value="" type="hidden" />
-				</form>
-			</div>
-			<div class="close"></div>
-		</div>
-
-<div id="enter-meeting-modal" class="b-modal b-modal--meet">
-    <div class="content">
-        <form action="#" method="post" class="form" id="enter-meeting_form">
-            <div class="form-row">
-                <p>Enter Meeting name</p>
-                <input name="slug" required type="text">
+        <footer class="footer">
+            <div class="footer__body">
+                <div class="footer__center center">
+                    <div class="footer__row">
+                        <div class="footer__col">
+                            <div class="footer__logo">
+                                <a class="logo" href="/">
+                                    <div class="logo__name">meeting <br>pulse</div>
+                                    <div class="logo__wrap">
+                                        <div class="logo__icon"><svg class="icon icon-logo"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-logo"></use></svg></div>
+                                        <div class="logo__text footer__company">Live audience <br>interaction platform </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__wrap">
+                                <div class="footer__list"><a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a><a class="footer__link" href="tel:4154509646">USA: 415-450-96-46</a></div>
+                            </div>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__list last"><a class="footer__link" href="/terms-of-service/">TERMS</a><a class="footer__link" href="/privacy-policy/">PRIVACY</a><a class="footer__link" href="https://help.meet.ps/">HELP</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="submit-row">
-                <button type="submit">Join meeting</button>
+            <div class="footer__bottom">
+                <div class="footer__center center">
+                    <div class="footer__line">
+                        <!-- social-->
+                        <div class="footer__social social">
+                            <a class="social__link" href="https://www.facebook.com/MeetingPulse-595373143885894/"><svg class="icon icon-fb"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-fb"></use></svg></a>
+                            <a class="social__link" href="https://twitter.com/inmomentco" target="_blanck"><svg class="icon icon-tw"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-tw"></use></svg></a>
+                            <a class="social__link" href="https://www.linkedin.com/company/inmoment" target="_blanck"><svg class="icon icon-in"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-in"></use></svg></a>
+                            <a class="social__link" href="https://plus.google.com/u/0/110501359949806734544" target="_blanck"><svg class="icon icon-google"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-google"></use></svg></a>
+                            <a class="social__link" href="https://angel.co/meetingpulse" target="_blanck"><svg class="icon icon-social"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-social"></use></svg></a>
+                        </div>
+                        <div class="footer__copyright">2013–2018 © MeetingPulse by <a href="http://inmomentsoftware.com/" target="_blank">inMoment Software</a></div>
+                        <div class="footer__preview"><img class="footer__pic" src="/wp-content/themes/meetingpulse/img/bit.png" width="84px"><img class="footer__card" src="/wp-content/themes/meetingpulse/img/cards.png" width="181px"></div>
+                    </div>
+                </div>
             </div>
-            <div class="helper">Or simply open meet.ps/meetingname<br />in your browser</div>
-        </form>
-    </div>
-    <div class="close"></div>
-</div>
-<script>
-    jQuery(document).ready(function($) {
-        $('#enter-meeting_form').on('submit', function(e) {
-            e.preventDefault();
+            <!-- Calendly inline widget begin-->
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <!-- Calendly inline widget end-->
+        </footer>
+        </div>
+        <div class="popup js-popup">
+            <div class="popup__wrap js-popup-wrap">
+                <div class="popup__title">Contact sales</div>
+                <div class="popup__text">Our team will be in touch shortly</div>
+                <form class="popup__form form form_popup">
+                    <div class="form__wrap">
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in"><input class="field__input" type="text" placeholder="Name *" required></div>
+                        </div>
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in"><input class="field__input" type="text" placeholder="Busines email *" required></div>
+                        </div>
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in"><input class="field__input" type="text" placeholder="Phone *" required></div>
+                        </div>
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in"><input class="field__input" type="text" placeholder="Company" required></div>
+                        </div>
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in"><input class="field__input" type="text" placeholder="Title" required></div>
+                        </div>
+                    </div>
+                    <div class="form__btns"><button class="form__btn btn btn_border">Submit request</button></div>
+                </form><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
+        </div>
+        <div class="popup popup_calendar js-popup-calendar">
+            <div class="popup__wrap js-popup-wrap">
+                <div class="popup__title">Schedule a call</div>
+                <div class="popup__calendar">
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/meetingpulse/demo" style="min-width:320px;height:580px;"></div>
+                </div><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
+        </div>
+        <div class="popup popup_sm js-popup-sm">
+            <div class="popup__wrap js-popup-wrap">
+                <div class="popup__title">Join a meeting</div>
+                <form class="popup__form form form_popup" id="join_meeting_form">
+                    <div class="form__wrap">
+                        <!-- field-->
+                        <div class="form__field field">
+                            <div class="field__in">
+                                <input class="field__input" type="text" placeholder="Meeting Id" required></div>
+                        </div>
+                    </div>
+                    <div class="form__btns"><button class="form__btn btn btn_border btn_icon">Join now<span class="btn__icon"><svg class="icon icon-entry"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-entry"></use></svg></span></button></div>
+                </form><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
+        </div>
+        <script>
+            window.intercomSettings = {
+                app_id: "ubl9mgf7"
+            };
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TLT3HV5');</script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLT3HV5"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ubl9mgf7';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+        <script src="/wp-content/themes/meetingpulse/js/tooltipster.bundle.min.js"></script>
+         <script src="/wp-content/themes/meetingpulse/js/jquery.backstretch.min.js"></script>
+        <script src="/wp-content/themes/meetingpulse/js/owl.carousel.min.js"></script>
+        <script src="/wp-content/themes/meetingpulse/js/tweenMax.min.js"></script>
+        <script src="/wp-content/themes/meetingpulse/js/smooth-scroll.min.js"></script>
 
-            var slug = $('#enter-meeting_form').find('[name="slug"]').val();
-            window.location = '/' + slug;
-        });
-    });
-</script>
-
-		<div id="get-started-modal" class="b-modal">
-			<div class="content">
-				<div class="caption">Get Started with MeetingPulse</div>
-				<form action="#" method="post" class="form" id="contact_form">
-					<div class="subcaption">Claim Your Free 2-week Trial</div>
-					<div class="form-row">
-						<p>Name *</p>
-						<input type="text" name="name" required />
-					</div>
-					<div class="form-row">
-						<p>Business E-mail *</p>
-						<input type="email" name="email" required />
-					</div>
-					<div class="form-row">
-						<p>Phone *</p>
-						<input style="padding-left:50px;" type="text" id="phone" name="phone" required />
-					</div>
-					<div class="form-row">
-						<p>Company</p>
-						<input type="text" name="company" />
-					</div>
-					<div class="form-row">
-						<p>Title</p>
-						<input type="text" name="title" />
-					</div>
-					<div class="form-row comment">
-						<p>What are your goals? </p>
-						<textarea  name="comment" id="comment" ></textarea>
-					</div>
-
-					<div class="submit-row">
-						<button type="submit">Request Trial</button>
-					</div>
-				</form>
-			</div>
-			<div class="close"></div>
-		</div>
-		<!-- // MODAL END -->
-
-<?php wp_footer(); ?>
-
-		<script src="//use.typekit.net/stf3ybl.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
-
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/scrollreveal.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.bxslider.min.js"></script>
-
-<?php if (!is_page( 7638 )) :  ?> 
-		<!-- BEGIN JIVOSITE CODE -->
-
-		<script type='text/javascript'>
-		(function(){ var widget_id = 'dvxWltVEOx';
-		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
-		<!-- END JIVOSITE CODE -->
-
-<?php endif; ?>
-
-<link rel="stylesheet" href="/wp-includes/intl-tel-input/build/css/intlTelInput.css" />
-<style>
-.intl-tel-input .country-list .flag-box,
-.intl-tel-input .country-list .country-name {
-    color: #444;
-}
-</style>
-<script src="/wp-includes/intl-tel-input/build/js/intlTelInput.min.js"></script>
-<script>
-	jQuery(document).ready(function($) {
-		$("#phone").intlTelInput();
-	});
-</script>
-
-<script type='text/javascript'>
-jQuery(document).ready(function($) {
-$('.i-header').find('a[href*="/pages/get-started"]').addClass('js-modal').data('target', '#get-started-modal');
-});
-</script>
-
-
-
-
-
-<script type="text/javascript">
-activateCustomForm = function() {
-    $('#contact_form').submit(function(e) {
-      var form = $(this);
-      if (!e.isDefaultPrevented()) {
-        e.preventDefault();
-
-        var country_data = $("#phone").intlTelInput("getSelectedCountryData");
-        var data = {
-          action: 'mk_contact_form',
-          email: form.find('input[name="email"]').val().replace("*", "@"),
-          name: form.find('input[name="name"]').val(),
-          phone: form.find('input[name="phone"]').val(),
-          country: country_data,
-          title: form.find('input[name="title"]').val(),
-		  company: form.find('input[name="company"]').val(),
-		  comment: form.find('textarea[name="comment"]').val(),
-          size: form.find('select[name="size"]').val(),
-          frequency: form.find('select[name="frequency"]').val(),
-          features: []
-        };
-
-		$("input[name='features[]']:checked").each(function ()
-		{
-		    data.features.push( $(this).parent().find('label').text() );
-		});
-
-        sendForm = function() {
-          $.post('https://spl.meet.ps/pipeform1', data, function(response) {
-            form.find('input#email, input#name, input#phone, input#title, input#company, textarea#comment').val("");
-            setTimeout(function(){
-               window.location.href = '/pages/get-started-thanks/';
-            },1000);
-          });
-        }; 
-
-        if(data.email && data.name){
-        sendForm();
-}
-        ga('send','event','User_Action','get_started_contact_modal_home',1);
-      }
-    });
-};
-
-function defer(method) {
-    if (jQuery) {
-        window.$ = jQuery;
-        method() ;    
-   } else {
-        setTimeout(function() { defer(method) }, 200);
-   }
-}
-defer(activateCustomForm);
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50037100-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<script type="text/javascript">
-	window._fs_debug = false;
-	window._fs_host = "www.fullstory.com";
-	window._fs_org = "1J9MS";
-	window._fs_namespace = "FS";
-	 
-	(function(m,n,e,t,l,o,g,y){
-	 
-	if (e in m && m.console && m.console.log) { m.console.log("FullStory namespace conflict. Please set window._fs_namespace"); return;}
-	g=m[e]=function(a,b){if(g.q)g.q.push([a,b]);else g._api(a,b);};g.q=[];
-	o=n.createElement(t);o.async=1;o.src="https://"+_fs_host+"/s/fs.js";
-	y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-	g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v);};g.setUserVars=function(v){g(l,v);};
-	g.identifyAccount=function(i,v){o="account";v=v||{};v.acctId=i;g(o,v);};
-	g.clearUserCookie=function(d,i){d=n.domain;while(1){n.cookie="fs_uid=;domain="+d+
-	";path=/;expires="+new Date(0);i=d.indexOf(".");if(i<0)break;d=d.slice(i+1);}};
-	 
-	})(window,document,window._fs_namespace,"script","user");
-</script>
-
-<script src="https://app.meet.ps/js/app/cm.js"></script>
-<!-- Twitter AMP-compatible universal website tag code -->
-<amp-img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxb5c&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0"></amp-img>
-<amp-img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxb5c&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0"></amp-img>
-<!-- End Twitter AMP-compatible universal website tag code -->
-
+    <?php wp_footer(); ?>
 
 	</body>
 </html>
