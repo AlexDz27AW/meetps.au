@@ -551,6 +551,21 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Anonymity</span><span class="table__tooltip tooltip" title="Attendees participate without revealing their identity">i</span></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Basic Polling</span></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__limited">Limit of 3</span></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
 
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Poll Type: Single answer</span></div>
@@ -580,20 +595,7 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Anonymity</span><span class="table__tooltip tooltip" title="Attendees participate without revealing their identity">i</span></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Basic Polling</span></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__limited">Limit of 3</span></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
+
 
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Q&A: Moderation</span><span class="table__tooltip tooltip" title="See and approve submitted questions before they are shown to the audience">i</span></div>
@@ -609,16 +611,8 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
-
                                         <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Prompt for name</span><span class="table__tooltip tooltip" title="Request attendee's name on login and link it to their meeting activity">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Prompt for email</span><span class="table__tooltip tooltip" title="Request attendee's email on login and link it to their meeting activity">i</span></div>
+                                            <div class="table__cell"><span class="table__info">Q&A With Comments</span><span class="table__tooltip tooltip" title="Attendees can leave comments under each question. Boosts discussion and engagement">i</span></div>
                                             <div class="table__cell"></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
@@ -632,6 +626,7 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Poll Type: Free text</span><span class="table__tooltip tooltip" title="Respondent can answer poll question with a free text answer ">i</span></div>
                                             <div class="table__cell"></div>
@@ -639,13 +634,31 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+
                                         <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Q&A With Comments</span><span class="table__tooltip tooltip" title="Attendees can leave comments under each question. Boosts discussion and engagement">i</span></div>
+                                            <div class="table__cell"><span class="table__info">Polls: Hide results</span><span class="table__tooltip tooltip" title="Hides the poll results of the entire audience from attendees">i</span></div>
                                             <div class="table__cell"></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Prompt for name</span><span class="table__tooltip tooltip" title="Request attendee's name on login and link it to their meeting activity">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Prompt for email</span><span class="table__tooltip tooltip" title="Request attendee's email on login and link it to their meeting activity">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Broadcast View</span><span class="table__tooltip tooltip" title="Present polls and questions on the large screen in front of the room. Can also be embedded in slides.">i</span></div>
                                             <div class="table__cell"></div>
@@ -665,13 +678,7 @@
                                         <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                     </div>
                                     <div class="table__body js-accord-body">
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Polls: Hide results</span><span class="table__tooltip tooltip" title="Hides the poll results of the entire audience from attendees">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Raffles</span><span class="table__tooltip tooltip" title="Boost audience engagement by running a raffle. In a raffle, a single audience member is selected at random. Great as ice breakers or a way to collect emails.">i</span></div>
                                             <div
@@ -680,6 +687,15 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Raffle for email</span><span class="table__tooltip tooltip" title="Ask attendees to submit their email in order to win a prize">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Pulse</span><span class="table__tooltip tooltip" title="Unique feature to monitor your audience's reaction in real time. Great for large online meetings where you can't read body language.">i</span></div>
                                             <div
@@ -688,6 +704,36 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Surveys</span><span class="table__tooltip tooltip" title="Group multiple poll questions to be shown on a single screen and display them before, during or after the meeting">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Surveys: Add instructions</span><span class="table__tooltip tooltip" title="Separate questions with custom instruction text">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Surveys: Optional questions</span><span class="table__tooltip tooltip" title="Include in your survey questions with no required answer">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Entry surveys </span><span class="table__tooltip tooltip" title="Surveys before or after the meeting that your attendee is required to answer">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Q&A: Pre-Meeting</span><span class="table__tooltip tooltip" title="Collect questions from attendees before the meeting even starts">i</span></div>
                                             <div class="table__cell"></div>
@@ -725,20 +771,7 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
 
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Surveys</span><span class="table__tooltip tooltip" title="Group multiple poll questions to be shown on a single screen and display them before, during or after the meeting">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Surveys: Add instructions</span><span class="table__tooltip tooltip" title="Separate questions with custom instruction text">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Text formatting</span><span class="table__tooltip tooltip" title="Use formatted text or text of different sizes">i</span></div>
                                             <div class="table__cell"></div>
@@ -746,20 +779,7 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Surveys: Optional questions</span><span class="table__tooltip tooltip" title="Include in your survey questions with no required answer">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Surveys: Entry/Exit</span><span class="table__tooltip tooltip" title="Surveys before or after the meeting that your attendee is required to answer">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Custom thank you message</span><span class="table__tooltip tooltip" title="Add a thank you message to be shown to the user after they answer all of your polls and survey question">i</span></div>
                                             <div class="table__cell"></div>
@@ -790,13 +810,7 @@
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                         </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Raffle for email</span><span class="table__tooltip tooltip" title="Ask attendees to submit their email in order to win a prize">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Email submitted Questions</span><span class="table__tooltip tooltip" title="Send all the submitted questions to your email">i</span></div>
                                             <div class="table__cell"></div>
@@ -810,13 +824,6 @@
                                             <div class="table__cell"></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                                        </div>
-                                        <div class="table__row">
-                                            <div class="table__cell"><span class="table__info">Password protection</span><span class="table__tooltip tooltip" title="Select a password for the meeting to share with attendees.">i</span></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Attendees must enter password to access the meeting">i</span></div>
-                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Attendees must enter password to access the meeting">i</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -838,6 +845,13 @@
                                         </div>
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Multiple correct options</span><span class="table__tooltip tooltip" title="Use a Multiple Answer poll to select multiple correct options">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Leaderboards</span></div>
                                             <div class="table__cell"></div>
                                             <div class="table__cell"></div>
                                             <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
@@ -872,6 +886,14 @@
                                         <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
                                     </div>
                                     <div class="table__body js-accord-body">
+                                        <div class="table__row">
+                                            <div class="table__cell"><span class="table__info">Password protection</span><span class="table__tooltip tooltip" title="Select a password for the meeting to share with attendees.">i</span></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                            <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
+                                        </div>
+
                                         <div class="table__row">
                                             <div class="table__cell"><span class="table__info">Individual attendee codes</span><span class="table__tooltip tooltip" title="Create unique codes for each attendee to get in the meeting.">i</span></div>
                                             <div class="table__cell"></div>
