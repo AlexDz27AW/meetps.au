@@ -2741,7 +2741,12 @@ rect.burger-svg__base { fill: none; }
 
 .table__row_price .table__cell { display: block; text-align: center; padding: 25px 0 20px; color: #6340C1; }
 
-
+.try-for-free-purple{
+  font-size: 16px;
+  font-weight: bold;
+  display: block; text-align: center; padding: 25px 0 20px; color: #6340C1!important;
+  text-decoration: none;
+}
 
 .table__row_price .table__cell:first-child { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-align: start; -webkit-box-align: start; align-items: flex-start; text-align: left; font-family: 'SFUIDisplayHeavy', serif; font-size: 16px; color: #000; }
 
