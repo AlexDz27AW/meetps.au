@@ -430,7 +430,7 @@
                                     <div class="table__cell"><span class="table__show table__show_from"></span><span>$0 </span><span class="table__show">/ mo</span></div>
                                     <div class="table__cell"><span class="table__show table__show_from"></span><span>$75 </span><span class="table__show">/ mo</span></div>
                                     <div class="table__cell"><span class="table__show table__show_from">From </span><span>$315 </span><span class="table__show">/ mo</span></div>
-                                    <div class="table__cell"><span class="table__show">From </span><span>$625 </span><span class="table__show">/ mo</span></div>
+                                    <div class="table__cell"><a href="https://app.meet.ps/login/signup/?referer=wp-enterprise" class="try-for-free-purple" target="_blank">Try for free</a></div>
                                 </div>
                                 <div class="table__row table__row_price js-tabs-item" style="display: none;">
                                     <div class="table__cell"><span class="table__info">One-time cost</span></div>
