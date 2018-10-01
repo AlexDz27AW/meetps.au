@@ -96,7 +96,7 @@
                         </div>
                         <div class="footer__col">
                             <div class="footer__wrap">
-                                <div class="footer__list"><a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a><a class="footer__link" href="tel:4154509646">USA: 415-450-96-46</a></div>
+                                <div class="footer__list"><a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a><a class="footer__link" href="tel:4154509646">USA: 415-450-9646</a></div>
                             </div>
                         </div>
                         <div class="footer__col">
