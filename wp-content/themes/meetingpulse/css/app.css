@@ -3148,6 +3148,17 @@ rect.burger-svg__base { fill: none; }
   color: rgba(0, 0, 0, 0.5);
   margin-top: 15px;
 }
+.main_video_icon{
+    margin-bottom: 40px;
+}
+.js-popup-main-video .js-popup-wrap{
+    max-width: 640px;
+    background: transparent;
+    padding-top: 65px;
+}
+.js-popup-main-video .js-popup-wrap iframe{
+    max-width: 100%;
+}
 
 @media only screen and (max-width: 1300px){
   .conection__item:after{ right: -95px; } }

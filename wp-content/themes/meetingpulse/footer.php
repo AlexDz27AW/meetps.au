@@ -163,6 +163,14 @@
                     <div class="calendly-inline-widget" data-url="https://calendly.com/meetingpulse/demo" style="min-width:320px;height:580px;"></div>
                 </div><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
         </div>
+        <div class="popup popup_main_video js-popup-main-video">
+            <div class="popup__wrap js-popup-wrap">
+                <div class="popup-head-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r7ZK6VzlU4A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button>
+            </div>
+        </div>
         <div class="popup popup_sm js-popup-sm">
             <div class="popup__wrap js-popup-wrap">
                 <div class="popup__title">Join a meeting</div>

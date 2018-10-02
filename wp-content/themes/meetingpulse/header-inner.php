@@ -43,7 +43,7 @@
                         <!-- links-->
                         <div class="header__links links">
                         <a class="links__border" data-gaevent="try_for_free_header" href="/#pricing">Try for free</a>
-                        <a class="links__white" href="#" data-gaevent="contact_sales_header" data-popup=".js-popup-calendar">Contact sales</a></div>
+                        <a class="links__white" href="#" data-gaevent="contact_sales_header" data-popup=".js-popup-calendar">Request a demo</a></div>
                     </div>
                 </header>
             </div>
@@ -64,7 +64,7 @@
 
 
                 <!-- links-->
-                <div class="main__links links"><a class="links__white" href="#" data-popup=".js-popup-calendar">Contact sales</a></div>
+                <div class="main__links links"><a class="links__white" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
             </div>
         </div>
     </div>

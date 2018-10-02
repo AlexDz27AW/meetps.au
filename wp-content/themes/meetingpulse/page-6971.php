@@ -7,7 +7,22 @@
         <!--[if IE]>
 		<link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/app-ie.css' />
         <![endif]-->
-
+        <script>
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = '1J9MS';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+        </script>
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -55,17 +70,25 @@
                                 <div class="header__bottom"><a class="header__phone" href="#">USA <span class="header__numbers">415-450-9646</span></a><a class="header__phone" href="#">USA <span class="header__numbers">415-123-4321</span></a></div>
                             </div><button class="header__burger burger js-main-burger"><svg id="burger-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50"><title>Show / Hide Navigation</title><rect class="burger-svg__base" width="50" height="50" fill="#1f201c"></rect><g class="burger-svg__bars" fill="#fff"><rect class="burger-svg__bar burger-svg__bar-1" x="14" y="18" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-2" x="14" y="24" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-3" x="14" y="30" width="22" height="2"></rect></g></svg></button>
                             <!-- links-->
-                            <div class="header__links links"><a class="links__border" data-gaevent="try_for_free_header" href="#pricing">Try for free</a><a class="links__blue" data-gaevent="contact_sales_header" href="#" data-popup=".js-popup-calendar">Contact sales</a></div>
+                            <div class="header__links links"><a class="links__border" data-gaevent="try_for_free_header" href="#pricing">Try for free</a><a class="links__blue" data-gaevent="contact_sales_header" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
                         </div>
                     </header>
                 </div>
                 <div class="main__body">
+                    <div class="main_video_icon">
+                        <a href="#" data-popup=".js-popup-main-video">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 24 24">
+                                <path fill="#fff" d="M12 24c-6.619 0-12-5.381-12-12s5.381-12 12-12 12 5.381 12 12-5.381 12-12 12zM12 0.47c-6.36 0-11.53 5.17-11.53 11.53s5.17 11.53 11.53 11.53 11.53-5.17 11.53-11.53-5.17-11.53-11.53-11.53z"></path>
+                                <path fill="#fff" d="M9.797 15.998v-7.997l5.75 3.998-5.75 3.998zM10.31 8.986v6.034l4.339-3.014-4.339-3.019z"></path>
+                            </svg>
+                        </a>
+                    </div>
                     <div class="main__title">Real-time audience communications platform</div>
                     <div class="main__info">Bring live Interactivity to your meetings & events</div>
                     <!-- links-->
                     <div class="main__links links">
                         <a class="links__border" href="#pricing">Try for free</a>
-                        <a class="links__blue" href="#" data-popup=".js-popup-calendar">Contact sales</a></div>
+                        <a class="links__blue" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
                 </div>
                 <div class="main__list">
                     <div class="main__item">
