@@ -22,6 +22,6 @@ wp-content/envato-backups/
 # Extra crap we have
 /.tmb
 /logs
-
+*.css.map
 # Actual content we don't need to track?
 # /wp-content/uploads

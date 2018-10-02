@@ -5,7 +5,7 @@ require('../mp_email/leadEmail.php');
 //error_reporting(E_ALL);
 header('Content-Type: application/json');
 
-$post_keys = array('phone','name','email');
+$post_keys = array('title', 'company', 'phone','name','email');
 $post_additional_keys = array('country','size','frequency','features');
 
 if(isset($_POST)){
@@ -21,7 +21,8 @@ if(isset($_POST)){
 		echo json_encode( array( 'success' => false, 'message' => 'Error: missing fields') );
 		exit;
 	}
-
+	$lead_title = $_POST['title'];
+	$lead_company = $_POST['company'];
 	$lead_email = $_POST['email'];
 	$lead_name  = $_POST['name'];
 	$country_code = '';
@@ -53,7 +54,7 @@ if(isset($_POST)){
 	}
 
 	//try sending
-	if( mpSendEmails($lead_name, $lead_email, $lead_phone, $support_email, $other_fields ) ){
+	if( mpSendEmails($lead_title, $lead_company, $lead_name, $lead_email, $lead_phone, $support_email, $other_fields ) ){
 		echo json_encode( array('success' => true, 'message' => 'Success: Contacted' ) );
 	}else{
 		echo json_encode( array('success' => false, 'message' => 'Failure sending emails' ) );
