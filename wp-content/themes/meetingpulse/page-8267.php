@@ -5,21 +5,23 @@
 
     <link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/app.css' />
     <script>
-      window['_fs_debug'] = false;
-      window['_fs_host'] = 'fullstory.com';
-      window['_fs_org'] = '1J9MS';
-      window['_fs_namespace'] = 'FS';
-      (function(m,n,e,t,l,o,g,y){
-        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
-        y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
-        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-        g.clearUserCookie=function(){};
-      })(window,document,window['_fs_namespace'],'script','user');
-    </script>
+
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '1J9MS';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+    y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(){};
+})(window,document,window['_fs_namespace'],'script','user');
+
+</script>
 </head>
 <body <?php body_class(); ?>>
 
@@ -89,13 +91,12 @@
         <div class="services__head">
             <div class="services__center center">
                 <div class="services__nav"><a class="services__link active js-tabs-link" href="#">Q&A</a><a class="services__link js-tabs-link" href="#">Polls</a><a class="services__link js-tabs-link" href="#">Surveys</a><a class="services__link js-tabs-link" href="#">Quizzes</a>
-                    <a
-                            class="services__link js-tabs-link" href="#">Pulse</a><a class="services__link js-tabs-link" href="#">Raffles</a><a class="services__link js-tabs-link" href="#">Reports</a><a class="services__link js-tabs-link" href="#">Security</a><a class="services__link js-tabs-link" href="#">Customization</a>
-                    <a
-                            class="services__link js-tabs-link" href="#">Event management</a>
+                    <a class="services__link js-tabs-link" href="#">Pulse</a><a class="services__link js-tabs-link" href="#">Raffles</a><a class="services__link js-tabs-link" href="#">Reports</a><a class="services__link js-tabs-link" href="#">Security</a><a class="services__link js-tabs-link" href="#">Customization</a>
+                    <a class="services__link js-tabs-link" href="#">Event management</a>
                 </div>
                 <div class="services__links links">
-									<a class="links__blue" href="#" data-gaevent="contact_sales_features" data-popup=".js-popup-calendar">Contact sales</a></div>
+                    <a class="links__blue" href="#" data-gaevent="contact_sales_features" data-popup=".js-popup-calendar">Request a demo</a>
+                </div>
             </div>
         </div>
         <div class="services__container">
@@ -761,7 +762,7 @@
                 </div>
             </div>
             <div class="services__center center">
-                <div class="services__links links botp"><a class="links__blue" href="#" data-popup=".js-popup-calendar" data-popup="contact_sales_features_bottom">Contact sales</a></div>
+                <div class="services__links links botp"><a class="links__blue" href="#" data-popup=".js-popup-calendar" data-popup="contact_sales_features_bottom">Request a demo</a></div>
             </div>
         </div>
     </div>

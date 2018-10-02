@@ -184,3 +184,11 @@ jQuery(document).ready(function(e) {
     document.location.href = "https://meet.ps/" + t
   })
 });
+
+jQuery(document).ready(function(){
+  jQuery('.js-popup-main-video, .js-popup-main-video .js-popup-close').on('click', function(){
+      var video = jQuery('.js-popup-main-video iframe').attr("src");
+      jQuery('.js-popup-main-video iframe').attr("src","");
+      jQuery('.js-popup-main-video iframe').attr("src",video);
+  })
+})
