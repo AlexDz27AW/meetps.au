@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="46px" viewBox="0 0 79 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#5020FF" offset="0%"></stop>
+            <stop stop-color="#E247F1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-882.000000, -968.000000)">
+        <g id="Group-10" transform="translate(882.276245, 968.775647)" fill="url(#linearGradient-1)">
+            <polygon id="Combined-Shape-Copy" points="77.6585364 34.012207 0.761195647 34.012207 0.26040312 34.012207 0.26040312 45.1122074 0.761195647 45.1122074 77.6585364 45.1122074 78.1593289 45.1122074 78.1593289 34.012207"></polygon>
+            <polygon id="Combined-Shape-Copy-3" points="77.6585364 0 0.761195647 0 0.26040312 0 0.26040312 11.1000004 0.761195647 11.1000004 77.6585364 11.1000004 78.1593289 11.1000004 78.1593289 0"></polygon>
+        </g>
+    </g>
+</svg>

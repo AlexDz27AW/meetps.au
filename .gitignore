@@ -1,3 +1,4 @@
+# Vanilla Wordpress gitignore
 *.log
 wp-config.php
 wp-content/advanced-cache.php
@@ -16,3 +17,11 @@ wp-content/envato-backups/
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+
+
+# Extra crap we have
+/.tmb
+/logs
+
+# Actual content we don't need to track?
+# /wp-content/uploads

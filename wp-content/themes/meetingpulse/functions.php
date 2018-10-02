@@ -122,6 +122,6 @@ add_action( 'wp_head', 'theme_javascript_detection', 0 );
  */
 function theme_scripts() {
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20161004', true );
+	wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/app.js');
 }
 add_action( 'wp_enqueue_scripts', 'theme_scripts' );
