@@ -189,6 +189,8 @@ jQuery(document).ready(function(){
   jQuery('.js-popup-main-video, .js-popup-main-video .js-popup-close').on('click', function(){
       var video = jQuery('.js-popup-main-video iframe').attr("src");
       jQuery('.js-popup-main-video iframe').attr("src","");
+      video = video.replace('&autoplay=1','');
+      console.log(video);
       jQuery('.js-popup-main-video iframe').attr("src",video);
   })
 })

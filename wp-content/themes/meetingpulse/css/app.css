@@ -3151,6 +3151,9 @@ rect.burger-svg__base { fill: none; }
 .main_video_icon{
     margin-bottom: 40px;
 }
+.main_video_icon a:hover svg{
+  opacity: 0.6;
+}
 .js-popup-main-video .js-popup-wrap{
     max-width: 640px;
     background: transparent;
