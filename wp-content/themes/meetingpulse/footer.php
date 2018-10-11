@@ -100,7 +100,7 @@
                             </div>
                         </div>
                         <div class="footer__col">
-                            <div class="footer__list last"><a class="footer__link" href="/terms-of-service/">TERMS</a><a class="footer__link" href="/privacy-policy/">PRIVACY</a><a class="footer__link" href="https://help.meet.ps/">HELP</a></div>
+                            <div class="footer__list last"><a class="footer__link" href="https://meetingpulse.statuspage.io/" target="_blank">SYSTEM STATUS</a><a class="footer__link" href="/terms-of-service/">TERMS</a><a class="footer__link" href="/privacy-policy/">PRIVACY</a><a class="footer__link" href="https://help.meet.ps/">HELP</a></div>
                         </div>
                     </div>
                 </div>

@@ -504,15 +504,12 @@
                                         <div class="table__text">50</div><span class="table__tooltip tooltip" title="The meeting will reject attendees once it reaches the limit">i</span></div>
                                     <div class="table__cell">
                                         <div class="table__text">1000</div>
-                                        <span class="table__limited">Additional: $2.99/ea</span>
                                         <span class="table__tooltip tooltip" title="Extra attendees can access the meeting but incur an overage fee">i</span></div>
                                     <div class="table__cell">
                                         <div class="table__text">1000</div>
-                                        <span class="table__limited">Additional: $1.99/ea</span>
                                         <span class="table__tooltip tooltip" title="Extra attendees can access the meeting but incur an overage fee">i</span></div>
                                     <div class="table__cell">
                                         <div class="table__text">1500 & up</div>
-                                        <span class="table__limited">Additional: $1.99/ea</span>
                                         <span class="table__tooltip tooltip" title="Extra attendees can access the meeting but incur an overage fee">i</span></div>
                                 </div>
                                 <!-- row-3 table-3-->
@@ -1042,7 +1039,7 @@
                                     <div class="table__cell"></div>
                                     <div class="table__cell"></div>
                                     <div class="table__cell"></div>
-                                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Some restrictions may apply">i</span></div>
+                                    <div class="table__cell">$<span class="table__tooltip tooltip" title="Our engineering team will monitor your event remotely. 3 hours of monitoring are included with purchase of the Enterprise package.">i</span></div>
                                 </div>
                                 <div class="table__row">
                                     <div class="table__cell"><span class="table__info">Custom Development</span></div>
