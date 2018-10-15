@@ -7,6 +7,7 @@
         <!--[if IE]>
 		<link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/app-ie.css' />
         <![endif]-->
+        <script type="text/javascript" src="/wp-includes/js/utm.js"></script>
         <script>
             window['_fs_debug'] = false;
             window['_fs_host'] = 'fullstory.com';
