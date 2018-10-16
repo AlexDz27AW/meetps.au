@@ -96,8 +96,8 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="main__title">Real-time audience communications platform</div>
-                    <div class="main__info">Bring live Interactivity to your meetings & events</div>
+                    <div class="main__title">Your Best Event Awaits!</div>
+                    <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                     <!-- links-->
                     <div class="main__links links">
                         <a class="links__border" href="#pricing">Try for free</a>

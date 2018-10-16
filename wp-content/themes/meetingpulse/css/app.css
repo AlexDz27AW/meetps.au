@@ -2197,7 +2197,7 @@ a { text-decoration: none; color: inherit; }
 
 .main__title { margin-bottom: 20px; font-family: 'SFUIDisplayBold', serif; font-size: 50px; line-height: 1.12; }
 
-.main__info { font-family: 'SFUIDisplayThin', serif; font-size: 24px; line-height: 1; letter-spacing: 0.03em; }
+.main__info { font-family: 'SFUIDisplayThin', serif; font-size: 24px; line-height: 1.2em; letter-spacing: 0.03em; }
 
 .main__list { position: relative; display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-pack: justify; -webkit-box-pack: justify; justify-content: space-between; z-index: 10; }
 
