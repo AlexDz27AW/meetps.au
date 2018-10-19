@@ -13,12 +13,13 @@ function getRequestParam(key) {
 
 
 function setCookie(key, value, expires) {
-    var payload = [key.toString() + '=' + value.toString().trim()];
+    var payload = [key.toString() + '=' + encodeURIComponent(value.toString().trim())];
     if (typeof expires != "undefined")
         payload.push("expires=" + (expires ? new Date(expires * 1000).toUTCString() : "Thu, 01 Jan 1970 00:00:01 GMT"));
 
     payload.push("path=/");
     payload.push("domain=meet.ps");
+    payload.push("secure");
 
     document.cookie = payload.join(';');
 }
