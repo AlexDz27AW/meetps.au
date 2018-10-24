@@ -280,7 +280,7 @@
                             <div class="technology__icon"><svg class="icon icon-technology-1"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-1"></use></svg></div>
                             <div class="technology__wrap">
                                 <div class="technology__name">Event design</div>
-                                <div class="technology__text">We help you plan and setup your events based on our extensive audience engament experience. MeetingPulse has been used at over 1000 events.</div>
+                                <div class="technology__text">We help you plan and setup your events based on our extensive audience engagement experience. MeetingPulse has been used at over 1000 events.</div>
                             </div>
                         </div>
                         <div class="technology__item">
