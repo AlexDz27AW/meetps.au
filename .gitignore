@@ -12,6 +12,10 @@ wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 wp-content/envato-backups/
 
+# Vue-related stuff are ignored by a nested ignore file.
+# But the build directory is outside, so do it here.
+register/
+
 /.htaccess
 /license.txt
 /readme.html

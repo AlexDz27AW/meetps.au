@@ -1,0 +1,24 @@
+# Hidden stuff created by various editors, services and such.
+.nano
+.vagrant
+.sass-cache
+.DS_Store
+.settings
+.project
+.idea
+.vscode
+
+# OS-generated
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Various logs that we don't need
+logs
+npm-debug.log*
+
+# Excluded directrories
+node_modules
