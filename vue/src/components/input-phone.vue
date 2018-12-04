@@ -6,12 +6,12 @@
         <vue-tel-input
             v-model="phone"
             :preferred-countries="['us', 'gb']"
-            placeholder=""
+            :placeholder="placeholder"
             required
         >
         </vue-tel-input>
 
-        <span class="floating-label">{{ placeholder }}</span>
+        <!--<span class="floating-label">{{ placeholder }}</span>-->
         <div
             v-show="error"
             :title="error"

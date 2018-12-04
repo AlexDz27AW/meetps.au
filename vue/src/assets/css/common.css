@@ -96,8 +96,8 @@ body{
     max-width: 480px;
     margin:0px auto 22px auto;
 }
-.input-text:focus ~ .floating-label,
-.input-text:not(:focus):valid ~ .floating-label{
+.input-text:focus ~ .floating-label, .one-input-parent-phone input:focus ~ .floating-label,
+.input-text:not(:focus):valid:not([value]) ~ .floating-label, .one-input-parent-phone input:not(:focus):valid ~ .floating-label{
     top: -6px;
     padding: 0 4px;
     bottom: 10px;
@@ -109,13 +109,13 @@ body{
     line-height: 1em;
     height: 1em;
 }
-.input-text:not(:focus):valid ~ .floating-label{
+.input-text:not(:focus):valid:not([value]) ~ .floating-label, .one-input-parent-phone input:not(:focus):valid ~ .floating-label{
     color: #979797;
 }
 input{
     outline: none;
 }
-.input-text {
+.input-text, .one-input-parent-phone input {
     width: 100%;
     height: 60px;
     line-height: 60px;
@@ -129,7 +129,7 @@ input{
     color: #979797;
     outline: none;
 }
-.input-text:focus{
+.input-text:focus, .one-input-parent-phone input:focus{
     border: 1px solid #693DFF;
     color: #693DFF;
 }
@@ -470,6 +470,45 @@ input:checked+.ui-checkbox:before {
     font-size: 16px;
     color: #808080;
     margin-bottom: 13px;
+}
+.vue-tel-input{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #979797!important;
+    box-sizing: border-box;
+    border-radius: 4px!important;
+    font-family: 'SFUIDisplayRegular',sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    color: #979797;
+    outline: none;
+}
+.vue-tel-input input{
+    border:0px solid white;
+    border-left: 1px solid white;
+    line-height: 58px;
+    height: 58px;
+    padding-left: 10px;
+}
+.one-input-parent-phone .vue-tel-input input:focus{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.right-form *{
+    outline: none;
+}
+.right-form input::-webkit-input-placeholder {
+    color: #979797;
+}
+.right-form input::-moz-placeholder {
+    color: #979797;
+}
+.right-form input:-ms-input-placeholder {
+    color: #979797;
+}
+.right-form input:-moz-placeholder {
+    color: #979797;
 }
 
 @media screen and (max-width: 992px){
