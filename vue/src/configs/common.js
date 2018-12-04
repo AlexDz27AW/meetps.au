@@ -5,4 +5,5 @@ export default {
         "api": "https://api.stripe.com/v1",
     },
     "GTM": "GTM-TLT3HV5",
+    "GA": "UA-50037100-1",
 };

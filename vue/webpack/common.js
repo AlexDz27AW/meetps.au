@@ -31,7 +31,9 @@ const common = {
     },
 
     "plugins": [
-        new CleanPlugin(["build"]),
+        new CleanPlugin([
+            Path.resolve(__dirname, "..", "..", "register"),
+        ]),
         new HtmlPlugin({
             "title": "MeetingPulse Sign-up",
             "template": "src/index.html",

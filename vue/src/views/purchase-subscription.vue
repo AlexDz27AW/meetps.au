@@ -214,7 +214,9 @@ export default {
             if (!flag) {
                 return;
             }
-            this.$gtm.trackView("Basic registration complete", `/register/complete/${this.$store.state.subscription}`);
+            const pageView = `/register/complete/${this.$store.state.subscription}`;
+            this.$gtm.trackView("Paid registration complete", pageView);
+            this.$ga.page(pageView);
             setTimeout(() => {
                 window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
             }, 1000);

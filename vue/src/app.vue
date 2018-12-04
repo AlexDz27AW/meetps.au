@@ -9,6 +9,7 @@
 
 import Vue from "vue";
 import VueGTM from "vue-gtm";
+import VueGA from "vue-analytics";
 
 import config from "@config";
 import router from "@/router";
@@ -18,6 +19,12 @@ Vue.use(VueGTM, {
     "enabled": !!config.GTM,
     "debug": config.debug,
     "vueRouter": router,
+});
+
+Vue.use(VueGA, {
+    "id": config.GA,
+    "disableScriptLoader": !config.GA,
+    router,
 });
 
 
