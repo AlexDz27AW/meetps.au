@@ -510,6 +510,9 @@ input:checked+.ui-checkbox:before {
 .right-form input:-moz-placeholder {
     color: #979797;
 }
+.one-input-parent-phone ul{
+    z-index: 1;
+}
 
 @media screen and (max-width: 992px){
     .main-title{
