@@ -13,6 +13,7 @@
     "normalize.css": "^8.0.1",
     "reset-css": "^4.0.1",
     "vue": "^2.5.17",
+    "vue-gtm": "^2.0.0",
     "vue-router": "^3.0.1",
     "vue-tel-input": "^2.0.10",
     "vuex": "^3.0.1"

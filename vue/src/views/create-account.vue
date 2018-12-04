@@ -208,7 +208,10 @@ export default {
                 this.$router.push(`/register/subscribe/${this.subscription}`);
             }
             else {
-                window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
+                this.$gtm.trackView("Basic registration complete", "/register/complete/");
+                setTimeout(() => {
+                    window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
+                }, 1000);
             }
         },
     },

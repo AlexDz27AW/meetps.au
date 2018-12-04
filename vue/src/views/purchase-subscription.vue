@@ -211,9 +211,13 @@ export default {
     "watch": {
         // The end target of this view is to set a user subscription.
         isSubscribed(flag) {
-            if (flag) {
-                window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
+            if (!flag) {
+                return;
             }
+            this.$gtm.trackView("Basic registration complete", `/register/complete/${this.$store.state.subscription}`);
+            setTimeout(() => {
+                window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
+            }, 1000);
         },
     },
 

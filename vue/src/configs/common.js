@@ -4,4 +4,5 @@ export default {
     "stripe": {
         "api": "https://api.stripe.com/v1",
     },
+    "GTM": "GTM-TLT3HV5",
 };
