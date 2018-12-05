@@ -34,6 +34,8 @@
 
 
                 <input-text
+                    v-model="company"
+                    :error="errCompany"
                     placeholder="Company Name"
                     required
                 ></input-text>
@@ -129,6 +131,11 @@
                         <img src="@/assets/img/money-back.png" />
                     </div>
 
+                    <!-- customize meee... -->
+                    <div class="col-sm-12 col-xs-9 having-trouble">
+                        <p>{{ errGeneral || "&nbsp;" }}</p>
+                    </div>
+
                     <div class="col-sm-12 col-xs-9 having-trouble">
                         Having trouble checking out? Email us or give us a call at 1&nbsp;(800)&nbsp;388-2039. All prices are in USD
                     </div>
@@ -152,12 +159,14 @@ import { state } from "@/store";
 import config from "@config";
 
 const validator = Joi.object().keys({
+    "company": Joi.string().required().min(2),
     "card": Joi.string().required().creditCard(),
     "cvv": Joi.string().required().regex(/\d{3,4}/),
     "expiry": Joi.string().required().regex(/\d{2}\/\d{2}/),
 });
 
 const validatorMessages = {
+    "company": "Please provide the name of your organization",
     "card": "Please provide a valid card number",
     "expiry": "Please provide the expiry date in MM/YY format",
     "cvv": "Card validation number is a 3 or 4-digit code",
@@ -173,11 +182,12 @@ export default {
 
     "data": () => ({
         // Main form data.
+        "company": "",
         "card": "",
         "expiry": "",
         "cvv": "",
         // Related error strings.
-        "errName": "",
+        "errCompany": "",
         "errCard": "",
         "errExpiry": "",
         "errCvv": "",
@@ -241,11 +251,12 @@ export default {
                 "card": this.card,
                 "expiry": this.expiry,
                 "cvv": this.cvv,
+                "company": this.company,
             };
         },
 
         clearErrors() {
-            this.errName = this.errCard = this.errExpiry = this.Cvv = this.errGeneral = "";
+            this.errCompany = this.errCard = this.errExpiry = this.Cvv = this.errGeneral = "";
         },
 
         submit() {

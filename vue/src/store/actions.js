@@ -41,6 +41,7 @@ export default {
                 "token": id,
                 "email": context.state.user.email,
                 "plan": context.state.subscription,
+                "company": payload.company,
             }))
             .then(() => context.commit("SET_PURCHASE", context.state.subscription));
     },
