@@ -1,0 +1,52 @@
+// v-tooltip component style overrides.
+
+@import "./_defaults";
+
+.tooltip {
+    display: block !important;
+    z-index: 10000;
+}
+
+.tooltip .tooltip-inner {
+    background: $background;
+    color: $error;
+    border-radius: 0.5em;
+    border: solid 1px $font;
+    padding: 0.5em .75em;
+}
+
+.tooltip .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 0.5em;
+    border-color: $font;
+}
+
+.tooltip[x-placement^="left"] {
+    margin-right: 1em;
+}
+
+.tooltip[x-placement^="left"] .tooltip-arrow {
+    border-width: 0.25em 0 0.25em 0.25em;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    right: -0.25em;
+    top: calc(50% - 0.25em);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tooltip[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+}
+
+.tooltip[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+}

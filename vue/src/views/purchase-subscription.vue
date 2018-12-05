@@ -131,13 +131,11 @@
                         <img src="@/assets/img/money-back.png" />
                     </div>
 
-                    <!-- customize meee... -->
                     <div class="col-sm-12 col-xs-9 having-trouble">
-                        <p>{{ errGeneral || "&nbsp;" }}</p>
-                    </div>
-
-                    <div class="col-sm-12 col-xs-9 having-trouble">
-                        Having trouble checking out? Email us or give us a call at 1&nbsp;(800)&nbsp;388-2039. All prices are in USD
+                        <generic-error :text="errGeneral"></generic-error>
+                        <div>
+                            Having trouble checking out? Email us or give us a call at 1&nbsp;(800)&nbsp;388-2039. All prices are in USD
+                        </div>
                     </div>
                 </div>
 
@@ -155,6 +153,8 @@ import { mapState } from "vuex";
 
 import InputText from "@/components/input-text.vue";
 import InputSelect from "@/components/input-select.vue";
+import GenericError from "@/components/generic-error.vue";
+
 import { state } from "@/store";
 import config from "@config";
 
@@ -178,6 +178,7 @@ export default {
     "components": {
         InputText,
         InputSelect,
+        GenericError,
     },
 
     "data": () => ({
@@ -209,7 +210,7 @@ export default {
         },
 
         submitCaption() {
-            return `Pay $${this.subInfo.amount / 100}.00`;
+            return this.isLocked ? "Processing..." : `Pay $${this.subInfo.amount / 100}.00`;
         },
     },
 
@@ -270,7 +271,7 @@ export default {
                 return field;
             });
             if (fields && fields.length) {
-                this.errGeneral = "Please recheck the form";
+                this.errGeneral = "There was a problem with your information";
                 return;
             }
 

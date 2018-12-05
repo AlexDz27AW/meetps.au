@@ -12,9 +12,10 @@
             @input="$emit('input', $event.target.value)"
         />
         <span class="floating-label">{{ placeholder }}</span>
+
         <div
+            v-tooltip="{ content: error, placement: 'left', trigger: 'click hover' }"
             v-show="error"
-            :title="error"
             class="tip"
         >
         </div>

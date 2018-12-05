@@ -197,7 +197,7 @@ input:checked+.ui-checkbox:before {
     font-size: 17px;
     max-width: 173px;
     width: 100%;
-    margin:0px auto 170px auto;
+    margin:0px auto 85px auto;
     cursor: pointer;
 
     color: #FFFFFF;
@@ -334,7 +334,6 @@ input:checked+.ui-checkbox:before {
     letter-spacing: 0.6px;
     color: #979797;
     margin-bottom: 51px;
-    margin-top: -62px;
 }
 .plan-price-section .submit-btn{
     max-width: 100%;

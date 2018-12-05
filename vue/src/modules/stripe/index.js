@@ -33,7 +33,8 @@ const getToken = ({ card, expiry, cvv }) => {
     return new Promise((resolve, reject) => {
         window.Stripe.createToken(payload, (status, response) => {
             if (response.error) {
-                return reject(new Error(response.error));
+                const msg = (response.error && response.error.message) || "Please recheck your card data";
+                return reject(new Error(msg));
             }
             return resolve(response.id);
         });

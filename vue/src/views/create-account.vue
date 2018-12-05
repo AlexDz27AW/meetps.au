@@ -94,15 +94,14 @@
                     .
                 </input-checkbox>
 
-                <!-- customize meee... -->
-                <p>{{ errGeneral || "&nbsp;" }}</p>
+                <generic-error :text="errGeneral"></generic-error>
 
                 <input
                     :disabled="!isFilled || isLocked"
+                    :value="!isLocked ? 'Create account' : 'Creating...'"
                     type="submit"
                     name="submit"
                     class="submit-btn"
-                    value="Create account"
                     @submit.prevent="submit"
                 />
 
@@ -124,6 +123,7 @@ import { state } from "@/store";
 import InputText from "@/components/input-text.vue";
 import InputCheckbox from "@/components/input-checkbox.vue";
 import InputPhone from "@/components/input-phone.vue";
+import GenericError from "@/components/generic-error.vue";
 
 
 const validators = {
@@ -195,6 +195,7 @@ export default {
         InputText,
         InputCheckbox,
         InputPhone,
+        GenericError,
     },
 
     "watch": {
@@ -251,7 +252,7 @@ export default {
                 return field;
             });
             if (fields && fields.length) {
-                this.errGeneral = "Please recheck the form";
+                this.errGeneral = "There was a problem with your information";
                 return false;
             }
             if (!this.tos) {
