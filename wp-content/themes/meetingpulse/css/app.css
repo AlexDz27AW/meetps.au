@@ -3254,6 +3254,9 @@ rect.burger-svg__base { fill: none; }
   margin-top: 10px;
   margin-bottom: 18px;
 }
+.request-free-trial{
+  max-width: 200px;
+}
 @media only screen and (max-width: 1300px){
   .conection__item:after{ right: -95px; } }
 
@@ -3662,6 +3665,9 @@ rect.burger-svg__base { fill: none; }
     right: 10px;
     top: -45px;
     max-width: 60px;
+  }
+  .request-free-trial{
+    font-size: 8px;
   }
 }
 
