@@ -226,8 +226,12 @@ export default {
                 return;
             }
             const pageView = `/register/complete/${this.$store.state.subscription}`;
+
             this.$gtm.trackView("Paid registration complete", pageView);
-            this.$ga.page(pageView);
+
+            this.sendPurchaseEvent();
+
+
             setTimeout(() => {
                 window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
             }, 1000);
@@ -282,6 +286,31 @@ export default {
                     this.errGeneral = err.message;
                     this.isLocked = false;
                 });
+        },
+
+        sendPurchaseEvent() {
+            // This is probably too "logical" to be in a modelview, but welp.
+            const sub = this.$store.state.subscriptions.selected;
+            this.$gtm.trackEvent({
+                "event": "purchase",
+                "ecommerce": {
+                    "currencyCode": "USD",
+                    "purchase": {
+                        "actionField": {
+                            "id": this.$store.state.user.id,
+                            "affiliation": "Purchase from the Funnel form",
+                            "revenue": (parseInt(sub.amount, 10) / 100).toFixed(2),
+                            "shipping": "0",
+                            "tax": "0",
+                        },
+                        "products": [{
+                            "name": `${sub.name} ${sub.interval === "month" ? "Monthly" : "Annual"}`,
+                            "id": this.$store.state.subscription,
+                            "quantity": 1,
+                        }],
+                    },
+                },
+            });
         },
     },
 

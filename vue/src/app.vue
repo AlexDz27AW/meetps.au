@@ -9,7 +9,6 @@
 
 import Vue from "vue";
 import VueGTM from "vue-gtm";
-import VueGA from "vue-analytics";
 import VueTooltip from "v-tooltip";
 
 import config from "@config";
@@ -24,11 +23,6 @@ Vue.use(VueGTM, {
     "vueRouter": router,
 });
 
-Vue.use(VueGA, {
-    "id": config.GA,
-    "disableScriptLoader": !config.GA,
-    router,
-});
 
 Vue.use(VueTooltip);
 

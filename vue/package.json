@@ -14,7 +14,6 @@
     "reset-css": "^4.0.1",
     "v-tooltip": "^2.0.0-rc.33",
     "vue": "^2.5.17",
-    "vue-analytics": "^5.16.1",
     "vue-gtm": "^2.0.0",
     "vue-router": "^3.0.1",
     "vue-tel-input": "^2.0.10",

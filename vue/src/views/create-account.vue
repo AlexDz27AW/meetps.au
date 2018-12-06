@@ -269,7 +269,6 @@ export default {
             this.errGeneral = this.errTos = "";
         },
 
-
         // Process the form.
         submit() {
             // Client-side validation.
@@ -288,6 +287,7 @@ export default {
                     this.isLocked = false;
                 });
         },
+
     },
 
     // View prerequisites regarding the main store.
