@@ -82,8 +82,6 @@
                         <div class="header__container"><a class="header__btn btn btn_border" href="https://app.meet.ps/login">Log in</a>
                             <div class="header__bottom"><a class="header__phone" href="#">USA <span class="header__numbers">415-450-9646</span></a><a class="header__phone" href="#">USA <span class="header__numbers">415-123-4321</span></a></div>
                         </div><button class="header__burger burger js-main-burger"><svg id="burger-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50"><title>Show / Hide Navigation</title><rect class="burger-svg__base" width="50" height="50" fill="#1f201c"></rect><g class="burger-svg__bars" fill="#fff"><rect class="burger-svg__bar burger-svg__bar-1" x="14" y="18" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-2" x="14" y="24" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-3" x="14" y="30" width="22" height="2"></rect></g></svg></button>
-                        <!-- links-->
-                        <div class="header__links links"><a class="links__border" data-gaevent="try_for_free_header" href="#pricing">Try for free</a><a class="links__blue" data-gaevent="contact_sales_header" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
                     </div>
                 </header>
             </div>
@@ -99,9 +97,9 @@
                 <div class="main__title">Your Best Event Awaits!</div>
                 <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                 <!-- links-->
-                <div class="main__links links">
-                    <a class="links__border" href="#pricing">Try for free</a>
-                    <a class="links__blue" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
+                <div class="main__links" style="margin-top: 20px;">
+                    <a class="links__blue" href="#pricing" >Learn More</a>
+                </div>
             </div>
             <div class="main__list">
                 <div class="main__item">
@@ -242,7 +240,7 @@
             </div>
         </div>
         <div class="quality__btns">
-            <div class="quality__center center"><a class="quality__btn btn btn_purple" href="#"  data-gaevent="request_demo_main_features" data-popup=".js-popup-calendar">Request a demo</a><a class="quality__btn btn btn_white" href="/features">View all features</a></div>
+            <div class="quality__center center"><a class="quality__btn btn btn_white" href="/features">View all features</a></div>
         </div>
     </div>
     <!-- promise-->
@@ -262,6 +260,9 @@
                         <p>This promise and principle is at the core of MeetingPulse.</p>
                     </div>
                 </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a class="links__blue" href="#pricing" style="background: white;">Learn More</a>
             </div>
         </div>
     </div>
@@ -325,7 +326,7 @@
         </div>
         <div class="technology__btns">
             <div class="technology__center center">
-                <a class="technology__btn btn btn_white" data-gaevent="get_in_touch" href="#" data-popup=".js-popup-calendar">Get in touch</a>
+                <a class="technology__btn btn btn_white" data-gaevent="get_in_touch" href="#pricing">Learn More</a>
             </div>
         </div>
     </div>
@@ -413,10 +414,6 @@
                         <div class="numbers__value">400,000+</div>
                         <div class="numbers__text">happy attendees</div>
                     </div>
-                </div>
-                <div class="numbers__btns">
-                    <a class="numbers__btn btn btn_white btn_big" href="#pricing">Try it for free</a>
-                    <a class="numbers__btn btn btn_border btn_big" href="#pricing">Request a demo</a>
                 </div>
             </div>
         </div>

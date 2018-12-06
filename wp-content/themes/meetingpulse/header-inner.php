@@ -41,9 +41,12 @@
                             <div class="header__bottom"><a class="header__phone" href="#">USA <span class="header__numbers">415-450-9646</span></a><a class="header__phone" href="#">USA <span class="header__numbers">415-450-9646</span></a></div>
                         </div><button class="header__burger burger js-main-burger"><svg id="burger-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50"><title>Show / Hide Navigation</title><rect class="burger-svg__base" width="50" height="50" fill="#1f201c"></rect><g class="burger-svg__bars" fill="#fff"><rect class="burger-svg__bar burger-svg__bar-1" x="14" y="18" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-2" x="14" y="24" width="22" height="2"></rect><rect class="burger-svg__bar burger-svg__bar-3" x="14" y="30" width="22" height="2"></rect></g></svg></button>
                         <!-- links-->
-                        <div class="header__links links">
+                        <div class="header__links links"<?php if (is_page(8267)) {
+                    echo 'style="display:none;"';
+                    }?>>
                         <a class="links__border" data-gaevent="try_for_free_header" href="/#pricing">Try for free</a>
-                        <a class="links__white" href="#" data-gaevent="contact_sales_header" data-popup=".js-popup-calendar">Request a demo</a></div>
+                        <a class="links__white" href="#" data-gaevent="contact_sales_header" data-popup=".js-popup-calendar">Request a demo</a>
+                        </div>
                     </div>
                 </header>
             </div>
@@ -64,7 +67,9 @@
 
 
                 <!-- links-->
-                <div class="main__links links"><a class="links__white" href="#" data-popup=".js-popup-calendar">Request a demo</a></div>
+                <div style="margin-top: 20px;" class="main__links <?php if (!is_page(8267)) {
+                    echo 'links';
+                    }?>" ><a class="links__white" href="/pages/new-pricing-table#pricing">Learn More</a></div>
             </div>
         </div>
     </div>
