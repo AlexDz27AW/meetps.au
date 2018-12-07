@@ -291,6 +291,7 @@ export default {
         sendPurchaseEvent() {
             // This is probably too "logical" to be in a modelview, but welp.
             const sub = this.$store.state.subscriptions.selected;
+            const amount = (parseInt(sub.amount, 10) / 100).toFixed(2);
             this.$gtm.trackEvent({
                 "event": "purchase",
                 "ecommerce": {
@@ -299,13 +300,14 @@ export default {
                         "actionField": {
                             "id": this.$store.state.user.id,
                             "affiliation": "Purchase from the Funnel form",
-                            "revenue": (parseInt(sub.amount, 10) / 100).toFixed(2),
+                            "revenue": amount,
                             "shipping": "0",
                             "tax": "0",
                         },
                         "products": [{
                             "name": `${sub.name} ${sub.interval === "month" ? "Monthly" : "Annual"}`,
                             "id": this.$store.state.subscription,
+                            "price": amount,
                             "quantity": 1,
                         }],
                     },
