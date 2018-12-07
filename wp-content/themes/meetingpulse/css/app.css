@@ -3193,6 +3193,11 @@ rect.burger-svg__base { fill: none; }
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 18px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  -o-transition: transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 .green-table-btn{
   background: #7ED321;
@@ -3205,9 +3210,19 @@ rect.burger-svg__base { fill: none; }
   text-align: center;
   margin-top: 22px;
   color: #FFFFFF;
-
+  z-index: 100;
   max-width: 183px;
   width: 95%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  -o-transition: transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+.purple-table-btn:hover, .green-table-btn:hover{
+  -ms-transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 .remove-top-border{
   border-top: 1px solid white!important;
@@ -3258,24 +3273,25 @@ rect.burger-svg__base { fill: none; }
   max-width: 200px;
 }
 @media only screen and (max-width: 1300px){
-  .conection__item:after{ right: -95px; } }
+  .conection__item:after{ right: -95px; }
+  .table__value:before, .table__value_m:before{
+    font-size: 8px;
+    top: 5px;
+    right: -36px;
+    padding: 5px 27px;
+  }
+  .table__value, .table__value_m{
+    width: 70px;
+    height: 70px;
+  }
+}
 
-@media only screen and (min-width: 767px){
+@media only screen and (max-width: 1200px){
   .table__value:before, .table__value_m:before {
-    content: 'LIMITED TIME OFFER';
-    position: absolute;
-    top: 7px;
-    right: -64px;
-    padding: 5px 54px;
-    line-height: 1em;
-    text-align: center;
-    background: #7ED321;
-    font-family: 'SFUIDisplayHeavy', serif;
-    font-size: 10px;
-    color: #fff;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    font-size: 6px;
+    top: 4px;
+    right: -40px;
+    padding: 5px 33px;
   }
 }
 
@@ -3371,11 +3387,11 @@ rect.burger-svg__base { fill: none; }
   .table__row_price{ font-size: 22px; }
   .table__body .table__cell .table__tooltip{ right: auto; }
   .table__cell:first-child{ padding: 10px 35px 10px 10px; }
-  .table__value, .table__value_m{ padding: 1px 50px; font-size: 11px; }
-  .table__value_m{ display: none; }
+  /*.table__value, .table__value_m{ padding: 1px 50px; font-size: 11px; }*/
+  /*.table__value_m{ display: none; }*/
   .table__text{ padding: 0 30px; }
-  .table__btn{ min-width: 100%; font-size: 13px; }
-  .table__btn.btn_purple{ min-width: 100%; }
+  /*.table__btn{ min-width: 100%; font-size: 13px; }*/
+  /*.table__btn.btn_purple{ min-width: 100%; }*/
   .table__title{ font-size: 26px; }
   .table__limited .table__tooltip{ right: -13px; }
   .table_five{ font-size: 14px; }
@@ -3414,6 +3430,9 @@ rect.burger-svg__base { fill: none; }
     left: 105px;
     top: -42px;
     max-width: 100px;
+  }
+  .purple-table-btn, .green-table-btn{
+    font-size: 15px;
   }
 }
 
@@ -3548,7 +3567,7 @@ rect.burger-svg__base { fill: none; }
   .table__cell:not(:first-child) .table__tooltip{ margin-top: -2px; right: 3px; }
   .table__dollar{ font-size: 18px; }
   .table__value, .table__value_m{ display: none; }
-  .table__value_m{ display: block; padding: 1px 50px; font-size: 11px; }
+  .table__value_m{ display: block; /*padding: 1px 50px; font-size: 11px;*/ }
   .table__info{ display: inline-block; font-family: 'SFUIDisplayBold', serif; padding: 2px 10px; border-radius: 10px; background: #f5f5f5; color: rgba(0, 0, 0, 0.5); z-index: 100; }
   .table__text{ padding: 0; }
   .table__link{ font-size: 13px; }
@@ -3644,13 +3663,15 @@ rect.burger-svg__base { fill: none; }
 }
 
 @media only screen and (max-width: 630px){
-  .company__list.owl-carousel .owl-item{ padding: 0 50px; } }
-
-@media only screen and (max-width: 550px){
-  .company__list.owl-carousel .owl-item{ padding: 0 35px; }
+  .company__list.owl-carousel .owl-item{ padding: 0 50px; }
   .green-table-btn, .purple-table-btn{
     font-size: 10px;
   }
+}
+
+@media only screen and (max-width: 550px){
+  .company__list.owl-carousel .owl-item{ padding: 0 35px; }
+
   .table__value:before, .table__value_m:before{
     font-size: 8px;
     top: 5px;
