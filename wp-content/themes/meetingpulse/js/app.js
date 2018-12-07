@@ -53,6 +53,12 @@ jQuery(document).ready(function(e) {
         i = e.index();
       return navScroll = new SmoothScroll, navScroll.animateScroll(s.eq(i).offset().top - 50), t.removeClass("active"), e.addClass("active"), !1
     })
+  }), jQuery(".section__tabs .js-register").bind("click", function() {
+    // Hack around subscription suffixes for the buy buttons.
+    var e = jQuery(this),
+      url = e.attr("href"),
+      prefix = jQuery(".js-tabs-link.active").text() == "Yearly" ? "-Y" : "-M";
+    e.attr("href", url.replace(/-[MY]$/, prefix));
   }),
     function() {
       var e, t = jQuery("body"),
