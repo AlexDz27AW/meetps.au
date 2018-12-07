@@ -3671,13 +3671,7 @@ rect.burger-svg__base { fill: none; }
 
 @media only screen and (max-width: 550px){
   .company__list.owl-carousel .owl-item{ padding: 0 35px; }
-
-  .table__value:before, .table__value_m:before{
-    font-size: 8px;
-    top: 5px;
-    right: -72px;
-    padding: 5px 64px;
-  }
+  
 }
 
 @media screen and (max-width: 450px){
