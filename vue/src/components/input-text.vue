@@ -4,6 +4,7 @@
         class="one-input-parent"
     >
         <input
+            v-mask="mask"
             :autocomplete="autocomplete"
             :type="type"
             :value="value"
@@ -36,12 +37,16 @@ export default {
         "value": String,
         "required": Boolean,
         "error": String,
+        "masktype": String,
     },
 
     "computed": {
 
         "type": function getInputType() {
             return this.password ? "password" : "text";
+        },
+        "mask": function getInputMask() {
+            return (this.masktype === "card") ? "#### #### #### ####" :  (this.masktype === "expiry") ? "## / ##" : (this.masktype === "cvv") ? "####" : "";
         },
 
     },

@@ -11,6 +11,7 @@ import Vue from "vue";
 import VueGTM from "vue-gtm";
 import VueTooltip from "v-tooltip";
 import VueIntercom from "vue-intercom";
+import VueMask from "v-mask";
 
 import config from "@config";
 import router from "@/router";
@@ -29,6 +30,8 @@ Vue.use(VueIntercom, {
 });
 
 Vue.use(VueTooltip);
+
+Vue.use(VueMask);
 
 
 export default {

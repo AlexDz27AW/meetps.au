@@ -47,6 +47,7 @@
                 <input-text
                     v-model="card"
                     :error="errCard"
+                    masktype="card"
                     placeholder="Card number"
                     required
                 ></input-text>
@@ -58,7 +59,8 @@
                         <input-text
                             v-model="expiry"
                             :error="errExpiry"
-                            placeholder="MM/YY"
+                            masktype="expiry"
+                            placeholder="MM / YY"
                             required
                         ></input-text>
 
@@ -68,6 +70,7 @@
 
                         <input-text
                             v-model="cvv"
+                            masktype="cvv"
                             placeholder="CVV"
                             required
                         ></input-text>
