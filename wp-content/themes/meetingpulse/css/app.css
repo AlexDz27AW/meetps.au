@@ -3652,6 +3652,12 @@ rect.burger-svg__base { fill: none; }
     top: 7px;
     z-index: 10000;
   }
+  .table__row_price .table__cell:first-child{
+    display: none!important;
+  }
+  .table__row_price .table__cell .table__show_from{
+    display: none;
+  }
 }
 @media screen and (max-width: 700px){
   .money-back-guarantee {
@@ -3671,7 +3677,7 @@ rect.burger-svg__base { fill: none; }
 
 @media only screen and (max-width: 550px){
   .company__list.owl-carousel .owl-item{ padding: 0 35px; }
-  
+
 }
 
 @media screen and (max-width: 450px){
