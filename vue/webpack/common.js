@@ -55,6 +55,14 @@ const common = {
     "module": {
         "rules": [
             {
+                // Vue SFCs.
+                "test": /\.vue$/,
+                "use": [
+                    "vue-loader",
+                    "eslint-loader",
+                ],
+            },
+            {
                 "test": /\.js$/,
                 "exclude": /node_modules/,
                 "use": ["babel-loader", "eslint-loader"],
@@ -89,14 +97,7 @@ const common = {
                     "css-loader",
                 ],
             },
-            {
-                // Vue SFCs.
-                "test": /\.vue$/,
-                "use": [
-                    "vue-loader",
-                    "eslint-loader",
-                ],
-            },
+
             {
                 // Fonts referenced by some SCSS.
                 "test": /\.(woff2?|ttf|eot)?$/,

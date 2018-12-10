@@ -45,8 +45,19 @@ export default {
         "type": function getInputType() {
             return this.password ? "password" : "text";
         },
+
+        // FIXME: reconfigure ESLINT to handle normal indent for "case".
         "mask": function getInputMask() {
-            return (this.masktype === "card") ? "#### #### #### ####" :  (this.masktype === "expiry") ? "## / ##" : (this.masktype === "cvv") ? "####" : "";
+            switch (this.masktype) {
+            case "card":
+                return "#### #### #### ####";
+            case "expiry":
+                return "## / ##";
+            case "cvv":
+                return "####";
+            default:
+                return "";
+            }
         },
 
     },
