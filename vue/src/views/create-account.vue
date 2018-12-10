@@ -210,7 +210,12 @@ export default {
             }
             else {
                 const pageView = "/register/complete/";
-                this.$gtm.trackView("Basic registration complete", pageView);
+                // Note: trackView doesn't trigger the virtual page view, resorting to manual eventing.
+                this.$gtm.trackEvent({
+                    "event": "pageview",
+                    "title": "Basic registration complete",
+                    "url": pageView,
+                });
                 setTimeout(() => {
                     window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
                 }, 1000);

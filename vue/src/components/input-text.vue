@@ -9,6 +9,7 @@
             :type="type"
             :value="value"
             :required="required"
+            :class="{ 'fs-masked': confidential }"
             class="input-text"
             @input="$emit('input', $event.target.value)"
         />
@@ -38,6 +39,7 @@ export default {
         "required": Boolean,
         "error": String,
         "masktype": String,
+        "confidential": Boolean,
     },
 
     "computed": {

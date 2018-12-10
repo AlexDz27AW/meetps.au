@@ -50,6 +50,7 @@
                     masktype="card"
                     placeholder="Card number"
                     required
+                    confidential
                 ></input-text>
 
                 <div class="row">
@@ -62,6 +63,7 @@
                             masktype="expiry"
                             placeholder="MM / YY"
                             required
+                            confidential
                         ></input-text>
 
                     </div>
@@ -73,6 +75,7 @@
                             masktype="cvv"
                             placeholder="CVV"
                             required
+                            confidential
                         ></input-text>
 
                     </div>
@@ -230,10 +233,14 @@ export default {
             }
             const pageView = `/register/complete/${this.$store.state.subscription}`;
 
-            this.$gtm.trackView("Paid registration complete", pageView);
+            // Note: trackView doesn't trigger the virtual page view, resorting to manual eventing.
+            this.$gtm.trackEvent({
+                "event": "pageview",
+                "title": "Paid registration complete",
+                "url": pageView,
+            });
 
             this.sendPurchaseEvent();
-
 
             setTimeout(() => {
                 window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;

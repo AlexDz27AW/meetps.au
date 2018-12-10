@@ -16,6 +16,7 @@ import VueMask from "v-mask";
 import config from "@config";
 import router from "@/router";
 
+import "@/modules/fullstory";
 import "@/assets/scss/v-tooltip.scss";
 
 Vue.use(VueGTM, {
