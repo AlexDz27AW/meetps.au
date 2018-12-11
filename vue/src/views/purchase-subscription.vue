@@ -263,8 +263,8 @@ export default {
     "methods": {
         getPayload() {
             return {
-                "card": this.card,
-                "expiry": this.expiry,
+                "card": this.card.replace(/[^\d]/g, "").trim(),
+                "expiry": this.expiry.replace(/[^\d/]/g, ""),
                 "cvv": this.cvv,
                 "company": this.company,
             };
