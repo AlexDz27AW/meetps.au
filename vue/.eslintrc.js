@@ -3,7 +3,7 @@ const prodError = process.env.NODE_ENV === "production" ? "error" : "warn";
 module.exports = {
     "extends": [
         "webpack",
-        "plugin:vue/recommended"
+        "plugin:vue/recommended",
     ],
 
     "globals": {
@@ -12,13 +12,13 @@ module.exports = {
     },
 
     "plugins": [
-        "vue"
+        "vue",
     ],
 
     "settings": {
         // We're using webpack aliases in imports, so account for that.
         // (dep: eslint-import-webpack-resolver)
-        "import/resolver": "webpack"
+        "import/resolver": "webpack",
     },
 
     "rules": {
@@ -26,14 +26,16 @@ module.exports = {
         // "Generic",
 
         "quotes": ["error", "double"],
-        "indent": ["error", 4],
+        "indent": ["error", 4, {
+            "SwitchCase": 1,
+        }],
         "brace-style": ["error", "stroustrup"],
         "quote-props": ["error", "always"],
         "arrow-parens": ["error", "as-needed"],
         "arrow-body-style": ["error", "as-needed"],
         "padded-blocks": ["error", {
             "blocks": "never",
-            "classes": "always"
+            "classes": "always",
         }],
 
         // "Disable import formatting enforcement, as there's just too much stuff in Webpack imports.",
@@ -57,7 +59,7 @@ module.exports = {
             "attribute": 1,
             "closeBracket": 0,
             "alignAttributesVertically": false,
-            "ignores": []
+            "ignores": [],
         }],
 
         // Default Vue config enforces self-closing non-void elements when empty.
