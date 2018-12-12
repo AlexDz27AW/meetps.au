@@ -3193,11 +3193,6 @@ rect.burger-svg__base { fill: none; }
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 18px;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  -o-transition: transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
 }
 .green-table-btn{
   background: #7ED321;
@@ -3213,17 +3208,19 @@ rect.burger-svg__base { fill: none; }
   z-index: 100;
   max-width: 183px;
   width: 95%;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  -o-transition: transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
 }
 @media screen and (min-width: 768px){
     .purple-table-btn:hover, .green-table-btn:hover{
         -ms-transform: translateY(-2px);
         -webkit-transform: translateY(-2px);
         transform: translateY(-2px);
+    }
+    .green-table-btn, .purple-table-btn{
+        -webkit-transition: -webkit-transform .2s;
+        transition: -webkit-transform .2s;
+        -o-transition: transform .2s;
+        transition: transform .2s;
+        transition: transform .2s, -webkit-transform .2s;
     }
 }
 
