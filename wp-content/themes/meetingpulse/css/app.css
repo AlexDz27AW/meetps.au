@@ -3193,6 +3193,7 @@ rect.burger-svg__base { fill: none; }
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 18px;
+  cursor: pointer!important;
 }
 .green-table-btn{
   background: #7ED321;
@@ -3208,6 +3209,7 @@ rect.burger-svg__base { fill: none; }
   z-index: 100;
   max-width: 183px;
   width: 95%;
+  cursor: pointer!important;
 }
 @media screen and (min-width: 768px){
     .purple-table-btn:hover, .green-table-btn:hover{
