@@ -2128,29 +2128,29 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .owl-carousel .owl-video-frame { position: relative; z-index: 1; height: 100%; width: 100%; }
 
-@font-face { font-family: SFUIDisplayRegular; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayRegular.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayRegular.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayRegular; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayRegular.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayRegular.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayUltralight; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayUltralight.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayUltralight.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayUltralight; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayUltralight.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayUltralight.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayLight; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayLight.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayLight.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayLight; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayLight.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayLight.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayThin; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayThin.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayThin.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayThin; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayThin.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayThin.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayMedium; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayMedium.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayMedium.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayMedium; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayMedium.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayMedium.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplaySemibold; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplaySemibold.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplaySemibold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplaySemibold; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplaySemibold.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplaySemibold.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayBold; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBold.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayBold; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBold.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBold.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayHeavy; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayHeavy.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayHeavy.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayHeavy; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayHeavy.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayHeavy.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayBlack; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayBlack; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: SFUIDisplayBlack; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: SFUIDisplayBlack; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/SFUIDisplayBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: GothamBlack; src: url("/wp-content/themes/meetingpulse/fonts/GothamBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/GothamBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: GothamBlack; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/GothamBlack.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/GothamBlack.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: MarkProHeavy; src: url("/wp-content/themes/meetingpulse/fonts/MarkProHeavy.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/MarkProHeavy.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: MarkProHeavy; font-display: block; src: url("/wp-content/themes/meetingpulse/fonts/MarkProHeavy.woff2") format("woff2"), url("/wp-content/themes/meetingpulse/fonts/MarkProHeavy.woff") format("woff"); font-weight: normal; font-style: normal; }
 
 body { min-width: 320px; font-family: 'SFUIDisplayRegular', serif; font-size: 16px; line-height: 1.45; letter-spacing: 0.03em; }
 
@@ -3698,7 +3698,8 @@ rect.burger-svg__base { fill: none; }
 @media only screen and (max-width: 474px){
   .header__nav{ -webkit-column-gap: 20px; column-gap: 20px; }
   .company__list.owl-carousel .owl-item{ padding: 0 10px; }
-  .table__title{ font-size: 16px; } }
+  .table__title{ font-size: 16px; }
+}
 
 @media only screen and (max-width: 350px){
   .header__btn.btn{ margin: 40px 0 30px 25px; } }

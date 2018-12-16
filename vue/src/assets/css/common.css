@@ -675,3 +675,13 @@ input:checked+.ui-checkbox:before {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 420px){
+    .vue-tel-input input{
+        width: calc(100% - 59px);
+    }
+    .one-input-parent-phone input:focus{
+        border:0px solid white;
+        border-left: 1px solid white;
+    }
+}
