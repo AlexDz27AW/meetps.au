@@ -2880,9 +2880,9 @@ rect.burger-svg__base { fill: none; }
 
 .plan__item:hover { color: #5020FF; }
 
-.popup { display: -ms-flexbox; display: -webkit-box; display: flex; position: fixed; top: 0; right: 0; left: 0; bottom: 0; min-width: 320px; background: rgba(0, 0, 0, 0.6); visibility: hidden; pointer-events: none; overflow: auto; z-index: 999; }
+.popup { display: none; position: fixed; top: 0; right: 0; left: 0; bottom: 0; min-width: 320px; background: rgba(0, 0, 0, 0.6); visibility: hidden; pointer-events: none; overflow: auto; z-index: 999; }
 
-.popup.visible { pointer-events: all; visibility: visible; }
+.popup.visible { display: -ms-flexbox; display: -webkit-box; display: flex; pointer-events: all; visibility: visible; }
 
 .popup.animation .popup__wrap { opacity: 1; -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
 
