@@ -7,7 +7,7 @@
         <!--[if IE]>
 		<link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/app-ie.css' />
         <![endif]-->
-        <script type="text/javascript" src="/wp-includes/js/utm.js"></script>
+        <script async="async" type="text/javascript" src="/wp-includes/js/utm.js"></script>
         <script>
             window['_fs_debug'] = false;
             window['_fs_host'] = 'fullstory.com';
@@ -97,7 +97,7 @@
                         </a>
                     </div>
                     <div class="main__title">Your Best Event Awaits!</div>
-                    <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
+                    <div class="main__info">Upgrade your meetings and events with the newest, live interaction tools your attendees want!</div>
                     <!-- links-->
                     <div class="main__links links">
                         <a class="links__border" href="#pricing">Try for free</a>
