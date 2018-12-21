@@ -194,7 +194,7 @@
                                 <div class="quality__item">
                                     <div class="quality__icon"><svg class="icon icon-quality-4"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-4"></use></svg></div>
                                     <div class="quality__info">
-                                        <div class="quality__title">Live raffles & quizes</div>
+                                        <div class="quality__title">Live raffles & quizzes</div>
                                         <div class="quality__text">Create icebreaker games or offer rewards via friendly competitions.</div>
                                     </div>
                                 </div>
