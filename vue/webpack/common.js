@@ -11,15 +11,16 @@ const { VueLoaderPlugin } = require("vue-loader");
 const envType = process.env.NODE_ENV || "development";
 const endpoint = process.env.MP_CONFIG || envType;
 
+const entry = "index.js";
 
 const common = {
 
-    "entry": "./src/index.js",
+    "entry": `./src/${entry}`,
 
     "output": {
         "path": Path.resolve(__dirname, "..", "..", "register"),
         "publicPath": "/register/",
-        "filename": "./js/index.js",
+        "filename": `./js/${entry}`,
     },
 
     "resolve": {
@@ -53,6 +54,7 @@ const common = {
     ],
 
     "module": {
+        // NB: rules are applied in reverse order.
         "rules": [
             {
                 // Vue SFCs.
@@ -64,8 +66,14 @@ const common = {
             },
             {
                 "test": /\.js$/,
+                "exclude": /node_modules\/(?!joi-browser)/,
+                "loader": "babel-loader",
+            },
+            // Enforce coding style etc.
+            {
+                "test": /\.js$/,
                 "exclude": /node_modules/,
-                "use": ["babel-loader", "eslint-loader"],
+                "loader": "eslint-loader",
             },
             {
                 // Vue SFCs contain SASS sections that need to be processed.

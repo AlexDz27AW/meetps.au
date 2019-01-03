@@ -1,4 +1,6 @@
 import "@babel/polyfill";
+// Polyfill string.normalize for a Joi[-browser] dependency.
+import "unorm";
 
 import Vue from "vue";
 

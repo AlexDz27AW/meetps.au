@@ -11,7 +11,23 @@ const Instance = Axios.create({
     "crossDomain": true,
     "responseType": "json",
     "transformResponse": [
-        data => (typeof data === "object" && (data.result || data.error) ? (data.result || data.error) : data),
+        data => {
+            // IE11 compat - the little shit doesn't respect responseType.
+            if (typeof data === "string") {
+                try {
+                    data = JSON.parse(data);
+                }
+                catch (e) {
+                    data = {
+                        "error": {
+                            "message": "Unable to process your request due to API interaction failure",
+                            "code": 503,
+                        },
+                    };
+                }
+            }
+            return ((typeof data === "object") && (data.result || data.error) ? (data.result || data.error) : data);
+        },
     ],
 });
 

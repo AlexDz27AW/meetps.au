@@ -116,7 +116,7 @@
 
 <script>
 
-import Joi from "joi";
+import Joi from "joi-browser";
 
 import config from "@config";
 import { state } from "@/store";

@@ -154,7 +154,7 @@
 
 <script>
 
-import Joi from "joi";
+import Joi from "joi-browser";
 import { mapState } from "vuex";
 
 import InputText from "@/components/input-text.vue";
