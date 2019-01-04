@@ -14,7 +14,7 @@
                                         <div class="question__head js-accord-head">Does MeetingPulse work with PowerPoint?
                                             <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
                                         </div>
-                                        <div class="question__body js-accord-body">Sure, more about it <a href="https://help.meet.ps/meetingpulse-introduction/presenting-meetin" target="_blanck">here</a></div>
+                                        <div class="question__body js-accord-body">Sure, more about it <a href="https://help.meet.ps/best-practices/presenting-meetingpulse-with-powerpoint" target="_blank">here</a></div>
                                     </div>
                                     <div class="question__item js-accord-item">
                                         <div class="question__head js-accord-head">What platforms do you support?
@@ -28,7 +28,7 @@
                                             <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
                                         </div>
                                         <div class="question__body js-accord-body"> To make MeetingPulse a seamless addition to your meetings, we offer custom themes. We'll use your logo and your colors for the attendee and broadcast view. Your company name will be included in the webpage's title.<br><br>Your meeting
-                                            can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="acme2018.com">acme2018.com</a> instead of <a href="meet.ps/acme-all-hands">meet.ps/acme-all-hands</a></div>
+                                            can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="acme<?php echo date('Y'); ?>.com">acme<?php echo date('Y'); ?>.com</a> instead of <a href="meet.ps/acme-all-hands">meet.ps/acme-all-hands</a></div>
                                     </div>
                                     <div class="question__item js-accord-item">
                                         <div class="question__head js-accord-head"> <a href="https://help.meet.ps/" data-gaevent="faq_morequestions">More questions?</a></div>
@@ -116,7 +116,7 @@
                             <a class="social__link" href="https://plus.google.com/u/0/110501359949806734544" target="_blanck"><svg class="icon icon-google"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-google"></use></svg></a>
                             <a class="social__link" href="https://angel.co/meetingpulse" target="_blanck"><svg class="icon icon-social"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-social"></use></svg></a>
                         </div>
-                        <div class="footer__copyright">2013–2018 © MeetingPulse by <a href="http://inmomentsoftware.com/" target="_blank">inMoment Software</a></div>
+                        <div class="footer__copyright">2013–<?php echo date('Y'); ?> © MeetingPulse by <a href="http://inmomentsoftware.com/" target="_blank">inMoment Software</a></div>
                         <div class="footer__preview"><img class="footer__pic" src="/wp-content/themes/meetingpulse/img/bit.png" width="84px"><img class="footer__card" src="/wp-content/themes/meetingpulse/img/cards.png" width="181px"></div>
                     </div>
                 </div>
