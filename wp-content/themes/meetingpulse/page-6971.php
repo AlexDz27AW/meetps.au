@@ -333,7 +333,9 @@
     <!-- company-->
     <div id="clients"></div>
     <div class="company">
-        <div class="company__video"><video autoplay muted loop><source src="/wp-content/themes/meetingpulse/video/iStock-514252612.mp4" type="video/mp4"><source src="/wp-content/themes/meetingpulse/video/iStock-514252612.webm" type="video/webm"><source src="video/iStock-514252612.ogv" type="video/ogg"></video></div>
+        <div class="company__video"><video autoplay muted loop>
+            <source src="/wp-content/themes/meetingpulse/video/iStock-514252612.mp4" type="video/mp4">
+        </video></div>
         <div class="company__bg"></div>
         <div class="company__container">
             <div class="company__center center">

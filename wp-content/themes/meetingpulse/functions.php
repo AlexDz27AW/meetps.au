@@ -125,3 +125,6 @@ function theme_scripts() {
 	wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/app.js');
 }
 add_action( 'wp_enqueue_scripts', 'theme_scripts' );
+
+
+remove_action( 'wp_head', 'wp_resource_hints', 2 );

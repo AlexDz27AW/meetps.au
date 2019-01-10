@@ -28,7 +28,7 @@
                                             <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
                                         </div>
                                         <div class="question__body js-accord-body"> To make MeetingPulse a seamless addition to your meetings, we offer custom themes. We'll use your logo and your colors for the attendee and broadcast view. Your company name will be included in the webpage's title.<br><br>Your meeting
-                                            can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="acme<?php echo date('Y'); ?>.com">acme<?php echo date('Y'); ?>.com</a> instead of <a href="meet.ps/acme-all-hands">meet.ps/acme-all-hands</a></div>
+                                            can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="#">acme<?php echo date('Y'); ?>.com</a> instead of <a href="#">meet.ps/acme-all-hands</a></div>
                                     </div>
                                     <div class="question__item js-accord-item">
                                         <div class="question__head js-accord-head"> <a href="https://help.meet.ps/" data-gaevent="faq_morequestions">More questions?</a></div>
@@ -55,7 +55,9 @@
 
                                 foreach( $result as $p ){ ?>
                                     <div class="description__box">
-                                        <div class="description__preview"><img class="description__pic" src="<?php echo get_the_post_thumbnail( $p['ID'], array(74, 74), array('class' => 'post_thumbnail') )?>"></div>
+                                        <div class="description__preview decription__pic">
+                                            <?php echo get_the_post_thumbnail( $p['ID'], array(74, 74), array('class' => 'post_thumbnail') )?>">
+                                        </div>
                                         <div class="description__info"><a href="<?php echo get_permalink($p['ID']) ?>"><?php echo $p['post_title'] ?></a></div>
                                     </div>
                                 <?php } ?>
