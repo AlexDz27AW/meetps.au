@@ -5,7 +5,7 @@ import common from "@/configs/common";
 
 export default _.merge(common, {
     "debug": false,
-    "api": "https://backend.meet.ps",
+    "api": "https://app.meet.ps",
     "client": "https://app.meet.ps",
     // PK stands for "public key", i.e. safe to disseminate.
     "stripe": {
