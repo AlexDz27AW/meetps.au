@@ -34,6 +34,14 @@
                 console.log(video)
                 jQuery('.js-popup-main-video iframe').attr("src",video);
             })
+			jQuery('#js-popup-main-video-btn1').on('click', function(e){
+                e.stopPropagation();
+                var video = jQuery('.js-popup-main-video1 iframe').attr("src");
+                jQuery('.js-popup-main-video1 iframe').attr("src","");
+                video += '&autoplay=1';
+                console.log(video)
+                jQuery('.js-popup-main-video1 iframe').attr("src",video);
+            })
         })
     </script>
 </head>
@@ -87,17 +95,12 @@
             </div>
             <div class="main__body">
                 <div class="main_video_icon">
-                    <a href="#" id="js-popup-main-video-btn" data-popup=".js-popup-main-video">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 24 24">
-                            <path fill="#fff" d="M12 24c-6.619 0-12-5.381-12-12s5.381-12 12-12 12 5.381 12 12-5.381 12-12 12zM12 0.47c-6.36 0-11.53 5.17-11.53 11.53s5.17 11.53 11.53 11.53 11.53-5.17 11.53-11.53-5.17-11.53-11.53-11.53z"></path>
-                            <path fill="#fff" d="M9.797 15.998v-7.997l5.75 3.998-5.75 3.998zM10.31 8.986v6.034l4.339-3.014-4.339-3.019z"></path>
-                        </svg>
-                    </a>
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/scZ9eUmzh_o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="main__title">Your Best Event Awaits!</div>
                 <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                 <!-- links-->
-                <div class="main__links" style="margin-top: 20px;">
+                <div class="main__links" style="margin-top: 20px;margin-bottom:20px;">
                     <a class="links__blue" href="#pricing" >Learn More</a>
                 </div>
             </div>
@@ -261,6 +264,9 @@
                     </div>
                 </div>
             </div>
+            <div class="main_video_icon">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/r7ZK6VzlU4A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
             <div style="text-align: center; margin-top: 40px;">
                 <a class="links__blue" href="#pricing" style="background: white;">Learn More</a>
             </div>
