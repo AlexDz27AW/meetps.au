@@ -168,9 +168,17 @@
         <div class="popup popup_main_video js-popup-main-video">
             <div class="popup__wrap js-popup-wrap">
                 <div class="popup-head-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r7ZK6VzlU4A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/scZ9eUmzh_o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button>
+                <button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="http://localhost/meet/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button>
+            </div>
+        </div>
+		<div class="popup popup_main_video js-popup-main-video1">
+            <div class="popup__wrap js-popup-wrap" style="background: none !important;max-width: 680px;">
+                <div class="popup-head-video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/r7ZK6VzlU4A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <button class="popup__btn js-popup-close" style="top:0px;"><svg class="icon icon-check-no"><use xlink:href="http://localhost/meet/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button>
             </div>
         </div>
         <div class="popup popup_sm js-popup-sm">
