@@ -3734,3 +3734,7 @@ rect.burger-svg__base { fill: none; }
 
   .services__cell { -ms-flex: 0 0 40%; -webkit-box-flex: 0; flex: 0 0 40%; margin: 0 15px; }
 }
+.main_video_icon {
+    max-width: 560px;
+    margin: 40px auto;
+}
