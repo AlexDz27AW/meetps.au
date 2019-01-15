@@ -228,23 +228,10 @@ export default {
     "watch": {
         // The end target of this view is to set a user subscription.
         isSubscribed(flag) {
-            if (!flag) {
-                return;
+            if (flag) {
+                // NB: virtual page view and purchase data is now handled in the app (check the Beholder module).
+                window.location.href = `${config.app}/?t=${this.$store.state.user.cToken}&fnl=1`;
             }
-            const pageView = `/register/complete/${this.$store.state.subscription}`;
-
-            // Note: trackView doesn't trigger the virtual page view, resorting to manual eventing.
-            this.$gtm.trackEvent({
-                "event": "pageview",
-                "title": "Paid registration complete",
-                "url": pageView,
-            });
-
-            this.sendPurchaseEvent();
-
-            setTimeout(() => {
-                window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
-            }, 1000);
         },
     },
 

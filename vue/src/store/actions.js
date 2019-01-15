@@ -8,8 +8,14 @@ export default {
     signup(context, payload) {
         return API.post("users/", payload)
             // On email conflicts proceed as usual, as user might be a returning one here.
-            .catch(err => (err && err.code === 409 ? Promise.resolve() : Promise.reject(new Error(err.message))))
-            .then(() => context.dispatch("login", payload));
+            // Take note of this state though as we don't want to raise GTM events for it if it's a Basic flow.
+            .catch(err => {
+                if (err && err.code === 409) {
+                    return Promise.resolve({ "returning": true });
+                }
+                return Promise.reject(new Error(err.message));
+            })
+            .then(data => context.dispatch("login", { ...payload, "returning": !!data.returning }));
     },
 
     // Logging into existing users instead of new ones is only allowed for Free accounts.
@@ -30,6 +36,7 @@ export default {
                     "cToken": login.clientToken,
                     "email": user.email,
                     "subscription": "",
+                    "returning": payload.returning,
                 });
                 return user;
             });

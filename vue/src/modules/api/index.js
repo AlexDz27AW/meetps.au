@@ -3,7 +3,7 @@ import Store, { state } from "@/store";
 import config from "@config";
 
 const Instance = Axios.create({
-    "baseURL": `${config.api}/api/`,
+    "baseURL": `${config.app}/api/`,
     "headers": {
         "Accept": "application/json",
     },

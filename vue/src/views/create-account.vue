@@ -209,16 +209,9 @@ export default {
                 this.$router.push(`/register/subscribe/${this.subscription}`);
             }
             else {
-                const pageView = "/register/complete/";
-                // Note: trackView doesn't trigger the virtual page view, resorting to manual eventing.
-                this.$gtm.trackEvent({
-                    "event": "pageview",
-                    "title": "Basic registration complete",
-                    "url": pageView,
-                });
-                setTimeout(() => {
-                    window.location.href = `${config.client}/?t=${this.$store.state.user.cToken}`;
-                }, 1000);
+                const { cToken, returning } = this.$store.state.user;
+                // Note: virtual pageview will be handled by the app (hinted by the 'fnl' param).
+                window.location.href = `${config.app}/?t=${cToken}${returning ? "" : "&fnl=1"}`;
             }
         },
     },

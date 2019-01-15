@@ -490,6 +490,9 @@ input:checked+.ui-checkbox:before {
     height: 58px;
     padding-left: 10px;
 }
+.vue-tel-input input:focus {
+    border-color: white;
+}
 .one-input-parent-phone .vue-tel-input input:focus{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
