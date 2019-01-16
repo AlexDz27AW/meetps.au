@@ -85,6 +85,9 @@
                             <a class="header__item" href="#technology">Services</a>
                             <a class="header__item" href="#clients">Clients</a>
                             <a class="header__item" href="#pricing">Pricing</a>
+			   <div class="main__links" id="learn-more-button">
+				<a class="links__blue" href="#pricing" >Learn More</a>
+			   </div>
                             <a class="header__item m" href="/blog" style="display: none">Blog</a>
                         </nav>
                         <div class="header__container"><a class="header__btn btn btn_border" href="https://app.meet.ps/login">Log in</a>
