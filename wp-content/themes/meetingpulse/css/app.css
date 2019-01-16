@@ -3693,7 +3693,10 @@ rect.burger-svg__base { fill: none; }
     font-size: 8px;
   }
 }
-
+@media (min-width: 700px) and  (max-width:1024px){
+#learn-more-button { display: block !important; }	
+		
+}
 
 @media only screen and (max-width: 474px){
   .header__nav{ -webkit-column-gap: 20px; column-gap: 20px; }
@@ -3738,3 +3741,4 @@ rect.burger-svg__base { fill: none; }
     max-width: 560px;
     margin: 40px auto;
 }
+#learn-more-button {display: none; }
