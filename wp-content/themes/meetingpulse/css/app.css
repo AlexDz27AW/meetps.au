@@ -3693,11 +3693,12 @@ rect.burger-svg__base { fill: none; }
     font-size: 8px;
   }
 }
-@media (min-width: 768px) and  (max-width:1024px){
+@media (min-width: 768px) and  (max-width:1450px){
 #learn-more-button { display: block !important; }
 .main__links{display:none;}	
-		
+.main__body {margin-bottom: 33px;}		
 }
+
 
 
 @media only screen and (max-width: 474px){
