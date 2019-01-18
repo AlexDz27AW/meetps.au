@@ -57,6 +57,9 @@ body{
     line-height: 1em;
     padding: 0 20px;
 }
+.login-right-part--loading {
+    height: 100vh;
+}
 .live-audience-platform{
     font-family: 'SFUIDisplayBlack', sans-serif;
     font-size: 12px;

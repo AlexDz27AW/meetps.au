@@ -9,10 +9,20 @@
 
         </div>
 
-        <div class="login-right-part">
+        <div
+            v-show="subscription && !isLoaded"
+            class="login-right-part login-right-part--loading cover-loader"
+        >
+        </div>
+
+        <div
+            v-show="!subscription || isLoaded"
+            class="login-right-part"
+        >
 
             <div class="main-title">
-                Create your {{ subscription ? '' : "free" }} account
+                <span v-show="!isEnterprise">Create your {{ subscription ? '' : "free" }} account</span>
+                <span v-show="isEnterprise">Create free Enterprise trial</span>
             </div>
 
             <div class="or-login">
@@ -49,7 +59,7 @@
                     required
                 ></input-text>
 
-                <div v-if="!subscription">
+                <div v-if="!subscription || isEnterprise">
 
                     <input-phone
                         v-model="phone"
@@ -117,6 +127,7 @@
 <script>
 
 import Joi from "joi-browser";
+import { mapState } from "vuex";
 
 import config from "@config";
 import { state } from "@/store";
@@ -126,28 +137,55 @@ import InputPhone from "@/components/input-phone.vue";
 import GenericError from "@/components/generic-error.vue";
 
 
-const validators = {
-    "paid": Joi.object().keys({
+// TODO: probably move out of here.
+const getValidator = type => {
+    let base = {
         "name": Joi.string().required().min(2),
         "email": Joi.string().email({ "minDomainAtoms": 2 }),
         "password": Joi.string().min(8),
-        "intent": Joi.string().allow(""),
-    }),
-    "free": Joi.object().keys({
-        "name": Joi.string().required().min(2),
-        "email": Joi.string().email({ "minDomainAtoms": 2 }),
-        "password": Joi.string().min(8),
-        // Proper phone validation is done on server-side.
-        "phone": Joi.string().min(4),
-        "company": Joi.string().allow(""),
-        "title": Joi.string().allow(""),
-    }),
+    };
+
+    switch (type) {
+
+        case "free":
+            base = {
+                ...base,
+                // NB: proper phone validation is done on server-side.
+                "phone": Joi.string().min(4).required(),
+                "company": Joi.string().allow(""),
+                "title": Joi.string().allow(""),
+            };
+            break;
+
+        case "paid":
+            base = {
+                ...base,
+                "intent": Joi.string().allow(""),
+            };
+            break;
+
+        case "trial":
+            base = {
+                ...base,
+                "phone": Joi.string().min(4),
+                "company": Joi.string().min(2).required(),
+                "title": Joi.string().allow(""),
+                "intent": Joi.string().required(),
+            };
+            break;
+
+        default:
+            throw new Error(`Unknown form type: ${type}`);
+    }
+
+    return Joi.object().keys(base);
 };
 
 const validatorMessages = {
     "name": "Please provide your name",
     "email": "A valid email is required",
     "password": "Password must have at least 8 characters",
+    "company": "Please provide your company name",
 };
 
 
@@ -189,6 +227,17 @@ export default {
         isLoggedIn() {
             return !!this.$store.state.user.token;
         },
+        ...mapState("subscriptions", {
+
+            isLoaded(s) {
+                return s.isFetched;
+            },
+
+            isEnterprise(s) {
+                return s.isFetched && s.selected.users > 1;
+            },
+
+        }),
     },
 
     "components": {
@@ -205,9 +254,11 @@ export default {
                 return;
             }
 
-            if (this.subscription) {
+            // Second step is only for non-enterprise subscriptions.
+            if (this.subscription && !this.isEnterprise) {
                 this.$router.push(`/register/subscribe/${this.subscription}`);
             }
+            // Free users and Enterprise trials go to the app; Enterprise trials are picked up by Intercom.
             else {
                 const { cToken, returning } = this.$store.state.user;
                 // Note: virtual pageview will be handled by the app (hinted by the 'fnl' param).
@@ -227,12 +278,11 @@ export default {
             if (this.subscription) {
                 base.intent = this.subscription;
             }
-            else {
+            if (this.isEnterprise || !this.subscription) {
                 base = {
                     ...base,
                     "phone": this.phone,
                     "company": this.company,
-                    // FIXME: add person's title to Pipedrive.
                     "title": this.title,
                 };
             }
@@ -241,7 +291,12 @@ export default {
 
         validate() {
             const payload = this.getPayload();
-            const validator = validators[payload.intent ? "paid" : "free"];
+            // Normally those who want to subscribe have smaller form, but not for Enterprise subs.
+            let formType = "free";
+            if (payload.intent) {
+                formType = (this.isEnterprise ? "trial" : "paid");
+            }
+            const validator = getValidator(formType);
             const result = Joi.validate(payload, validator, { "abortEarly": false });
             const fields = result.error && result.error.details.map(d => {
                 const field = d.path && d.path[0];

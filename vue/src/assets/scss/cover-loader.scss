@@ -1,0 +1,35 @@
+// Cover loader/spinner thingie.
+
+@import "./_defaults";
+
+
+.cover-loader {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%) translateY(50%);
+    height: 2.5em;
+    width: 2.5em;
+    background-color: $highlight;
+    animation: cover-loader 1.5s infinite ease-in-out;
+    content: "";
+  }
+}
+
+
+@keyframes cover-loader {
+    0% {
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+

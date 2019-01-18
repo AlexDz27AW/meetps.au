@@ -50,6 +50,7 @@ module.exports = {
         // Lax stuff in development mode that would error on prod.
         "no-unused-vars": [prodError, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
         "no-console": [prodError],
+        "no-debugger": [prodError],
 
 
         // Vue-related

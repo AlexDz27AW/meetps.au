@@ -18,6 +18,7 @@ import router from "@/router";
 
 import "@/modules/fullstory";
 import "@/assets/scss/v-tooltip.scss";
+import "@/assets/scss/cover-loader.scss";
 
 Vue.use(VueGTM, {
     "id": config.GTM,

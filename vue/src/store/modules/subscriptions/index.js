@@ -8,6 +8,7 @@ export default {
     "namespaced": true,
 
     "state": {
+        "isFetched": false,
         "list": [],
         "selected": {},
     },
@@ -41,6 +42,7 @@ export default {
     "mutations": {
         SAVE_LIST(state, payload) {
             state.list = payload;
+            state.isFetched = true;
         },
 
         SELECT(state, payload) {
