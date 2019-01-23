@@ -7,6 +7,7 @@ module.exports = _.merge(common, {
     // This is more like a "staging/development", for black-box testing.
     "debug": false,
     "app": "https://dev.meet.ps",
+    "baseURL": "/funnel/",
     "stripe": {
         "key": "pk_test_PQtSMffE0gWr2tvFgPEgp9BX",
     },
