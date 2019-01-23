@@ -4,9 +4,9 @@ const _ = require("lodash");
 const common = require("./common");
 
 module.exports = _.merge(common, {
-    // This is more like a "staging/development", for black-box testing.
-    "debug": false,
-    "app": "https://dev.meet.ps",
+    "debug": true,
+    "app": "https://local.meet.ps:8443",
+    "baseURL": "/",
     "stripe": {
         "key": "pk_test_PQtSMffE0gWr2tvFgPEgp9BX",
     },

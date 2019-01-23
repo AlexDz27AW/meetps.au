@@ -256,7 +256,7 @@ export default {
 
             // Second step is only for non-enterprise subscriptions.
             if (this.subscription && !this.isEnterprise) {
-                this.$router.push(`/register/subscribe/${this.subscription}`);
+                this.$router.push(`/subscribe/${this.subscription}`);
             }
             // Free users and Enterprise trials go to the app; Enterprise trials are picked up by Intercom.
             else {

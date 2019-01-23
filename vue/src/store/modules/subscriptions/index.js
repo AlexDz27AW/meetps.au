@@ -32,7 +32,7 @@ export default {
             }
             const s = _.find(context.state.list, { id });
             if (!s) {
-                Router.push("/register/account/");
+                Router.push("/account/");
                 return;
             }
             context.commit("SELECT", s);

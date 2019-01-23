@@ -1,11 +1,12 @@
 // Target main production instance of the app.
 
-import _ from "lodash";
-import common from "@/configs/common";
+const _ = require("lodash");
+const common = require("./common");
 
-export default _.merge(common, {
+module.exports = _.merge(common, {
     "debug": false,
     "app": "https://app.meet.ps",
+    "baseURL": "/register/",
     // PK stands for "public key", i.e. safe to disseminate.
     "stripe": {
         "key": "pk_live_Gn01j4YTxxT8VrGxA2mFnAjf",

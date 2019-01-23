@@ -3,13 +3,20 @@ const Path = require("path");
 const Webpack = require("webpack");
 
 const HtmlPlugin = require("html-webpack-plugin");
-const CleanPlugin = require("clean-webpack-plugin");
-// const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const { VueLoaderPlugin } = require("vue-loader");
 
 const envType = process.env.NODE_ENV || "development";
 const endpoint = process.env.MP_CONFIG || envType;
+
+const configPath = Path.resolve(__dirname, "..", "src", "configs", `${endpoint}.js`);
+
+console.info(configPath);
+const config = require(configPath);
+
+// NB: cleaning paths outside of the current directory doesn't work.
+// But repopulating outside things seems fine, though, hmmm..
+const outPath = Path.resolve(__dirname, "..", "..", "register");
 
 const entry = "index.js";
 
@@ -18,23 +25,33 @@ const common = {
     "entry": `./src/${entry}`,
 
     "output": {
-        "path": Path.resolve(__dirname, "..", "..", "register"),
-        "publicPath": "/register/",
-        "filename": `./js/${entry}`,
+        "path": outPath,
+        "publicPath": (config.baseURL || "/"),
+        "filename": "./js/[name].[contenthash].js",
+    },
+
+    "optimization": {
+        "runtimeChunk": "single",
+        "splitChunks": {
+            "cacheGroups": {
+                "vendor": {
+                    "test": /node_modules/,
+                    "name": "vendors",
+                    "chunks": "all",
+                },
+            },
+        },
     },
 
     "resolve": {
         "alias": {
             "@": Path.resolve(__dirname, "..", "src"),
             // Runtime configuration is also NODE_ENV-dependent.
-            "@config": Path.resolve(__dirname, "..", "src", "configs", `${endpoint}.js`),
+            "@config": configPath,
         },
     },
 
     "plugins": [
-        new CleanPlugin([
-            Path.resolve(__dirname, "..", "..", "register"),
-        ]),
         new HtmlPlugin({
             "title": "MeetingPulse Sign-up",
             "template": "src/index.html",
@@ -43,14 +60,6 @@ const common = {
         // Joi client-side compatibility workaround.
         new Webpack.NormalModuleReplacementPlugin(/^(net|dns)$/, Path.resolve(__dirname, "..", "src", "modules", "shim.js")),
         new VueLoaderPlugin(),
-        /*
-        new CopyWebpackPlugin([
-            {
-                "from": "./src/assets/redist",
-                "to": Path.resolve(__dirname, "build"),
-            },
-        ]),
-        */
     ],
 
     "module": {
