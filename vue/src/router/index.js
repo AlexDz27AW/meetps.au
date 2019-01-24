@@ -13,11 +13,11 @@ Vue.use(VueRouter);
 
 const routes = [
     {
-        "path": "/register/account/:subscription?",
+        "path": "/account/:subscription?",
         "component": CreateAccount,
         "props": true,
     }, {
-        "path": "/register/subscribe/:subscription?",
+        "path": "/subscribe/:subscription?",
         "component": PurchaseSubscription,
         "props": true,
     },
@@ -33,13 +33,14 @@ if (config.debug) {
 else {
     routes.push({
         "path": "*",
-        "redirect": "/register/account/",
+        "redirect": "/account/",
     });
 }
 
 
 const Router = new VueRouter({
     "mode": "history",
+    "base": config.baseURL,
     routes,
 });
 

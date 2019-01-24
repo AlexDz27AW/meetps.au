@@ -140,7 +140,18 @@
                     <div class="col-sm-12 col-xs-9 having-trouble">
                         <generic-error :text="errGeneral"></generic-error>
                         <div>
-                            Having trouble checking out? Email us or give us a call at 1&nbsp;(800)&nbsp;388-2039. All prices are in USD
+                            Having trouble checking out? Talk to us
+                            <a
+                                href="#"
+                                @click.prevent="showIntercom"
+                            >through Intercom</a>,
+                            <a href="mailto:support@meetingpulse.net?subject=Problem%20checking%20out">email us</a>,
+                            or give us a call at
+                            <a
+                                class="footer__link"
+                                href="tel:+14154509646"
+                            >1&nbsp;(415)&nbsp;450-9646</a>.
+                            All prices are in USD
                         </div>
                     </div>
                 </div>
@@ -248,6 +259,13 @@ export default {
 
 
     "methods": {
+
+        showIntercom() {
+            if (!config.debug) {
+                this.$intercom.showNewMessage("Hi! I'm having problems with the checkout.");
+            }
+        },
+
         getPayload() {
             return {
                 "card": this.card.replace(/[^\d]/g, "").trim(),

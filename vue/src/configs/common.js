@@ -1,6 +1,6 @@
 // Common app configuration variables.
 
-export default {
+module.exports = {
     "stripe": {
         "api": "https://api.stripe.com/v1",
     },
