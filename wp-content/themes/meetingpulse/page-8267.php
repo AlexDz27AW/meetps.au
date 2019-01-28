@@ -95,7 +95,7 @@ window['_fs_namespace'] = 'FS';
                     <a class="services__link js-tabs-link" href="#">Event management</a>
                 </div>
                 <div class="services__links links">
-                    <a class="links__blue" href="/#pricing">Try it out</a>
+                    <a class="links__blue" href="/#pricing">Learn More</a>
                 </div>
             </div>
         </div>
@@ -762,7 +762,7 @@ window['_fs_namespace'] = 'FS';
                 </div>
             </div>
             <div class="services__center center">
-                <div class="services__links links botp"><a class="links__blue" href="/#pricing">Try it out</a></div>
+                <div class="services__links links botp"><a class="links__blue" href="/#pricing">Learn More</a></div>
             </div>
         </div>
     </div>
@@ -794,7 +794,7 @@ window['_fs_namespace'] = 'FS';
                     <div class="company__box">
                         <div class="company__numbers"><span>400,000+</span> happy attendees</div>
                     </div>
-                    <div class="company__box"><a class="company__btn btn btn_white" href="/#pricing">Try it out</a></div>
+                    <div class="company__box"><a class="company__btn btn btn_white" href="/#pricing">Learn More</a></div>
                 </div>
             </div>
         </div>
