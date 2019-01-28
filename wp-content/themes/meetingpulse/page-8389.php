@@ -100,7 +100,7 @@
 				<div class="main_video_icon">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/scZ9eUmzh_o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                
+
                 <div class="main__title" style="font-size:40px;">Find out why people are leaving Poll Everywhere for MeetingPulse!</div>
                 <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                 <!-- links-->
@@ -386,13 +386,6 @@
     <div id="pricing"></div>
     <div class="section">
         <div class="section__head">
-            <!--<div class="section__head_button">
-                <a class="table__btn btn btn_purple" href="https://meet.ps/login/signup/?referer=wp-full" data-gaevent="get_full_trial"  target="_blank">Free 2-week trial</a>
-
-                <a class="table__btn btn btn_white" href="#" data-popup=".js-popup-calendar" data-gaevent="request_demo">Request demo</a>
-                <a class="table__btn btn btn_white" href="mailto:info@meetingpulse.net" target="_blank">Contact us</a>
-
-            </div>-->
             <div class="section__center center">
                 <div class="section__title pricing_section__title">Pricing</div>
             </div>

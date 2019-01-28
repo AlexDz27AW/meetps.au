@@ -86,7 +86,7 @@
                             <a class="header__item" href="#clients">Clients</a>
                             <a class="header__item" href="#pricing">Pricing</a>
 			   <div class="main__links" id="learn-more-button">
-				<a class="links__blue" href="#pricing" >Learn More</a>
+				<a class="links__blue" href="#pricing">Learn More</a>
 			   </div>
                             <a class="header__item m" href="/blog" style="display: none">Blog</a>
                         </nav>
@@ -104,7 +104,7 @@
                 <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                 <!-- links-->
                 <div class="main__links" style="margin-top: 20px;margin-bottom:20px;">
-                    <a class="links__blue" href="#pricing" >Learn More</a>
+                    <a class="links__blue" href="#pricing">Learn More</a>
                 </div>
             </div>
             <div class="main__list">
@@ -385,13 +385,6 @@
     <div id="pricing"></div>
     <div class="section">
         <div class="section__head">
-            <!--<div class="section__head_button">
-                <a class="table__btn btn btn_purple" href="https://meet.ps/login/signup/?referer=wp-full" data-gaevent="get_full_trial"  target="_blank">Free 2-week trial</a>
-
-                <a class="table__btn btn btn_white" href="#" data-popup=".js-popup-calendar" data-gaevent="request_demo">Request demo</a>
-                <a class="table__btn btn btn_white" href="mailto:info@meetingpulse.net" target="_blank">Contact us</a>
-
-            </div>-->
             <div class="section__center center">
                 <div class="section__title pricing_section__title">Pricing</div>
             </div>

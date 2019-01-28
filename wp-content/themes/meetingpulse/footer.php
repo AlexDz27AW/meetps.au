@@ -123,48 +123,9 @@
                     </div>
                 </div>
             </div>
-            <!-- Calendly inline widget begin-->
-            <script type="text/javascript" async="async" src="https://assets.calendly.com/assets/external/widget.js"></script>
-            <!-- Calendly inline widget end-->
         </footer>
         </div>
-        <div class="popup js-popup">
-            <div class="popup__wrap js-popup-wrap">
-                <div class="popup__title">Contact sales</div>
-                <div class="popup__text">Our team will be in touch shortly</div>
-                <form class="popup__form form form_popup">
-                    <div class="form__wrap">
-                        <!-- field-->
-                        <div class="form__field field">
-                            <div class="field__in"><input class="field__input" type="text" placeholder="Name *" required></div>
-                        </div>
-                        <!-- field-->
-                        <div class="form__field field">
-                            <div class="field__in"><input class="field__input" type="text" placeholder="Busines email *" required></div>
-                        </div>
-                        <!-- field-->
-                        <div class="form__field field">
-                            <div class="field__in"><input class="field__input" type="text" placeholder="Phone *" required></div>
-                        </div>
-                        <!-- field-->
-                        <div class="form__field field">
-                            <div class="field__in"><input class="field__input" type="text" placeholder="Company" required></div>
-                        </div>
-                        <!-- field-->
-                        <div class="form__field field">
-                            <div class="field__in"><input class="field__input" type="text" placeholder="Title" required></div>
-                        </div>
-                    </div>
-                    <div class="form__btns"><button class="form__btn btn btn_border">Submit request</button></div>
-                </form><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
-        </div>
-        <div class="popup popup_calendar js-popup-calendar">
-            <div class="popup__wrap js-popup-wrap">
-                <div class="popup__title">Schedule a call</div>
-                <div class="popup__calendar">
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/meetingpulse/demo" style="min-width:320px;height:580px;"></div>
-                </div><button class="popup__btn js-popup-close"><svg class="icon icon-check-no"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-no"></use></svg></button></div>
-        </div>
+
         <div class="popup popup_main_video js-popup-main-video">
             <div class="popup__wrap js-popup-wrap">
                 <div class="popup-head-video">
@@ -204,7 +165,7 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLT3HV5"
                           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <script async="async">(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ubl9mgf7';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+        <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ubl9mgf7';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
         <script src="/wp-content/themes/meetingpulse/js/tooltipster.bundle.min.js"></script>
         <script src="/wp-content/themes/meetingpulse/js/jquery.backstretch.min.js"></script>
         <script async="async" src="/wp-content/themes/meetingpulse/js/owl.carousel.min.js"></script>

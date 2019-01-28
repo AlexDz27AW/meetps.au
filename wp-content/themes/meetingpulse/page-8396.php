@@ -260,7 +260,7 @@
                         <p>We also know that every audience is made up of users with varying levels of technical experience.</p>
                     </div>
                 </div>
-               
+
                 <div class="promise__col">
                     <div class="promise__text">
                         <p>We promise that our product will always remain intuitive, simple - so easy to use that you will love it.</p>
@@ -386,13 +386,6 @@
     <div id="pricing"></div>
     <div class="section">
         <div class="section__head">
-            <!--<div class="section__head_button">
-                <a class="table__btn btn btn_purple" href="https://meet.ps/login/signup/?referer=wp-full" data-gaevent="get_full_trial"  target="_blank">Free 2-week trial</a>
-
-                <a class="table__btn btn btn_white" href="#" data-popup=".js-popup-calendar" data-gaevent="request_demo">Request demo</a>
-                <a class="table__btn btn btn_white" href="mailto:info@meetingpulse.net" target="_blank">Contact us</a>
-
-            </div>-->
             <div class="section__center center">
                 <div class="section__title pricing_section__title">Pricing</div>
             </div>

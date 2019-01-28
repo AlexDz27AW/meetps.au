@@ -44,8 +44,8 @@
                         <div class="header__links links"<?php if (is_page(8267)) {
                     echo 'style="display:none;"';
                     }?>>
-                        <a class="links__border" data-gaevent="try_for_free_header" href="/#pricing">Try for free</a>
-                        <a class="links__white" href="#" data-gaevent="contact_sales_header" data-popup=".js-popup-calendar">Request a demo</a>
+                        <a class="links__border" data-gaevent="try_for_free_header" href="/register/account/">Try for free</a>
+                        <a class="links__white" href="/register/account/G03-T40-ENTERPRISE-M">Request enterprise trial</a>
                         </div>
                     </div>
                 </header>
@@ -69,7 +69,7 @@
                 <!-- links-->
                 <div style="margin-top: 20px;" class="main__links <?php if (!is_page(8267)) {
                     echo 'links';
-                    }?>" ><a class="links__white" href="/pages/new-pricing-table#pricing">Learn More</a></div>
+                    }?>" ><a class="links__white" href="/#pricing">Learn More</a></div>
             </div>
         </div>
     </div>
