@@ -16,6 +16,7 @@ import VueMask from "v-mask";
 import config from "@config";
 import router from "@/router";
 
+import "@/modules/utm";
 import "@/modules/fullstory";
 import "@/assets/scss/v-tooltip.scss";
 import "@/assets/scss/cover-loader.scss";

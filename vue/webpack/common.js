@@ -11,7 +11,6 @@ const endpoint = process.env.MP_CONFIG || envType;
 
 const configPath = Path.resolve(__dirname, "..", "src", "configs", `${endpoint}.js`);
 
-console.info(configPath);
 const config = require(configPath);
 
 // NB: cleaning paths outside of the current directory doesn't work.

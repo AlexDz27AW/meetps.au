@@ -298,7 +298,11 @@ export default {
 
             this.$store.dispatch("purchase", payload)
                 .catch(err => {
-                    this.errGeneral = err.message;
+                    let text = "Failed to send your data; please retry in a minute or contact support";
+                    if (err && err.message) {
+                        text = err.message;
+                    }
+                    this.errGeneral = text;
                     this.isLocked = false;
                 });
         },
