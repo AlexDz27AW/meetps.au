@@ -42,8 +42,9 @@ const keys = [
     "utm_campaign",
     "utm_content",
 ];
+const ttl = Date.now() + 2592e5;
 
 keys
     .map(key => ([key, getRequestParam(key)]))
     .filter(tuple => !!tuple[1])
-    .map(tuple => setCookie(...tuple));
+    .map(tuple => setCookie(...tuple.concat(ttl)));
