@@ -390,7 +390,7 @@
                 <div class="section__title pricing_section__title">Pricing</div>
             </div>
         </div>
-        <?php the_field('price_table'); ?>
+        <?php the_field('price_table', 6971); /* use landing page pricing */ ?>
     </div>
     <!-- numbers-->
     <div class="numbers">
