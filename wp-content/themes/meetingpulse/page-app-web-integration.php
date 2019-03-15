@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
-
 <?php get_template_part( 'header', 'meta' ); ?>
-
 		<link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/app.css' />
-<!--        <script>-->
-<!--          window['_fs_debug'] = false;-->
-<!--          window['_fs_host'] = 'fullstory.com';-->
-<!--          window['_fs_org'] = '1J9MS';-->
-<!--          window['_fs_namespace'] = 'FS';-->
-<!--          (function(m,n,e,t,l,o,g,y){-->
-<!--            if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}-->
-<!--            g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];-->
-<!--            o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';-->
-<!--            y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);-->
-<!--            g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};-->
-<!--            y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};-->
-<!--            g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};-->
-<!--            g.clearUserCookie=function(){};-->
-<!--          })(window,document,window['_fs_namespace'],'script','user');-->
-<!--        </script>-->
-	</head>
-	<body <?php body_class(); ?>>
+        <link rel='stylesheet' href='<?php echo esc_url( get_template_directory_uri() ); ?>/css/simple.css?3' />
 
+        <script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+    $(".js_iframe-example").on("click", function(e) {
+        e.preventDefault();
+        var section = $(this).next();
+        if (section.is(":visible")) {
+            return;
+        }
+        section.toggle();
+        var contents = section.find("script").html();
+        section.append($(contents));
+    });
+});
+
+        </script>
+    </head>
+
+	<body <?php body_class(); ?>>
 
     <div class="out">
         <div class="top">
@@ -72,9 +72,123 @@
     </div>
 
 
+
+    <div class="simple-section">
+
+        <p>Currently, the MeetingPulse application can be integrated in these ways:</p>
+
+        <h3>Simple embed</h3>
+
+        <p>
+            Given a link to a meeting (e.g. <a href="https://meet.ps/some-meeting">https://meet.ps/some-meeting</a>),
+            you can just add an embed to your page with an <strong>iframe</strong> tag. Make sure to provide the height
+            and width for the frame for best results. Your attendees will appear in the meeting as anonymous users,
+            unless you enable name and/or email prompt for new visitors.
+        </p>
+
+        <a class="js_iframe-example" href="#show-example">Show simple example</a>
+        <div class="example">
+            <script type="text/template">
+                <iframe width="480" height="640" src="https://mp-embed-public.meetingpulse.net/attendee" frameborder="0" allow="encrypted-media"></iframe>
+            </script>
+        </div>
+
+        <hr />
+
+        <h3>Embed and authenticate attendees</h3>
+        <p>
+            If you want to embed the app in your site and authenticate your visitors based on their login session
+            on your site, you have two options
+        </p>
+
+        <ol>
+            <li>You can take advantage of our API and generate access tokens for your visitors yourself. This requires a server-side call.</li>
+            <li>Alternatively, you can craft a sign-up payload to be used with your embed, so that authentication goes on client-side.</li>
+        </ol>
+
+        <p>
+            This way, each user that has been authenticated with your site can access the MeetingPulse app via
+            an <strong>iframe</strong> and be recognized by the app. We support passing user names and emails this way.
+            Please <a href="mailto:support@meetingpulse.net">contact support</a> for more info if you are interested
+            in this solution.
+        </p>
+
 <?php
 
 do {
+
+    $current_user = wp_get_current_user();
+    if (!$current_user->user_login) {
+        break;
+    }
+
+    // Together with your secret this will constitute the request payload to send.
+    $payload = array(
+        "client" => "meetingpulse",
+        "id" => $current_user->user_login,
+        "name" => trim($current_user->user_firstname . ' ' . $current_user->user_lastname),
+        "email" => $current_user->user_email
+    );
+
+    $str = "4GvXisPMqyKF3Ve4" . trim($payload["id"]) . trim($payload["name"]) . trim($payload["email"]);
+    $payload["signature"] = hash("sha256", $str);
+
+    // Stringifed JSON packed into base64 and url-escaped
+    $jsonString = json_encode($payload);
+    $request = urlencode(base64_encode($jsonString));
+
+        echo <<<HEREDOC
+
+        <a class="js_iframe-example" href="#show-example">Show embed example</a>
+        <div class="example">
+            <script type="text/template">
+                <iframe width="480" height="640" src="https://mp-embed-auth.meetingpulse.net/attendee/?i={$request}" frameborder="0" allow="encrypted-media"></iframe>
+            </script>
+        </div>
+
+HEREDOC;
+
+} while(0);
+
+?>
+
+        <hr />
+
+        <h3>Embed a simple MeetingPulse widget</h3>
+
+        <p>
+            Instead of embedding a frame with a fully-fledged application, you may wish to limit the interface
+            to some minimalisic widget. Currently we only support a ribbon with Pulse buttons. If you need to show
+            those buttons on your site, you will need to embed a frame with a URL of the format
+            <i><a href="https://meet.ps/widgets/widgets-demo-pulse/pulse">https://meet.ps/widgets/&lt;your-meeting-name&gt;/pulse</a></i>.
+        </p>
+
+        <p>Make sure to make the frame long enough if you want all buttons to be on the same line.</p>
+
+        <p>
+            Another solution would be to set up a meeting to have only one feature and slide. If you embed a meeting this way,
+            it will only show a single slide without any extra menus, which can be used to your advantage if you want something simpler.
+        </p>
+
+        <a class="js_iframe-example" href="#show-example">Show widget example</a>
+        <div class="example">
+            <script type="text/template">
+                <iframe width="640" height="315" src="https://www.youtube.com/embed/35JydfJZgIM?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="640" height="100" src="https://mp-embed-widget.meetingpulse.net/widgets/mp-embed-widget/pulse" frameborder="0" allow="encrypted-media"></iframe>
+            </script>
+        </div>
+
+        <hr />
+
+    </div>
+
+<?php
+
+
+do {
+
+    // NB: old/legacy integration way, is here for historical reasons.
+    break;
 
     // First, we'll need to get the data on our would-be-attendee.
     // We'll need some unique id for them and something to generate the attendee name.
@@ -134,8 +248,8 @@ do {
 
     echo <<<HEREDOC
 
-<div style="text-align: center;">
-    <p style="text-align: center; padding: 2em 0 0;">App embedded in the page, user authenticated against Wordpress login session</p>
+<div class="aws-section" style="text-align: center;">
+    <h2>App embedded in the page, user authenticated against Wordpress login session</h2>
     <iframe id="iframe-app" src="https://app.meet.ps/attendee/app-web-integration/?t={$token}" style="height: 640px; width: 480px; border: solid 0px transparent; margin: 0 auto;"></iframe>
 </div>
 
@@ -146,57 +260,5 @@ HEREDOC;
 ?>
 
 
-<div style="margin: 1em auto; text-align: center;">
-    <p style="text-align: center; padding: 2em 0 0;">Pulse widget embedded below an embedded video source</p>
-
-    <iframe width="480" height="315" style="display: block; margin: 0 auto;" src="https://www.youtube.com/embed/35JydfJZgIM?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <iframe width="480" height="100" style="display: block; margin: .2em auto 0;" src="https://app.meet.ps/widgets/app-web-integration/pulse" frameborder="0" allow="encrypted-media"></iframe>
-
-</div>
-
-<hr />
-
-<div style="margin: 1em auto; text-align: center;">
-    <p style="text-align: center; padding: 2em 0 0;">MP app with client-side attendee authentication</p>
-
-<?php
-
-do {
-
-    $current_user = wp_get_current_user();
-    if (!$current_user->user_login)
-        break;
-
-    // Together with your secret this will constitute the request payload to send.
-    $payload = array(
-        "client" => "meetingpulse",
-        "id" => $current_user->user_login,
-        "name" => trim($current_user->user_firstname . ' ' . $current_user->user_lastname),
-        "email" => $current_user->user_email
-    );
-
-    $str = "4GvXisPMqyKF3Ve4" . trim($payload["id"]) . trim($payload["name"]) . trim($payload["email"]);
-    $payload["signature"] = hash("sha256", $str);
-
-    // Stringifed JSON packed into base64 and url-escaped
-    $jsonString = json_encode($payload);
-    $request = urlencode(base64_encode($jsonString));
-
-        echo <<<HEREDOC
-
-<div style="text-align: center;">
-    <p style="text-align: center; padding: 2em 0 0;">App embedded in the page, user authenticated against Wordpress login session</p>
-    <iframe id="iframe-app" src="https://app.meet.ps/attendee/app-web-integration-signed/?i={$request}" style="height: 640px; width: 480px; border: solid 0px transparent; margin: 0 auto;"></iframe>
-</div>
-
-HEREDOC;
-
-
-} while(0);
-
-?>
-
-
-<div style="text-align: left; margin-top: 3em;"><?php the_content(); ?></div>
-
 <?php get_footer(); ?>
+
