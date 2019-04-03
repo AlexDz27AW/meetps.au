@@ -53,6 +53,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "NODE_ENV=development MP_CONFIG=localhost webpack-dev-server",
     "start": "NODE_ENV=development webpack-dev-server",
     "build": "NODE_ENV=production webpack"
   },

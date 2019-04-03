@@ -101,7 +101,7 @@
                                 {{ subInfo.name + (subInfo.name ? " plan" : '') }}
                             </div>
                             <div class="col-sm-5 one-price-right">
-                                {{ '$' + (subInfo.amount / 100) + '.00' }}
+                                {{ amount }}
                             </div>
                         </div>
 
@@ -112,16 +112,34 @@
                                 Total
                             </div>
                             <div class="col-sm-5 one-price-right">
-                                {{ '$' + (subInfo.amount / 100) + '.00' }}
+                                {{ amount }}
                             </div>
                         </div>
 
-                        <a
-                            href="#"
-                            class="add-promo-code"
-                        >
-                            Add promo code
-                        </a>
+                        <div class="promo-code">
+                            <transition name="expand">
+                                <a
+                                    v-if="!couponExpanded"
+                                    href="#"
+                                    class="add-promo-code"
+                                    transition="expand"
+                                    @click.prevent="toggleCoupon"
+                                >
+                                    Add promo code
+                                </a>
+                            </transition>
+
+                            <transition name="expand">
+                                <input-text
+                                    v-if="couponExpanded"
+                                    v-model="couponCode"
+                                    :error="errCoupon"
+                                    :message="couponName"
+                                    placeholder="Promo code"
+                                ></input-text>
+                            </transition>
+                        </div>
+
 
                         <input
                             :disabled="!isFilled || isLocked"
@@ -167,6 +185,7 @@
 
 import Joi from "joi-browser";
 import { mapState } from "vuex";
+import { debounce } from "lodash";
 
 import InputText from "@/components/input-text.vue";
 import InputSelect from "@/components/input-select.vue";
@@ -204,11 +223,16 @@ export default {
         "card": "",
         "expiry": "",
         "cvv": "",
+        "couponCode": "",
+        "couponName": "",
+        // Misc vm state.
+        "couponExpanded": false,
         // Related error strings.
         "errCompany": "",
         "errCard": "",
         "errExpiry": "",
         "errCvv": "",
+        "errCoupon": "",
         "errGeneral": "",
         "isLocked": false,
     }),
@@ -217,6 +241,10 @@ export default {
         ...mapState("subscriptions", {
             "subInfo": "selected",
         }),
+
+        coupon() {
+            return this.$store.state.coupon;
+        },
 
         isFilled() {
             return this.card && this.expiry && this.cvv;
@@ -227,7 +255,20 @@ export default {
         },
 
         submitCaption() {
-            return this.isLocked ? "Processing..." : `Pay $${this.subInfo.amount / 100}.00`;
+            return this.isLocked ? "Processing..." : `Pay ${this.amount}`;
+        },
+
+        amount() {
+            const sub = this.$store.state.subscriptions.selected;
+            if (!sub) {
+                return 0;
+            }
+            let base = sub.amount;
+            if (this.coupon) {
+                base = base * (100 - (this.coupon.percent_off || 0)) * 0.01;
+                base -= (this.coupon.amount_off || 0);
+            }
+            return `$${(base / 100).toFixed(2)}`;
         },
     },
 
@@ -244,6 +285,24 @@ export default {
                 window.location.href = `${config.app}/?t=${this.$store.state.user.cToken}&fnl=1`;
             }
         },
+
+        // Query coupon data if it's entered.
+        "couponCode": debounce(function watchCouponCodeDebounced(code) {
+            this.isLocked = true;
+            this.$store.dispatch("checkCoupon", String(code).trim())
+                .then(coupon => {
+                    this.errCoupon = "";
+                    this.couponName = coupon ? coupon.name : "";
+                })
+                .catch(err => {
+                    this.errCoupon = (err && err.message) || "Invalid coupon";
+                    this.couponName = "";
+                    return null;
+                })
+                .then(() => {
+                    this.isLocked = false;
+                });
+        }, 500),
     },
 
 
@@ -264,6 +323,10 @@ export default {
             if (!config.debug) {
                 this.$intercom.showNewMessage("Hi! I'm having problems with the checkout.");
             }
+        },
+
+        toggleCoupon() {
+            this.couponExpanded = !this.couponExpanded;
         },
 
         getPayload() {
@@ -338,3 +401,25 @@ export default {
 };
 
 </script>
+
+
+<style lang="scss">
+
+.expand {
+    &-enter-active,
+    &-leave-active {
+        overflow: hidden;
+        transition: height 150ms;
+    }
+
+    &-enter,
+    &-leave-to {
+        height: 0;
+    }
+
+    &-enter-to,
+    &-leave {
+        height: 30px;
+    }
+}
+</style>

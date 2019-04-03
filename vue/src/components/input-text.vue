@@ -16,11 +16,16 @@
         <span class="floating-label">{{ placeholder }}</span>
 
         <div
-            v-tooltip="{ content: error, placement: 'left', trigger: 'click hover' }"
+            v-tooltip="{ content: error, placement: 'left', trigger: 'click hover', classes: 'error' }"
             v-show="error"
-            class="tip"
-        >
-        </div>
+            class="tip error"
+        ></div>
+
+        <div
+            v-tooltip="{ content: message, placement: 'left', trigger: 'click hover', classes: 'message' }"
+            v-show="message"
+            class="tip message"
+        ></div>
     </div>
 </template>
 
@@ -38,6 +43,7 @@ export default {
         "value": String,
         "required": Boolean,
         "error": String,
+        "message": String,
         "masktype": String,
         "confidential": Boolean,
     },
@@ -68,11 +74,13 @@ export default {
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
+
+@import "@/assets/scss/_defaults.scss";
 
 .one-input-parent--error {
     .input-text {
-        border-color: red;
+        border-color: $error;
     }
 }
 
@@ -82,7 +90,6 @@ export default {
     right: 0.5em;
     height: 1.5em;
     width: 1.5em;
-    background-color: red;
     border-radius: 100%;
     text-align: center;
     font-size: 0.75em;
@@ -92,9 +99,30 @@ export default {
     &:before {
         position: relative;
         top: 0.1em;
-        content: "?";
         color: white;
+    }
+
+    &.error {
+        background-color: $error;
+        &:before {
+            content: "?";
+        }
+    }
+
+    &.message {
+        background-color: $highlight;
+        &:before {
+            content: \u2713;
+        }
     }
 }
 
+.tooltip {
+    &.error .tooltip-inner {
+        color: $error;
+    }
+    &.message .tooltip-inner {
+        color: $highlight;
+    }
+}
 </style>

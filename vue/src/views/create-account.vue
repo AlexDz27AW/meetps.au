@@ -357,5 +357,17 @@ export default {
         this.$store.dispatch("selectSubscription", this.subscription);
     },
 
+    // Autofill first step for debug purposes.
+    mounted() {
+        if (!config.debug) {
+            return;
+        }
+        this.email = "me_coupons-2@ashein.com";
+        this.password = "password";
+        this.name = "Stripe Coupons 2";
+        this.tos = true;
+        this.submit();
+    },
+
 };
 </script>
