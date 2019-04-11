@@ -42,6 +42,23 @@ export default {
             });
     },
 
+    checkCoupon(context, id) {
+        if (!id) {
+            context.commit("SET_COUPON", null);
+            return Promise.resolve();
+        }
+        const subSuffix = context.state.subscriptions.selected ? `/${context.state.subscriptions.selected.id}` : "";
+        return API.get(`billing/coupons/${id}${subSuffix}`)
+            .then(coupon => {
+                context.commit("SET_COUPON", coupon);
+                return coupon;
+            })
+            .catch(err => {
+                context.commit("SET_COUPON", null);
+                return Promise.reject(err);
+            });
+    },
+
     purchase(context, payload) {
         return Stripe.getToken(payload)
             .then(id => API.post("billing", {
@@ -49,6 +66,7 @@ export default {
                 "email": context.state.user.email,
                 "plan": context.state.subscription,
                 "company": payload.company,
+                "coupon": (context.state.coupon && context.state.coupon.id) || null,
             }))
             .then(() => context.commit("SET_PURCHASE", context.state.subscription));
     },

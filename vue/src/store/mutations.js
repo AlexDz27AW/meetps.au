@@ -9,6 +9,10 @@ export default {
         state.user.subscription = id;
     },
 
+    SET_COUPON(state, coupon) {
+        state.coupon = coupon;
+    },
+
     // Set new user to work with.
     LOGIN(state, payload) {
         state.user = {

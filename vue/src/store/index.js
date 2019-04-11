@@ -19,6 +19,7 @@ const Store = new Vuex.Store({
         },
         // Set when the landing view loads.
         "subscription": "",
+        "coupon": null,
     },
 
     "modules": {

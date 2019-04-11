@@ -86,7 +86,7 @@
                             <a class="header__item" href="#clients">Clients</a>
                             <a class="header__item" href="#pricing">Pricing</a>
 			   <div class="main__links" id="learn-more-button">
-				<a class="links__blue" href="#pricing">Learn More</a>
+				<a class="links__blue" href="#pricing" >Get Free Account</a>
 			   </div>
                             <a class="header__item m" href="/blog" style="display: none">Blog</a>
                         </nav>
@@ -104,7 +104,7 @@
                 <div class="main__info">Upgrade your meetings and events with the latest, live interaction tools your attendees want!</div>
                 <!-- links-->
                 <div class="main__links" style="margin-top: 20px;margin-bottom:20px;">
-                    <a class="links__blue" href="#pricing">Learn More</a>
+                    <a class="links__blue" href="#pricing" >Get Free Account</a>
                 </div>
             </div>
             <div class="main__list">

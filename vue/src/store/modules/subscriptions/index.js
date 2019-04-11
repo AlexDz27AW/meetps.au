@@ -11,6 +11,7 @@ export default {
         "isFetched": false,
         "list": [],
         "selected": {},
+        "coupon": null,
     },
 
     "actions": {

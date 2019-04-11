@@ -2264,7 +2264,7 @@ rect.burger-svg__base { fill: none; }
 
 .links { display: -ms-flexbox; display: -webkit-box; display: flex; }
 
-.links__white, .links__blue, .links__border { display: inline-block; padding: 0 5px; border-radius: 4px; text-align: center; line-height: 36px; -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; -o-transition: transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.links__white, .links__blue, .links__border { display: inline-block; padding: 0 10px; border-radius: 4px; text-align: center; line-height: 36px; -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; -o-transition: transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
 
 .links__white:hover, .links__blue:hover, .links__border:hover { -ms-transform: translateY(-2px); -webkit-transform: translateY(-2px); transform: translateY(-2px); }
 
@@ -3714,21 +3714,22 @@ rect.burger-svg__base { fill: none; }
   }
 }
 @media (min-width: 768px) and  (max-width:1450px){
-#learn-more-button { display: block !important; }
-.main__body {margin-bottom: 33px;}
+  #learn-more-button { display: block !important; }
+  .main__body {margin-bottom: 33px;}
 }
 
 @media (min-width: 200px) and  (max-width:700px){
-.main__body .main_video_icon {max-width: 335px; margin: 0px auto 10px;}
-.main_video_icon iframe{height:187px}
-.main__title {margin-bottom: 0px;}
-.main__title {font-size: 24px;}
-.main__info { padding: 0 11px;font-size: 14px;}
-.main__body .main__links {margin-top: 12px !important;}
-
+  .main__body .main_video_icon {max-width: 335px; margin: 0px auto 10px;}
+  .main_video_icon iframe{height:187px}
+  .main__title {margin-bottom: 0px;}
+  .main__title {font-size: 24px;}
+  .main__info { padding: 0 11px;font-size: 14px;}
+  .main__body .main__links {
+    margin-bottom: 33px;
+    margin-top: 12px !important;
+  }
+  .main__links{display:none;}
 }
-
-
 
 @media only screen and (max-width: 474px){
   .header__nav{ -webkit-column-gap: 20px; column-gap: 20px; }
