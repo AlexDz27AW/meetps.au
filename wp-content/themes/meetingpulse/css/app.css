@@ -2264,7 +2264,7 @@ rect.burger-svg__base { fill: none; }
 
 .links { display: -ms-flexbox; display: -webkit-box; display: flex; }
 
-.links__white, .links__blue, .links__border { display: inline-block; padding: 0 10px; border-radius: 4px; text-align: center; line-height: 36px; -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; -o-transition: transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.links__white, .links__blue, .links__border { display: inline-block; padding: 0 10px; border-radius: 4px; text-align: center; white-space: nowrap; line-height: 36px; -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; -o-transition: transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
 
 .links__white:hover, .links__blue:hover, .links__border:hover { -ms-transform: translateY(-2px); -webkit-transform: translateY(-2px); transform: translateY(-2px); }
 
