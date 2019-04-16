@@ -3775,3 +3775,123 @@ rect.burger-svg__base { fill: none; }
     margin: 40px auto;
 }
 #learn-more-button {display: none; }
+
+@media (max-width: 1450px) and (min-width: 768px) {
+  .lp-main .main__body {
+    margin-bottom: auto;
+  }
+}
+
+.link-white {
+  background-color: #fff;
+}
+
+.simple-setup {
+  padding: 85px 0 0;
+}
+
+.section-icon-title-wrapper {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+}
+
+.simple-setup__section-features-list-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-icon-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.section-icon-title__icon {
+  margin-right: 38px;
+  background-color: #8665FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 4px;
+}
+
+.simple-setup__title {
+  font-family: 'SFUIDisplayBold', serif;
+}
+
+.section-features-list__item {
+  display: flex;
+  align-items: center;
+  font-family: 'SFUIDisplayLight', serif;
+  font-size: 17px;
+  line-height: 23px;
+  margin-bottom: 53px;
+  max-width: 435px;
+}
+
+.section-features-list-item__icon {
+  display: inline-block;
+  margin-right: 33px;
+}
+
+.section-features__images {
+  max-width: 748px;
+}
+
+.section-features-images__img {
+  max-width: 748px;
+}
+
+.section-features-images__img-first {
+  max-width: 567px;
+}
+
+.section-features__images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.engage {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-size: cover;
+  color: #fff;
+}
+
+.engage__section-icon-title-icon {
+  background-color: #fff;
+}
+
+.engage__section-icon-title-wrapper {
+  margin-bottom: 130px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.numbers__cta-btns-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 305px;
+}
+
+.numbers-cta-btns-wrapper__cta-btn {
+  margin-bottom: 24px;
+  width: 100%;
+}
+.numbers-cta-btns-wrapper__cta-btn:last-child {
+  margin-bottom: 0;
+}
+
+.numbers__cta-btn {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.numbers__cta-btn--transp {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}

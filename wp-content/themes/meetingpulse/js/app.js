@@ -11,7 +11,7 @@ function getScrollBarWidth() {
 }
 jQuery(document).ready(function(e) {
   var t, s, i, o;
-  jQuery(".js-main").backstretch(["/wp-content/themes/meetingpulse/img/main-bg.jpg", "/wp-content/themes/meetingpulse/img/main-bg-2.jpg", "/wp-content/themes/meetingpulse/img/main-bg-4.jpg"], {
+  jQuery(".js-main").backstretch(["/wp-content/themes/meetingpulse/img/macbook.jpg", "/wp-content/themes/meetingpulse/img/main-bg.jpg", "/wp-content/themes/meetingpulse/img/main-bg-2.jpg", "/wp-content/themes/meetingpulse/img/main-bg-4.jpg"], {
     duration: 4e3,
     fade: 700
   }), jQuery(".tooltip").tooltipster({
