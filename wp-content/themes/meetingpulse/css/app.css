@@ -4040,3 +4040,73 @@ rect.burger-svg__base { fill: none; }
   align-items: center;
   justify-content: space-between;
 }
+
+.lp-footer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+
+.footer__company {
+  margin-bottom: 30px;
+}
+
+.lp-footer .footer__list {
+  flex-direction: column !important;
+}
+
+.lp-footer .footer__list .footer__link {
+  padding-left: 0;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col-left {
+  min-width: 300px;
+}
+
+.footer-col-right {
+  flex-grow: 1;
+}
+
+.footer-site-menu {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer-site-menu-item {
+  margin-right: 35px;
+  font-family: 'SFUIDisplayBlack', serif;
+  color: #000;
+  text-transform: uppercase;
+}
+.footer-site-menu-item:last-child {
+  margin-right: 0;
+}
+
+.footer-site-menu-item__link {
+  display: inline-block;
+  padding-bottom: 22px;
+  border-bottom: 2px solid transparent;
+}
+.footer-site-menu-item__link:hover {
+  border-bottom: 2px solid #000;
+}
+
+.footer__lists {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__lists a:first-child {
+  color: #000;
+  font-family: 'SFUIDisplayBlack', serif;
+}
+

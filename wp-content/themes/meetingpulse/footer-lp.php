@@ -74,32 +74,109 @@ $footer_menuParameters = array(
 $footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
 ?>
 
-<footer class="footer">
-  <div class="footer__body">
-    <div class="footer__center center">
-      <div class="footer__row">
-        <div class="footer__col">
-          <div class="footer__logo">
-            <a class="logo" href="/">
-              <div class="logo__name">meeting <br>pulse</div>
-              <div class="logo__wrap">
-                <div class="logo__icon"><svg class="icon icon-logo"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-logo"></use></svg></div>
-                <div class="logo__text footer__company">Live audience <br>interaction platform </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="footer__col">
-          <div class="footer__wrap">
-            <div class="footer__list"><a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a><a class="footer__link" href="tel:4154509646">USA: 415-450-9646</a></div>
-          </div>
-        </div>
-        <div class="footer__col">
-          <div class="footer__list last"><a class="footer__link" href="https://meetingpulse.statuspage.io/" target="_blank">SYSTEM STATUS</a><a class="footer__link" href="/terms-of-service/">TERMS</a><a class="footer__link" href="/privacy-policy/">PRIVACY</a><a class="footer__link" href="https://help.meet.ps/">HELP</a></div>
-        </div>
+<footer class="footer lp-footer center">
+  <section class="footer__top">
+    <div class="footer-col-left">
+      <div class="footer__logo">
+        <a href="<?php echo get_home_url('/') ?>" class="logo">
+          <span class="logo__name">
+            meeting
+            <br>
+            pulse
+            <br>
+            <svg class="icon icon-logo"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-logo"></use></svg>
+          </span>
+        </a>
+      </div>
+      <div class="footer__company">
+        Live audience
+        <br>
+        interaction platform
+      </div>
+      <div class="footer__list">
+        <a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a>
+        <a class="footer__link" href="tel:4154509646">USA: 415-450-9646</a>
+        <a class="footer__link" href="tel:4154509646">UK: 415-450-9646</a>
+        <a class="footer__link" href="javascript:void(0);">LIVE CHAT</a>
       </div>
     </div>
-  </div>
+    <div class="footer-col-right">
+      <ul class="footer-site-menu">
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            COMPANY
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            TEAM
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            HELP
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            SECURITY
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            TERMS
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            PRIVACY
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            CAREERS
+          </a>
+        </li>
+        <li class="footer-site-menu-item">
+          <a href="#" class="footer-site-menu-item__link">
+            FOR RESELLERS
+          </a>
+        </li>
+      </ul>
+
+      <section class="footer__lists">
+        <div class="footer__list">
+          <a class="footer__link" href="#">Industries</a>
+          <a class="footer__link" href="#">Corporate Meetings</a>
+          <a class="footer__link" href="#">UK: 415-450-9646</a>
+          <a class="footer__link" href="javascript:void(0);">Conferences and Events</a>
+          <a class="footer__link" href="javascript:void(0);">Conferences and Events</a>
+          <a class="footer__link" href="javascript:void(0);">Livestream and Broadcasts</a>
+          <a class="footer__link" href="javascript:void(0);">Lectures & Classes</a>
+          <a class="footer__link" href="javascript:void(0);">Government & Non-profit Assemblies</a>
+          <a class="footer__link" href="javascript:void(0);">More</a>
+        </div>
+        <div class="footer__list">
+          <a class="footer__link" href="#">Platform</a>
+          <a class="footer__link" href="#">Live polling tool</a>
+          <a class="footer__link" href="#">Live audience Q&A</a>
+          <a class="footer__link" href="javascript:void(0);">Audience Survey tools</a>
+          <a class="footer__link" href="javascript:void(0);">Audience Response System</a>
+          <a class="footer__link" href="javascript:void(0);">Audience Feedback</a>
+          <a class="footer__link" href="javascript:void(0);">More</a>
+        </div>
+        <div class="footer__list">
+          <a class="footer__link" href="#">Services</a>
+          <a class="footer__link" href="#">Event Design</a>
+          <a class="footer__link" href="#">On-site Event Management</a>
+          <a class="footer__link" href="javascript:void(0);">Custom reports & data analysis</a>
+          <a class="footer__link" href="javascript:void(0);">Custom interactions</a>
+          <a class="footer__link" href="javascript:void(0);">API / Integration</a>
+          <a class="footer__link" href="javascript:void(0);">More</a>
+        </div>
+      </section>
+    </div>
+  </section>
   <div class="footer__bottom">
     <div class="footer__center center">
       <div class="footer__line">
