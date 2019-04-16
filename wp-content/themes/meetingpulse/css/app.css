@@ -2555,6 +2555,9 @@ rect.burger-svg__base { fill: none; }
 .question__item.active .question__icon .icon { -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
 
 .question__head { margin-bottom: 3px; font-family: 'SFUIDisplayBold', serif; font-size: 16px; cursor: pointer; }
+.question__head:hover {
+  color: #6340c1;
+}
 
 .question__body { display: none; font-family: 'SFUIDisplayThin', serif; }
 
@@ -3894,4 +3897,146 @@ rect.burger-svg__base { fill: none; }
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.pricing-center {
+  padding: 0;
+  margin: 0 30px;
+}
+
+.pricing__section-center {
+  border-bottom: 1px solid #491EBB;
+}
+
+.pricing-tabs-nav {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+}
+
+.pricing-table {
+  margin-bottom: 20px;
+}
+
+.pricing-table-center {
+  max-width: 1205px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-tabs-link {
+  font-family: 'SFUIDisplayLight', serif;
+  transition: color .3s;
+}
+.pricing-tabs-link:hover {
+  color: #000;
+}
+
+.pricing-table-row {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.21);
+}
+
+.pricing-table-row-titles {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pricing-table-content {
+  font-family: 'SFUIDisplay', sans-serif;
+}
+
+.pricing-table-row-titles__title {
+  color: #6340C1;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.pricing-table-row-titles__subtitle {
+  font-size: 13px;
+  color: #000;
+  opacity: .4;
+  margin-top: 5px;
+}
+
+.pricing-table-row-titles-subtitle__link {
+  text-decoration: underline;
+}
+
+.pricing-table-row--highlight {
+  background-color: #F5F5F5;
+  font-family: 'SFUIDisplayBold', serif;
+}
+
+.pricing-table-row-col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 33.3%;
+}
+
+.pricing-table-row-col__i-sign:hover {
+  cursor: pointer;
+}
+.pricing-table-row-col__i-sign:hover path {
+  opacity: 1;
+}
+
+.pricing-cta {
+  display: flex;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #491EBB;
+}
+
+.pricing-cta-section {
+  width: 33.3%;
+}
+
+.pricing-cta__btn {
+  margin-right: 30px;
+  padding-left: 37px;
+  padding-right: 40px;
+  min-width: auto;
+}
+
+.pricing-cta__details-link {
+  font-size: 14px;
+  color: #511FFF;
+}
+.pricing-cta__details-link:hover {
+  text-decoration: underline;
+}
+
+.btn-shadow {
+  background: #fff; box-shadow: 0px 8px 12px rgba(136, 136, 136, 0.36), 0px 0px 4px rgba(136, 136, 136, 0.15);
+}
+
+.btn_blue {
+  background-color: #3F12E4;
+  color: #fff;
+}
+
+.btn--transp {
+  background-color: transparent;
+  border: 1px solid #D8D8D8;
+}
+
+.pricing-view-plan-comparison-btn {
+  min-width: 245px;
+  font-family: 'SFUIDisplay', sans-serif;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.pricing-view-plan__link {
+  font-size: 16px;
+}
+
+.pricing-view-plan-links-wrapper {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

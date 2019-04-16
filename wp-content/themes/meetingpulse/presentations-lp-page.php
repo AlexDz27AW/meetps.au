@@ -305,788 +305,190 @@
   </div>
   <!--pricing-->
   <div id="pricing"></div>
-  <div class="pricing section">
+  <div class="pricing lp-pricing section">
     <div class="section__head">
-      <div class="section__center pricing__section-center center">
+      <div class="section__center pricing__section-center center pricing-center">
         <div class="section__title pricing_section__title">Pricing</div>
       </div>
     </div>
 
-    <!--table-->
-    <div class="section__center center pricing-table-section" style="position: relative;">
-      <div class="section__tabs tabs js-tabs">
-        <div class="tabs__nav">
-          <div class="tabs__link js-tabs-link active">Monthly</div>
-          <div class="tabs__link js-tabs-link">Yearly</div>
-          <div class="tabs__link js-tabs-link one-time">One-time</div>
-        </div>
-        <div class="tabs__container">
-          <div class="tabs__table">
-            <!-- table-3-->
-            <div class="table table_five">
-              <!-- row-title table-3-->
-              <div class="table__row table__row_title">
-                <div class="table__cell"></div>
-                <div class="table__cell">
-                  <a href="/register/account/" class="purple-table-btn">Get Free Version</a>
-                </div>
-                <div class="table__cell table__cell_full">
-                  <a href="/register/account/G03-T20-PRO-M" class="green-table-btn js-register">Buy Now</a>
-                  <div class="table__value_m"></div>
-                </div>
-                <div class="table__cell">
-                  <a href="/register/account/G03-T30-PREMIUM-M" class="purple-table-btn js-register">Buy Now</a>
-                </div>
-                <div class="table__cell">
-                  <a href="/register/account/G03-T40-ENTERPRISE-M" class="purple-table-btn js-register">Enterprise Trial</a>
-                </div>
-              </div>
-              <!-- row-title table-3-->
-              <div class="table__row table__row_title">
-                <div class="table__cell"></div>
-                <div class="table__cell">
-                  <div class="table__title">Basic</div>
-                  <div class="table__hide">Plan</div>
-                </div>
-                <div class="table__cell remove-top-border">
-                  <div class="table__title table__title_full">Pro</div>
-                  <div class="table__hide">Plan</div>
-                </div>
-                <div class="table__cell">
-                  <div class="table__title">Premium</div>
-                  <div class="table__hide">Plan</div>
-                </div>
-                <div class="table__cell">
-                  <div class="table__title">Enterprise</div>
-                  <div class="table__hide">Plan</div>
-                </div>
-              </div>
+    <section class="pricing-table">
 
-              <!-- row-price table-3-->
-              <div class="table__row table__row_price js-tabs-item">
-                <div class="table__cell"><span class="table__info">Monthly cost</span></div>
-                <div class="table__cell"><span class="table__show table__show_from"></span><span>$0 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span class="table__show table__show_from"></span><span class="red-line-remove">$149</span><span class="table__show"> / mo</span><div class="new-price-pro">$97</div></div>
-                <div class="table__cell"><span class="table__show table__show_from">From </span><span>$247 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><a href="https://app.meet.ps/login/signup/?referer=wp-enterprise" class="try-for-free-purple" target="_blank"></a></div>
-              </div>
-              <div class="table__row table__row_price js-tabs-item" style="display: none;">
-                <div class="table__cell"><span class="table__info">Yearly cost</span></div>
-                <div class="table__cell"><span class="table__show table__show_from"></span><span>$0 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span class="table__show table__show_from"></span><span>$75 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span class="table__show table__show_from">From </span><span>$192 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><a href="https://app.meet.ps/login/signup/?referer=wp-enterprise" class="try-for-free-purple" target="_blank"></a></div>
-              </div>
-              <div class="table__row table__row_price js-tabs-item" style="display: none;">
-                <div class="table__cell"><span class="table__info">One-time cost</span></div>
-                <div class="table__cell"><span>$0 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span>$79 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span class="table__show table__show_from">From </span><span>$499 </span><span class="table__show">/ mo</span></div>
-                <div class="table__cell"><span class="table__show table__show_from">From </span><span>$599 </span><span class="table__show">/ mo</span></div>
-              </div>
-              <!-- row-1 table-3-->
-              <div class="table__row table__row_check">
-                <div class="table__cell"><span class="table__info">Great for</span></div>
-                <div class="table__cell">
-                  <ul class="check__bullets">
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Small Meetings</b></li>
-                  </ul>
-                </div>
-                <div class="table__cell">
-                  <ul class="check__bullets">
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Larger meetings</b></li>
-                  </ul>
-                </div>
-                <div class="table__cell">
-                  <ul class="check__bullets">
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Moderated Town Halls</b></li>
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Training & Learning</b></li>
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Friendly Real-Time Competitions</b></li>
-                  </ul>
-                </div>
-                <div class="table__cell">
-                  <ul class="check__bullets">
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Enterprise deployment</b></li>
-                    <li><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><b>Integrated solution</b></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Meetings</span><span class="table__tooltip tooltip" title="A structured interaction between presenter and audience">i</span></div>
-                <div class="table__cell"> <span class="table__footnote"><b>Unlimited</b></span>
-                </div>
-                <div class="table__cell"><b>Unlimited</b></div>
-                <div class="table__cell"><b>Unlimited</b></div>
-                <div class="table__cell"><b>Unlimited</b></div>
-              </div>
-              <!-- row-2 table-3-->
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Attendees</span><span class="table__tooltip tooltip" title="The number of unique attendees allowed to access a given meeting.">i</span></div>
-                <div class="table__cell">
-                  <div class="table__text"><b>1000</b></div><span class="table__tooltip tooltip" title="The meeting will reject attendees once it reaches the limit">i</span></div>
-                <div class="table__cell">
-                  <div class="table__text"><b>Unlimited</b></div>
-                </div>
-                <div class="table__cell">
-                  <div class="table__text"><b>Unlimited</b></div>
-                </div>
-                <div class="table__cell">
-                  <div class="table__text"><b>Unlimited</b></div>
-                </div>
-              </div>
-              <!-- row-3 table-3-->
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Admins</span><span class="table__tooltip tooltip" title="Presenters or others who can manipulate the options available on any given use of the software">i</span></div>
-                <div class="table__cell"><b>1</b></div>
-                <div class="table__cell"><b>1</b></div>
-                <div class="table__cell">
-                  <div class="table__text"><b>1</b></div>
-                </div>
-                <div class="table__cell">
-                  <div class="table__text"><b>2 & up</b></div>
-                  <span class="table__tooltip tooltip" title="Upgrade your plan with more total admins">i</span>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Security</span><span class="table__tooltip tooltip" title="Control access to your meeting and associate activities with attendees in the post meeting Report">i</span></div>
-                  <div class="table__cell"><svg class="icon icon-shield"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-shield"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-shield"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-shield"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-shield"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-shield"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-shield"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-shield"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Standard Enterprise grade security</span><!--<span class="table__tooltip tooltip" title="Authentication provided by the Google Cloud">i</span>--></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">SSL</span><!--<span class="table__tooltip tooltip" title="All communication with our platform is encrypted">i</span>--></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Audience Q&A</span><span class="table__tooltip tooltip" title="Crowdsource the best questions before and during the event.">i</span></div>
-                  <div class="table__cell"><b>Simple</b></div>
-                  <div class="table__cell"><b>Moderated</b></div>
-                  <div class="table__cell"><b>Moderated</b></div>
-                  <div class="table__cell"><b>Moderated</b></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Q&A with upvotes</span><span class="table__tooltip tooltip" title="Collect questions from your audience before, during or after the event. Attendees can upvote questions so you can focus on the most relevant questions.">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">CSV Export</span><span class="table__tooltip tooltip" title="Export submitted questions and polls in CSV format">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Q&A: Editing</span><span class="table__tooltip tooltip" title="Edit submitted questions and comments for clarity.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Q&A: Moderation</span><span class="table__tooltip tooltip" title="Mark submitted questions as approved, rejected, or answered">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Q&A With Comments</span><span class="table__tooltip tooltip" title="Attendees can leave comments under each question. Boosts discussion and engagement">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Q&A: Pre-Meeting</span><span class="table__tooltip tooltip" title="Collect questions from attendees before the meeting even starts">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Live Polling</span><span class="table__tooltip tooltip" title="Gain valuable and immeidate insights with different types of fun and engaging polling.">i</span></div>
-                  <div class="table__cell"><b>Up to 3 polls</b></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">CSV Export</span><span class="table__tooltip tooltip" title="Export submitted questions and polls in CSV format">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Single answer</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Yes / No</span><span class="table__tooltip tooltip" title="A binary poll where respondent has to choose between two alternatives">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Rating</span><span class="table__tooltip tooltip" title="A type of poll where respondent has to reply with 1 to 10 answer">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Multiple answer</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Free text</span><span class="table__tooltip tooltip" title="Respondent can answer poll question with a free text answer">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: NPS</span><span class="table__tooltip tooltip" title="Net Promoter Score poll — for measuring employee or customer satisfaction.">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Poll Type: Preference order</span><span class="table__tooltip tooltip" title="A type of poll where atendees have to rank all answers according to their preferences">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Broadcast View</span><span class="table__tooltip tooltip" title="Present polls and questions on the large screen in front of the room. Can also be embedded in slides.">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Polls: Add Images</span><span class="table__tooltip tooltip" title="Illustrate your question with an image. Or, use image as your answer.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Forms and Surveys</span><span class="table__tooltip tooltip" title="Easily create custom forms and surveys for your meeting.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Surveys</span><span class="table__tooltip tooltip" title="Combine multiple poll questions into a survey and run it before, during or after the meeting.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Surveys: Add instructions</span><span class="table__tooltip tooltip" title="Separate questions with custom instruction text">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Surveys: Optional questions</span><span class="table__tooltip tooltip" title="Include in your survey questions with no required answer">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Entry surveys </span><span class="table__tooltip tooltip" title="Surveys before the meeting that your attendee is required to answer">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Customize design </span><span class="table__tooltip tooltip" title="Use formatted text, text of different sizes, images and more">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Quizzes and Leaderboards</span><span class="table__tooltip tooltip" title="Engage your audience and encourage team building with friendly competiton.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Make any multiple choice poll a quiz</span><span class="table__tooltip tooltip" title="Choosing this option will let you designate a correct answer">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Multiple correct options</span><span class="table__tooltip tooltip" title="Use a Multiple Answer poll to select multiple correct options">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Hide correct answer</span><span class="table__tooltip tooltip" title="Don't show attendees the right answer even after they've answered">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Leaderboards</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Timers</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Raffles and Games</span><span class="table__tooltip tooltip" title="Make your meetings and events more fun by adding gamification!">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Raffles</span><span class="table__tooltip tooltip" title="Boost audience engagement by running a raffle. In a raffle, a single audience member is selected at random. Great as ice breakers or a way to collect emails.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
+      <div class="tabs__nav pricing-tabs-nav pricing-table-center">
+        <div class="tabs__link pricing-tabs-link js-tabs-link active">Yearly</div>
+        <div class="tabs__link pricing-tabs-link js-tabs-link">Monthly</div>
+        <div class="tabs__link pricing-tabs-link js-tabs-link one-time">One-time</div>
+      </div>
 
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Raffle for email</span><span class="table__tooltip tooltip" title="Ask attendees to submit their email in order to win a prize">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Brainstorming Tools</span><span class="table__tooltip tooltip" title="Use our engaging tools to help incourage and facilitate branstorming sessions.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Data Exports</span><span class="table__tooltip tooltip" title="Export your event interactions in a PDF or Excel format.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Email Integrations</span><span class="table__tooltip tooltip" title="Integrate emails so you can send bulk invitations and get notified of questions ahead of time.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><div style="opacity: 0.2"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Collect follow-up emails</span><span class="table__tooltip tooltip" title="Leave a call-to-action to collect your audience's emails. For example, &quot;Join our newsletter&quot; or &quot;Receive a 10%-off coupon&quot;">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Email submitted Questions</span><span class="table__tooltip tooltip" title="Send all the submitted questions to your email">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Email invitations</span><span class="table__tooltip tooltip" title="Let all the attendees know about the meeting at once using the feature to send bulk email invitations">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Custom Branding</span><span class="table__tooltip tooltip" title="Add your logo and color themes for a branded experience.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell">
-                    <div class="limited-time-offer">
-                      <img src="/wp-content/themes/meetingpulse/img/limited-time-offer.png"> Bonus Feature
-                    </div>
-                  </div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Logo and color branding</span><span class="table__tooltip tooltip" title="Attendees will see your logo and color scheme">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Custom domain</span><span class="table__tooltip tooltip" title="Select a custom URL for your meeting instead of meet.ps/meetingname">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Requires available domain">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Requires available domain">i</span></div>
-                  </div>
+      <section class="pricing-table-content pricing-table-center">
+          <div class="pricing-table-row pricing-table-row-titles">
+            <div class="pricing-table-row-col">
+              <b class="pricing-table-row-titles__title">
+                Free
+              </b>
+              <span class="pricing-table-row-titles__subtitle">
+                A free app with basic features. <a class="pricing-table-row-titles-subtitle__link" href="javascript:void(0);">Learn more</a>
+              </span>
+            </div>
 
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Pictures and Selfies</span><span class="table__tooltip tooltip" title="You can engage your audience by telling to submit pictures. Plus... everyone loves selfies!">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Real-Time Sentiment Gauge</span><span class="table__tooltip tooltip" title="Get real-time feedback about everything going on at your event.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Pulse</span><span class="table__tooltip tooltip" title="Unique feature to monitor your audience's reaction in real time. Great for large online meetings where you can't read body language.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Emojis</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Sharing Materials</span><span class="table__tooltip tooltip" title="Upload presentation materials, files, and related links so that all your attendees has access to all the resources you want them to have.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Share Meeting Materials</span><span class="table__tooltip tooltip" title="Upload presentation materials and other files. Link to helpful resources on the web.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Include Links to Materials</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Add Custom Pages</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Attendee Device Control</span><span class="table__tooltip tooltip" title="Be able to completely guide your attendess experience by controlling what they see on their mobile device.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Identity Management</span><span class="table__tooltip tooltip" title="Prompt for emails and/or names from attendees or give them anonymous attendee numbers. Password protect your events.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Prompt for name</span><span class="table__tooltip tooltip" title="Request attendee's name on login and link it to their meeting activity">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Prompt for email</span><span class="table__tooltip tooltip" title="Request attendee's email on login and link it to their meeting activity">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Password protection</span><span class="table__tooltip tooltip" title="Select a password for the meeting to share with attendees.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Attendees must enter password to access the meeting">i</span></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
+            <div class="pricing-table-row-col">
+              <b class="pricing-table-row-titles__title">
+                Light
+              </b>
+              <span class="pricing-table-row-titles__subtitle">
+                The best option if you want to start small. <a class="pricing-table-row-titles-subtitle__link" href="javascript:void(0);">More</a>
+              </span>
+            </div>
 
-                </div>
-              </div>
-              <div class="table__row js-accord-head">
-                <div class="table__cell"><span class="table__info">Digital Marketing Integrations</span><span class="table__tooltip tooltip" title="Integrate your meeting tool with your digital advertising platforms.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Event Agendas</span><span class="table__tooltip tooltip" title="Add beautiful and functional agendas for your events.">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Personalized Agendas</span><span class="table__tooltip tooltip" title="Create a customized agenda for different groups within your audience">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Bookable Sessions</span><span class="table__tooltip tooltip" title="Allow attendees to to build their own agendas and schedules.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row js-accord-head">
-                <div class="table__cell"><span class="table__info">Language Translation</span><span class="table__tooltip tooltip" title="Translate questions submitted in any language.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <!-- row-4 table-3-->
-              <div class="table__wrap js-accord-item">
-                <div class="table__row js-accord-head">
-                  <div class="table__cell"><span class="table__info">Enterprise Access and Teams</span><span class="table__tooltip tooltip" title="Enterprise dashboards, super-admin features, internal directory integrations, and much more!">i</span></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"></div>
-                  <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                </div>
-                <div class="table__body js-accord-body">
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Unique Attendee Codes</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">SSO with Active Directory or G Suite</span><span class="table__tooltip tooltip" title="Integrate with your corporate identity system for identity validation and security.">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg><span class="table__tooltip tooltip" title="Set-Up Fee May Apply">i</span></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Super-Admin</span><span class="table__tooltip tooltip" title="Overall account manager who can invite and manage other licensed presenters">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Meeting Roles</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Message the speaker</span><span class="table__tooltip tooltip" title="Send and receive private messages from the meeting's Speaker">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Share meeting templates</span><span class="table__tooltip tooltip" title="Create a meeting template to share with admins who can make a customized copy">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Enterprise Dashboard</span><span class="table__tooltip tooltip" title="Keep track of your invited team by monitoring the meeting stats for everyone">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                  <div class="table__row">
-                    <div class="table__cell"><span class="table__info">Questions Management and Post-Event Dashboard</span><span class="table__tooltip tooltip" title="Assign questions to any team-mate in your organization and present a dashboard for meeting follow-up to improve accountability and engagement">i</span></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"></div>
-                    <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">API Access</span><span class="table__tooltip tooltip" title="Seamlessly integrate MeetingPulse with the rest of your company.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Networking Module</span><span class="table__tooltip tooltip" title="Make it easy for you and your attendees to connect with each other.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">CRM Integration</span><span class="table__tooltip tooltip" title="Turn your attendees into leads.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Custom Reports</span><span class="table__tooltip tooltip" title="Our team of experts will prepare branded reports and help you analyze the engagement data from your event.">i</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Custom Development</span></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"></div>
-                <div class="table__cell"><svg class="icon icon-check-yes"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-check-yes"></use></svg></div>
-              </div>
-              <div class="table__row">
-                <div class="table__cell"><span class="table__info">Service and Support</span><span class="table__tooltip tooltip" title="Our team is what truly separates us. We're here to make you a rockstar!">i</span></div>
-                <div class="table__cell"><span class="mob-fix"><b>Knowledgebase only</b></span></div>
-                <div class="table__cell"><span class="mob-fix"><b>Chat/Email</b></span></div>
-                <div class="table__cell"><span class="mob-fix"><b>Chat/Email</b></span></div>
-                <div class="table__cell"><span class="mob-fix"><b>Dream Team</b></span></div>
-              </div>
-              <!-- row-title table-3-->
-              <div class="table__row table__row_title table__row_title_bottom">
-                <div class="table__cell"></div>
-                <div class="table__cell">
-                  <a href="/register/account/" class="purple-table-btn">Get Free Version</a>
-                </div>
-                <div class="table__cell">
-                  <a href="/register/account/G03-T20-PRO-M" class="green-table-btn js-register">Buy Now</a>
-                </div>
-                <div class="table__cell">
-                  <a href="/register/account/G03-T30-PREMIUM-M" class="purple-table-btn js-register">Buy Now</a>
-                </div>
-                <div class="table__cell">
-                  <a href="/register/account/G03-T40-ENTERPRISE-M" class="purple-table-btn js-register">Enterprise Trial</a>
-                </div>
-              </div>
-
+            <div class="pricing-table-row-col">
+              <b class="pricing-table-row-titles__title">
+                Full
+              </b>
+              <span class="pricing-table-row-titles__subtitle">
+                Enjoy full feature and capability access. <a class="pricing-table-row-titles-subtitle__link" href="javascript:void(0);">Learn more</a>
+              </span>
             </div>
           </div>
 
-        </div>
-        <!--One time message-->
-        <div class="section__one-time-box" style="display: none;">For a one-time event, please purchase one of our monthly plans.</div>
-      </div>
+          <div class="pricing-table-row pricing-table-row--highlight">
+            <div class="pricing-table-row-col">
+              $0 / Free &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+            <div class="pricing-table-row-col">
+              $79 / mo &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+            <div class="pricing-table-row-col">
+              $249 / mo &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+          </div>
 
+          <div class="pricing-table-row">
+            <div class="pricing-table-row-col">
+              50 attendees &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+            <div class="pricing-table-row-col">
+              150 attendees &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+            <div class="pricing-table-row-col">
+              500+ attendees &nbsp;
+              <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+              </svg>
+            </div>
+          </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col">
+            Basic live Q&A &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            Basic live Q&A &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            Advanced live Q&A &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col">
+            Basic live polling (3 polls) &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            Basic live polling &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            Advanced live polling &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col">
+            Surveys &nbsp;
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col">
+            Raffles &nbsp;
+            <svg class="i-sign pricing-table-row-col__i-sign" width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col">
+            more...
+          </div>
+        </div>
+        </section>
+
+    </section>
+
+    <section class="pricing-cta center pricing-center">
+      <section class="pricing-cta-section">
+        <a class="btn pricing-cta__btn numbers__cta-btn btn-shadow btn_white" href="javascript:void(0);" >Sign up</a>
+        <a class="pricing-cta__details-link" href="javascript:void(0);">View details</a>
+      </section>
+      <section class="pricing-cta-section">
+        <a class="btn pricing-cta__btn numbers__cta-btn btn-shadow btn_blue" href="javascript:void(0);" >Free 2 week trial</a>
+        <a class="pricing-cta__details-link" href="javascript:void(0);">View plan details</a>
+      </section>
+      <section class="pricing-cta-section">
+        <a class="btn pricing-cta__btn numbers__cta-btn btn-shadow btn_blue" href="javascript:void(0);" >Inquire</a>
+        <a class="pricing-cta__details-link" href="javascript:void(0);">View details or request a demo</a>
+      </section>
+    </section>
+
+    <section class="pricing-view-plan center">
+      <div class="pricing-view-plan-links-wrapper">
+        <a class="btn pricing-view-plan-comparison-btn btn--transp" href="javascript:void(0);">View full plan comparison</a>
+        <a class="pricing-view-plan__link" href="javascript:void(0);">For non-profits</a>
+        <a class="pricing-view-plan__link" href="javascript:void(0);">For education</a>
+      </div>
+    </section>
   </div>
   <!-- numbers-->
   <div class="numbers">
@@ -1125,4 +527,4 @@
       </div>
     </div>
   </div>
-  <?php get_footer(); ?>
+  <?php get_footer('lp'); ?>
