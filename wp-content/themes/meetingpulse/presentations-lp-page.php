@@ -141,6 +141,247 @@
       <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-8.png" width="135px"></div>
     </div>
   </div>
+  <!-- conection-->
+  <div id="features"></div>
+  <div class="conection">
+    <div class="conection__center center">
+      <div class="conection__wrap">
+        <div class="conection__item">
+          <div class="conection__title">Interactivity</div>
+          <div class="conection__text">Enhance events and meetings with cloud-based audience communication tools.</div>
+        </div>
+        <div class="conection__item">
+          <div class="conection__title">Engagement</div>
+          <div class="conection__text">Create engaging conversations with your team or with a global audience.</div>
+        </div>
+        <div class="conection__item">
+          <div class="conection__title">Connection</div>
+          <div class="conection__text">Connect with thousands of people before, after, and during your meetings and events.</div>
+        </div>
+      </div>
+      <div class="conection__info">A versatile cloud platform with the features you need</div>
+    </div>
+  </div>
+  <!-- quality-->
+  <div class="quality">
+    <div class="quality__center center">
+      <div class="quality__inner">
+        <div class="quality__row">
+          <div class="quality__col">
+            <a class="quality__link-to-feature" href="/features#qa-section">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-1"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-1"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Live Q&A sessions</div>
+                  <div class="quality__text">Initiate a conversation and find out what's on everyone's mind.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features#polls-section">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-2"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-2"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Live polling & surveys</div>
+                  <div class="quality__text">Gauge audience opinion with versatile live polls and surveys.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features#pulse-section">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-3"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-3"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Live audience feedback</div>
+                  <div class="quality__text">Keep your finger on the pulse of your audience in real time.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features#raffles-section">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-4"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-4"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Live raffles & quizzes</div>
+                  <div class="quality__text">Create icebreaker games or offer rewards via friendly competitions.</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="quality__col">
+            <a class="quality__link-to-feature" href="/features#security-section">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-5"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-5"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Security & encryption</div>
+                  <div class="quality__text">Enterprise level security: trusted by Fortune 100 companies.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-6"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-6"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Effortless setup</div>
+                  <div class="quality__text">Takes minutes to get started, seconds to start a meeting.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-7"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-7"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Easy attendee access</div>
+                  <div class="quality__text">Attendees join instantly via short link on their smartphone, tablet or laptop.</div>
+                </div>
+              </div>
+            </a>
+            <a class="quality__link-to-feature" href="/features">
+              <div class="quality__item">
+                <div class="quality__icon"><svg class="icon icon-quality-8"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-quality-8"></use></svg></div>
+                <div class="quality__info">
+                  <div class="quality__title">Scalability</div>
+                  <div class="quality__text">Engage tens of thousands of active participants in any location worldwide.</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quality__btns">
+      <div class="quality__center center"><a class="quality__btn btn btn_white" href="/features">View all features</a></div>
+    </div>
+  </div>
+  <!-- promise-->
+  <div class="promise">
+    <div class="promise__center center">
+      <div class="promise__row">
+        <div class="promise__col">
+          <div class="promise__title">Our promise of simplicity.</div>
+          <div class="promise__text">
+            <p>We know how complex enterprise software can be.</p>
+            <p>We also know that every audience is made up of users with varying levels of technical experience.</p>
+          </div>
+        </div>
+        <div class="promise__col">
+          <div class="promise__text">
+            <p>We promise that our product will always remain intuitive, simple - so easy to use that you will love it.</p>
+            <p>This promise and principle is at the core of MeetingPulse.</p>
+          </div>
+        </div>
+      </div>
+      <div class="main_video_icon">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/r7ZK6VzlU4A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a class="links__blue" href="#pricing" style="background: white;">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <!-- technology-->
+  <div id="technology"></div>
+  <div class="technology">
+    <div class="technology__head">
+      <div class="technology__center center">
+        <div class="technology__title">Beyond the technology</div>
+      </div>
+    </div>
+    <div class="technology__center center">
+      <div class="technology__row">
+        <div class="technology__col">
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-1"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-1"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">Event design</div>
+              <div class="technology__text">We help you plan and setup your events based on our extensive audience engagement experience. MeetingPulse has been used at over 1000 events.</div>
+            </div>
+          </div>
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-2"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-2"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">On-site support</div>
+              <div class="technology__text">Our experts provide on-site support to ensure a smooth and trouble free event so that you can focus on your own agenda.</div>
+            </div>
+          </div>
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-3"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-3"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">Integration</div>
+              <div class="technology__text">MeetingPulse is designed to seamlessly integrate with your corporate identity system. We provide an API for all of our events and data.</div>
+            </div>
+          </div>
+        </div>
+        <div class="technology__col">
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-4"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-4"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">Results analysis</div>
+              <div class="technology__text">We help you to measure and compare event results over time. We will analyze your data, create custom reports, and provide recommendations for the improvement of future events.</div>
+            </div>
+          </div>
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-5"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-5"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">Custom development</div>
+              <div class="technology__text">We've developed custom interactive solutions for national educational and legal organizations, fashion industry trade shows, annual conferences and more.</div>
+            </div>
+          </div>
+          <div class="technology__item">
+            <div class="technology__icon"><svg class="icon icon-technology-6"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-technology-6"></use></svg></div>
+            <div class="technology__wrap">
+              <div class="technology__name">Organizational consulting</div>
+              <div class="technology__text">Benefit from our experience of solving communication and transparency problems in large organizations. From needs analysis to implementation to measurable results.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="technology__btns">
+      <div class="technology__center center">
+        <a class="technology__btn btn btn_white" data-gaevent="get_in_touch" href="#pricing">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <!-- company-->
+  <div id="clients"></div>
+  <div class="company">
+    <div class="company__video"><video autoplay muted loop>
+        <source src="/wp-content/themes/meetingpulse/video/iStock-514252612.mp4" type="video/mp4">
+      </video></div>
+    <div class="company__bg"></div>
+    <div class="company__container">
+      <div class="company__center center">
+        <div class="company__list">
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-1.png" width="150px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-2.png" width="123px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-3.png" width="115px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-4.png" width="141px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-5.png" width="139px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-6.png" width="148px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-7.png" width="76px"></div>
+          <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-8.png" width="137px"></div>
+        </div>
+        <div class="company__title">Trusted by leading global corporations and Fortune 100 companies</div>
+        <div class="company__row">
+          <div class="company__col">
+            <div class="company__wrap">
+              <div class="company__logo"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-2.png" width="141px"></div>
+            </div>
+            <div class="company__text">The food manufacturing giant uses MeetingPulse to make their annual sales meetings and townhalls more impactful, interactive and engaging.</div>
+          </div>
+          <div class="company__col">
+            <div class="company__wrap">
+              <div class="company__logo"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-3.png" width="141px"></div>
+              <div class="company__name"></div>
+            </div>
+            <div class="company__text">Educational leaders including Kaplan International are using MeetingPulse to bring interactivity to their online educational forums and classroom instruction.</div>
+          </div>
+          <div class="company__col">
+            <div class="company__logo"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-4.png" width="166px"></div>
+            <div class="company__text">Innovative biotech firm (Nasdaq NVTA) uses MeetingPulse to improve culture and transparency by collecting staff questions before their all-hands.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- simple-setup-->
   <div class="simple-setup">
     <div class="section-icon-title-wrapper center">
@@ -215,7 +456,7 @@
 
       <div class="section-features__images">
         <img class="section-features-images__img section-features-images__img-first" src="<?php echo get_template_directory_uri() . '/img/pp-1-viol.png' ?>" alt="Power Point image">
-        <img class="section-features-images__img" src="<?php echo get_template_directory_uri() . '/img/pp-2.png' ?>" alt="Power Point image">
+        <img class="section-features-images__img section-features-images__img-second" src="<?php echo get_template_directory_uri() . '/img/pp-2.png' ?>" alt="Power Point image">
       </div>
     </div>
 
@@ -322,7 +563,7 @@
 
       <section class="pricing-table-content pricing-table-center">
           <div class="pricing-table-row pricing-table-row-titles">
-            <div class="pricing-table-row-col">
+            <div class="pricing-table-row-col pricing-table-row-col-title">
               <b class="pricing-table-row-titles__title">
                 Free
               </b>
@@ -331,7 +572,7 @@
               </span>
             </div>
 
-            <div class="pricing-table-row-col">
+            <div class="pricing-table-row-col pricing-table-row-col-title">
               <b class="pricing-table-row-titles__title">
                 Light
               </b>
@@ -340,7 +581,7 @@
               </span>
             </div>
 
-            <div class="pricing-table-row-col">
+            <div class="pricing-table-row-col pricing-table-row-col-title">
               <b class="pricing-table-row-titles__title">
                 Full
               </b>
@@ -352,19 +593,19 @@
 
           <div class="pricing-table-row pricing-table-row--highlight">
             <div class="pricing-table-row-col">
-              $0 / Free &nbsp;
+              <span class="pricing-table-row-col__text">$0 / Free &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
             </div>
             <div class="pricing-table-row-col">
-              $79 / mo &nbsp;
+              <span class="pricing-table-row-col__text">$79 / mo &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
             </div>
             <div class="pricing-table-row-col">
-              $249 / mo &nbsp;
+              <span class="pricing-table-row-col__text">$249 / mo &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
@@ -373,19 +614,19 @@
 
           <div class="pricing-table-row">
             <div class="pricing-table-row-col">
-              50 attendees &nbsp;
+              <span class="pricing-table-row-col__text">50 attendees &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
             </div>
             <div class="pricing-table-row-col">
-              150 attendees &nbsp;
+              <span class="pricing-table-row-col__text">150 attendees &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
             </div>
             <div class="pricing-table-row-col">
-              500+ attendees &nbsp;
+              <span class="pricing-table-row-col__text">500+ attendees &nbsp;</span>
               <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
               </svg>
@@ -394,40 +635,19 @@
 
         <div class="pricing-table-row">
           <div class="pricing-table-row-col">
-            Basic live Q&A &nbsp;
+            <span class="pricing-table-row-col__text">Basic live Q&A &nbsp;</span>
             <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
             </svg>
           </div>
           <div class="pricing-table-row-col">
-            Basic live Q&A &nbsp;
+            <span class="pricing-table-row-col__text">Basic live Q&A &nbsp;</span>
             <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
             </svg>
           </div>
           <div class="pricing-table-row-col">
-            Advanced live Q&A &nbsp;
-            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
-            </svg>
-          </div>
-        </div>
-
-        <div class="pricing-table-row">
-          <div class="pricing-table-row-col">
-            Basic live polling (3 polls) &nbsp;
-            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
-            </svg>
-          </div>
-          <div class="pricing-table-row-col">
-            Basic live polling &nbsp;
-            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
-            </svg>
-          </div>
-          <div class="pricing-table-row-col">
-            Advanced live polling &nbsp;
+            <span class="pricing-table-row-col__text">Advanced live Q&A &nbsp;</span>
             <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
             </svg>
@@ -435,10 +655,20 @@
         </div>
 
         <div class="pricing-table-row">
-          <div class="pricing-table-row-col"></div>
-          <div class="pricing-table-row-col"></div>
           <div class="pricing-table-row-col">
-            Surveys &nbsp;
+            <span class="pricing-table-row-col__text">Basic live polling (3 polls) &nbsp;</span>
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            <span class="pricing-table-row-col__text">Basic live polling &nbsp;</span>
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="pricing-table-row-col">
+            <span class="pricing-table-row-col__text">Advanced live polling &nbsp;</span>
             <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
             </svg>
@@ -449,7 +679,18 @@
           <div class="pricing-table-row-col"></div>
           <div class="pricing-table-row-col"></div>
           <div class="pricing-table-row-col">
-            Raffles &nbsp;
+            <span class="pricing-table-row-col__text">Surveys &nbsp;</span>
+            <svg width="21" class="i-sign pricing-table-row-col__i-sign" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="pricing-table-row">
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col"></div>
+          <div class="pricing-table-row-col">
+            <span class="pricing-table-row-col__text">Raffles &nbsp;</span>
             <svg class="i-sign pricing-table-row-col__i-sign" width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M9.73944 20.8651C6.51984 20.7018 3.60344 19.0471 1.85044 16.3901C0.926218 14.9893 0.393398 13.4783 0.224658 11.7791C0.179346 11.3205 0.179346 10.4135 0.224658 9.95487C0.393408 8.25487 0.926218 6.74467 1.85044 5.34387C3.3895 3.01027 5.86844 1.41727 8.63404 0.984469C9.18872 0.897751 9.56686 0.869629 10.1887 0.869629C10.8106 0.869629 11.1887 0.897749 11.7434 0.984469C14.509 1.41729 16.988 3.01027 18.527 5.34387C19.4512 6.74465 19.984 8.25567 20.1528 9.95487C20.1981 10.4135 20.1981 11.3205 20.1528 11.7791C19.92 14.1229 18.9551 16.2065 17.3356 17.8635C15.6801 19.5572 13.4896 20.6017 11.1176 20.8283C10.8051 20.858 10.016 20.8791 9.73946 20.865L9.73944 20.8651ZM10.8182 19.9484C14.7554 19.6597 18.0233 16.9428 19.0042 13.1427C19.8068 10.0314 18.9027 6.72523 16.6269 4.44953C14.3512 2.17383 11.0442 1.26963 7.93376 2.07226C3.91681 3.10911 1.10645 6.73262 1.10645 10.8775C1.10645 15.0678 3.96876 18.7087 8.05095 19.7126C8.92859 19.9287 9.9341 20.0145 10.8182 19.9493V19.9484ZM9.48553 12.7932V9.71362H10.8934V15.873H9.48553V12.7932ZM9.48553 6.56572V5.86182H10.8934V7.26964H9.48553V6.56572Z" fill="black"/>
             </svg>
@@ -460,7 +701,7 @@
           <div class="pricing-table-row-col"></div>
           <div class="pricing-table-row-col"></div>
           <div class="pricing-table-row-col">
-            more...
+            <span class="pricing-table-row-col__text">more...</span>
           </div>
         </div>
         </section>
@@ -484,9 +725,11 @@
 
     <section class="pricing-view-plan center">
       <div class="pricing-view-plan-links-wrapper">
-        <a class="btn pricing-view-plan-comparison-btn btn--transp" href="javascript:void(0);">View full plan comparison</a>
-        <a class="pricing-view-plan__link" href="javascript:void(0);">For non-profits</a>
-        <a class="pricing-view-plan__link" href="javascript:void(0);">For education</a>
+        <a class="btn pricing-view-plan-comparison-btn pricing-view-plan__comparison-btn btn--transp" href="javascript:void(0);">View full plan comparison</a>
+        <div class="pricing-view-plan__pricing-view-plan-links-wrapper">
+          <a class="pricing-view-plan-link pricing-view-plan__link" href="javascript:void(0);">For non-profits</a>
+          <a class="pricing-view-plan-link pricing-view-plan__link" href="javascript:void(0);">For education</a>
+        </div>
       </div>
     </section>
   </div>

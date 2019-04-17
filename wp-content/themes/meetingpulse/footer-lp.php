@@ -57,6 +57,13 @@
             <?php } ?>
           </div>
 
+          <!-- form -->
+          <form class="subscribe-form" method="post" action="">
+            <label class="subscribe-form__label" for="sub-email">Subscribe to The Agenda:</label>
+            <input class="subscribe-form__input" type="email" id="sub-email" placeholder="your email" required>
+            <button class="subscribe-form__submit btn btn-white btn-shadow" type="submit">Sign up</button>
+          </form>
+
         </div>
       </div>
     </div>
@@ -93,7 +100,7 @@ $footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
         <br>
         interaction platform
       </div>
-      <div class="footer__list">
+      <div class="footer__list contacts-list">
         <a class="footer__link" href="mailto:info@meetingpulse.net">info@meetingpulse.net</a>
         <a class="footer__link" href="tel:4154509646">USA: 415-450-9646</a>
         <a class="footer__link" href="tel:4154509646">UK: 415-450-9646</a>
@@ -145,7 +152,7 @@ $footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
       </ul>
 
       <section class="footer__lists">
-        <div class="footer__list">
+        <div class="footer__list footer__lists-footer-list">
           <a class="footer__link" href="#">Industries</a>
           <a class="footer__link" href="#">Corporate Meetings</a>
           <a class="footer__link" href="#">UK: 415-450-9646</a>
@@ -156,7 +163,7 @@ $footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
           <a class="footer__link" href="javascript:void(0);">Government & Non-profit Assemblies</a>
           <a class="footer__link" href="javascript:void(0);">More</a>
         </div>
-        <div class="footer__list">
+        <div class="footer__list footer__lists-footer-list">
           <a class="footer__link" href="#">Platform</a>
           <a class="footer__link" href="#">Live polling tool</a>
           <a class="footer__link" href="#">Live audience Q&A</a>
@@ -165,7 +172,7 @@ $footer_menu = strip_tags(wp_nav_menu( $footer_menuParameters ), '<a>' );
           <a class="footer__link" href="javascript:void(0);">Audience Feedback</a>
           <a class="footer__link" href="javascript:void(0);">More</a>
         </div>
-        <div class="footer__list">
+        <div class="footer__list footer__lists-footer-list">
           <a class="footer__link" href="#">Services</a>
           <a class="footer__link" href="#">Event Design</a>
           <a class="footer__link" href="#">On-site Event Management</a>
