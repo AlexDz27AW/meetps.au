@@ -4158,7 +4158,11 @@ rect.burger-svg__base { fill: none; }
 .pricing-view-plan-links-wrapper {
   display: flex;
   align-items: center;
-  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .pricing-view-plan-links-wrapper {
+    flex-direction: column;
+  }
 }
 
 .lp-footer {
