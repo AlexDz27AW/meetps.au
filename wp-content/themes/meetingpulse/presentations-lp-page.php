@@ -214,8 +214,14 @@
       </ul>
 
       <div class="section-features__images">
-        <img class="section-features-images__img section-features-images__img-first" src="<?php echo get_template_directory_uri() . '/img/pp-1-viol.png' ?>" alt="Power Point image">
-        <img class="section-features-images__img section-features-images__img-second" src="<?php echo get_template_directory_uri() . '/img/pp-2.png' ?>" alt="Power Point image">
+        <div class="section-features__img-container">
+          <div class="section-features-images-img__overlay section-features-images-img__overlay-first js-section-features-images-img-overlay-first"></div>
+          <img class="section-features-images__img js-section-features-images-img section-features-images__img-first js-section-features-images-img-first" src="<?php echo get_template_directory_uri() . '/img/ppp-1.png' ?>" alt="Power Point image">
+        </div>
+        <div class="section-features__img-container">
+          <div class="section-features-images-img__overlay section-features-images-img__overlay-second js-section-features-images-img-overlay-second"></div>
+          <img class="section-features-images__img js-section-features-images-img section-features-images__img-second js-section-features-images-img-second" src="<?php echo get_template_directory_uri() . '/img/ppp-2.png' ?>" alt="Power Point image">
+        </div>
       </div>
     </div>
 

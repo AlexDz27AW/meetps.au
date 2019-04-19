@@ -199,4 +199,66 @@ jQuery(document).ready(function(){
       console.log(video);
       jQuery('.js-popup-main-video iframe').attr("src",video);
   })
-})
+});
+
+window.onload = function () {
+  
+  var animatedImgFirst = document.querySelector('.js-section-features-images-img-first');
+  var animatedImgFirstOverlay = document.querySelector('.js-section-features-images-img-overlay-first');
+
+  var animatedImgSecond = document.querySelector('.js-section-features-images-img-second');
+  var animatedImgSecondOverlay = document.querySelector('.js-section-features-images-img-overlay-second');
+
+  animatedImgFirst.addEventListener('mouseover', animateHoverOnFirstImg);
+  animatedImgFirstOverlay.addEventListener('mouseover', animateHoverOnFirstImg);
+  animatedImgFirst.addEventListener('mouseout', deAnimateHoverOnFirstImg);
+  animatedImgFirstOverlay.addEventListener('mouseout', deAnimateHoverOnFirstImg);
+
+  animatedImgSecond.addEventListener('mouseover', animateHoverOnSecondImg);
+  animatedImgSecondOverlay.addEventListener('mouseover', animateHoverOnSecondImg);
+  animatedImgSecond.addEventListener('mouseout', deAnimateHoverOnSecondImg);
+  animatedImgSecondOverlay.addEventListener('mouseout', deAnimateHoverOnSecondImg);
+
+  function animateHoverOnFirstImg() {
+    animatedImgFirst.classList.add('js-scale-up-img');
+
+    animatedImgFirstOverlay.classList.add('js-scale-up-img');
+    animatedImgFirstOverlay.classList.remove('js-overlay-appear');
+    animatedImgFirstOverlay.classList.add('js-overlay-disappear');
+
+    animatedImgSecond.classList.add('js-scale-down-img');
+    animatedImgSecondOverlay.classList.add('js-scale-down-img');
+  }
+  function deAnimateHoverOnFirstImg() {
+    animatedImgFirst.classList.remove('js-scale-up-img');
+
+    animatedImgFirstOverlay.classList.remove('js-scale-up-img');
+    animatedImgFirstOverlay.classList.remove('js-overlay-disappear');
+    animatedImgFirstOverlay.classList.add('js-overlay-appear');
+
+    animatedImgSecond.classList.remove('js-scale-down-img');
+    animatedImgSecondOverlay.classList.remove('js-scale-down-img');
+  }
+
+  function animateHoverOnSecondImg() {
+    animatedImgSecond.classList.add('js-scale-up-img');
+
+    animatedImgSecondOverlay.classList.add('js-scale-up-img');
+    animatedImgSecondOverlay.classList.remove('js-overlay-appear');
+    animatedImgSecondOverlay.classList.add('js-overlay-disappear');
+
+    animatedImgFirst.classList.add('js-scale-down-img');
+    animatedImgFirstOverlay.classList.add('js-scale-down-img');
+  }
+  function deAnimateHoverOnSecondImg() {
+    animatedImgSecond.classList.remove('js-scale-up-img');
+
+    animatedImgSecondOverlay.classList.remove('js-scale-up-img');
+    animatedImgSecondOverlay.classList.remove('js-overlay-disappear');
+    animatedImgSecondOverlay.classList.add('js-overlay-appear');
+
+    animatedImgFirst.classList.remove('js-scale-down-img');
+    animatedImgFirstOverlay.classList.remove('js-scale-down-img');
+  }
+
+};
