@@ -15,18 +15,11 @@
                 <div class="question__body js-accord-body">Sure, more about it <a href="https://help.meet.ps/best-practices/presenting-meetingpulse-with-powerpoint" target="_blank">here</a></div>
               </div>
               <div class="question__item js-accord-item">
-                <div class="question__head js-accord-head">What platforms do you support?
+                <div class="question__head js-accord-head">I need it for a 3-day conference, can I buy a one-time license?
                   <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
                 </div>
                 <div class="question__body js-accord-body">We want 100% of your audience to be engaged, which is why we developed MeetingPulse to work in a web browser. Your audience can join from their iPhone, their Amazon fire tablet, their Linux laptop, their Windows PC or any other device
                   that has a web browser.</div>
-              </div>
-              <div class="question__item js-accord-item">
-                <div class="question__head js-accord-head">Can I customize MeetingPulse?
-                  <div class="question__icon"><svg class="icon icon-arrow-down"><use xlink:href="/wp-content/themes/meetingpulse/img/sprite.svg#icon-arrow-down"></use></svg></div>
-                </div>
-                <div class="question__body js-accord-body"> To make MeetingPulse a seamless addition to your meetings, we offer custom themes. We'll use your logo and your colors for the attendee and broadcast view. Your company name will be included in the webpage's title.<br><br>Your meeting
-                  can have its own domain. This is great if you are going to promote your meeting offline. For example, you could use <a href="#">acme<?php echo date('Y'); ?>.com</a> instead of <a href="#">meet.ps/acme-all-hands</a></div>
               </div>
               <div class="question__item js-accord-item">
                 <div class="">More questions? <a href="https://help.meet.ps/" data-gaevent="faq_morequestions">Ask</a></div>
