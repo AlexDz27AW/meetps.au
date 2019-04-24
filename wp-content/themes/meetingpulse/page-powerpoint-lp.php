@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Presentations landing page
+ * Template Name: PowerPoint landing page
  */
 
 ?>
@@ -588,13 +588,7 @@
             <div class="numbers__text">happy attendees</div>
           </div>
         </div>
-        <div class="numbers__cta">
-          <div class="numbers__cta-btns-wrapper">
-            <a class="btn numbers__cta-btn numbers-cta-btns-wrapper__cta-btn btn_white" href="javascript:void(0);" >Try it now</a>
-            <a class="btn numbers__cta-btn numbers-cta-btns-wrapper__cta-btn btn_white numbers__cta-btn--transp" href="javascript:void(0);" >Request a demo</a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-  <?php get_footer('lp'); ?>
+  <?php get_footer(); ?>
