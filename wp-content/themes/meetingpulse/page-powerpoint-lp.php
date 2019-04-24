@@ -132,7 +132,7 @@
   <div class="partners">
     <div class="partners__center center">
       <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-1.png" width="130px"></div>
-      <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-2.png" width="121px"></div>
+      <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/xpartners-2.png.pagespeed.ic.oBYKDVZqJU.webp" width="121px"></div>
       <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-3.png" width="110px"></div>
       <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-4.png" width="135px"></div>
       <div class="partners__item"><img class="partners__pic" src="/wp-content/themes/meetingpulse/img/partners-5.png" width="133px"></div>
