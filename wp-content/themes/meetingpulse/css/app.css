@@ -3848,6 +3848,7 @@ rect.burger-svg__base { fill: none; }
 
 .section-features-list-item__icon {
   display: inline-block;
+  min-width: 46px;
   margin-right: 33px;
 }
 
