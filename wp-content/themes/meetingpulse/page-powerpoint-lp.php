@@ -207,7 +207,7 @@
               <path d="M21.5563 7.27553C21.6277 7.37869 21.7313 7.44457 21.8444 7.45869C21.9574 7.47281 22.0707 7.43402 22.1592 7.35083L24.5321 5.12047C24.5761 5.07932 24.6126 5.02849 24.6396 4.97089C24.6667 4.91329 24.6837 4.85004 24.6898 4.78476C24.6959 4.71947 24.6909 4.65344 24.6751 4.59041C24.6592 4.52739 24.6329 4.46861 24.5976 4.41744C24.5623 4.36627 24.5187 4.3237 24.4693 4.29218C24.4198 4.26065 24.3656 4.24077 24.3096 4.23369C24.2535 4.2266 24.1969 4.23245 24.1428 4.25088C24.0887 4.26932 24.0383 4.29999 23.9944 4.34114L21.6209 6.5735C21.5325 6.65669 21.4761 6.77733 21.464 6.90895C21.4519 7.04056 21.4851 7.1724 21.5563 7.27553Z" fill="#8665FF" stroke="#8665FF" stroke-width="2"/>
             </svg>
           </div>
-          <div class="section-features-list-item__text">
+          <div class="section-features-list-item__text js-animate-images-begin-brekpoint">
             Easy as 1,2,3,4!
           </div>
         </li>
@@ -228,7 +228,7 @@
   </div>
 
   <!-- engage-->
-  <div class="engage mob-container" style="background-image: url(<?php echo get_template_directory_uri() . '/img/engage-bg-cc.jpg' ?>);">
+  <div class="engage js-animate-images-finish-brekpoint mob-container" style="background-image: url(<?php echo get_template_directory_uri() . '/img/engage-bg-cc.jpg' ?>);">
     <div class="section-icon-title-wrapper engage__section-icon-title-wrapper center">
       <div class="section-icon-title engage__section-icon-title">
       <div class="section-icon-title__icon engage__section-icon-title-icon">

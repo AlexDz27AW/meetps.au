@@ -209,56 +209,69 @@ window.onload = function () {
   var animatedImgSecond = document.querySelector('.js-section-features-images-img-second');
   var animatedImgSecondOverlay = document.querySelector('.js-section-features-images-img-overlay-second');
 
-  animatedImgFirst.addEventListener('mouseover', animateHoverOnFirstImg);
-  animatedImgFirstOverlay.addEventListener('mouseover', animateHoverOnFirstImg);
-  animatedImgFirst.addEventListener('mouseout', deAnimateHoverOnFirstImg);
-  animatedImgFirstOverlay.addEventListener('mouseout', deAnimateHoverOnFirstImg);
-
-  animatedImgSecond.addEventListener('mouseover', animateHoverOnSecondImg);
-  animatedImgSecondOverlay.addEventListener('mouseover', animateHoverOnSecondImg);
-  animatedImgSecond.addEventListener('mouseout', deAnimateHoverOnSecondImg);
-  animatedImgSecondOverlay.addEventListener('mouseout', deAnimateHoverOnSecondImg);
-
-  function animateHoverOnFirstImg() {
-    animatedImgFirst.classList.add('js-scale-up-img');
-
-    animatedImgFirstOverlay.classList.add('js-scale-up-img');
-    animatedImgFirstOverlay.classList.remove('js-overlay-appear');
-    animatedImgFirstOverlay.classList.add('js-overlay-disappear');
-
-    animatedImgSecond.classList.add('js-scale-down-img');
-    animatedImgSecondOverlay.classList.add('js-scale-down-img');
-  }
-  function deAnimateHoverOnFirstImg() {
-    animatedImgFirst.classList.remove('js-scale-up-img');
-
-    animatedImgFirstOverlay.classList.remove('js-scale-up-img');
-    animatedImgFirstOverlay.classList.remove('js-overlay-disappear');
+  function animateFinishFeaturesImages() {
+    animatedImgFirst.classList.add('js-section-features-images__img-first--finish');
     animatedImgFirstOverlay.classList.add('js-overlay-appear');
-
-    animatedImgSecond.classList.remove('js-scale-down-img');
-    animatedImgSecondOverlay.classList.remove('js-scale-down-img');
-  }
-
-  function animateHoverOnSecondImg() {
-    animatedImgSecond.classList.add('js-scale-up-img');
-
-    animatedImgSecondOverlay.classList.add('js-scale-up-img');
-    animatedImgSecondOverlay.classList.remove('js-overlay-appear');
-    animatedImgSecondOverlay.classList.add('js-overlay-disappear');
-
-    animatedImgFirst.classList.add('js-scale-down-img');
     animatedImgFirstOverlay.classList.add('js-scale-down-img');
+
+    animatedImgSecond.classList.add('js-section-features-images__img-second--finish');
+    animatedImgSecondOverlay.classList.add('js-overlay-disappear');
+    animatedImgSecondOverlay.classList.add('js-scale-up-img');
   }
-  function deAnimateHoverOnSecondImg() {
-    animatedImgSecond.classList.remove('js-scale-up-img');
-
-    animatedImgSecondOverlay.classList.remove('js-scale-up-img');
-    animatedImgSecondOverlay.classList.remove('js-overlay-disappear');
-    animatedImgSecondOverlay.classList.add('js-overlay-appear');
-
-    animatedImgFirst.classList.remove('js-scale-down-img');
+  function animateBeginFeaturesImages() {
+    animatedImgFirst.classList.remove('js-section-features-images__img-first--finish');
+    animatedImgFirstOverlay.classList.remove('js-overlay-appear');
     animatedImgFirstOverlay.classList.remove('js-scale-down-img');
+
+    animatedImgSecond.classList.remove('js-section-features-images__img-second--finish');
+    animatedImgSecondOverlay.classList.remove('js-overlay-disappear');
+    animatedImgSecondOverlay.classList.remove('js-scale-up-img');
+  }
+
+  var animateImagesFinishBreakpoint = document.querySelector('.js-animate-images-finish-brekpoint');
+  var wereImagesFinishAnimatedFinish = false;
+  var wereImagesAnimatedBack = false;
+  var animateImagesBeginBreakpoint = document.querySelector('.js-animate-images-begin-brekpoint');
+
+
+  window.addEventListener('scroll', animateFinishFeaturesImagesOnFinishBp);
+
+  window.addEventListener('scroll', manageImagesAnimation);
+  function manageImagesAnimation() {
+    if (wereImagesFinishAnimatedFinish) {
+      window.removeEventListener('scroll', animateFinishFeaturesImagesOnFinishBp);
+
+      if (!isElemInViewport(animateImagesBeginBreakpoint)) {
+        window.addEventListener('scroll', animateFinishFeaturesImagesOnBeginBp);
+      }
+    }
+
+    if (wereImagesAnimatedBack && !isElemInViewport(animateImagesFinishBreakpoint)) {
+      window.removeEventListener('scroll', animateFinishFeaturesImagesOnBeginBp);
+
+      window.addEventListener('scroll', animateFinishFeaturesImagesOnFinishBp);
+    }
+  }
+  
+  function animateFinishFeaturesImagesOnFinishBp() {
+    if (isElemInViewport(animateImagesFinishBreakpoint)) {
+      animateFinishFeaturesImages();
+      wereImagesFinishAnimatedFinish = true;
+    }
+  }
+  function animateFinishFeaturesImagesOnBeginBp() {
+    if (isElemInViewport(animateImagesBeginBreakpoint)) {
+      animateBeginFeaturesImages();
+      wereImagesAnimatedBack = true;
+
+      wereImagesFinishAnimatedFinish = false;
+    }
   }
 
 };
+
+function isElemInViewport(elem) {
+  var coords = elem.getBoundingClientRect();
+
+  return coords.bottom >= 0 && coords.top <= window.innerHeight;
+}

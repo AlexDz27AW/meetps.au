@@ -3888,10 +3888,13 @@ rect.burger-svg__base { fill: none; }
 
 .section-features-images-img__overlay-first {
   max-height: 87px;
+  opacity: 0;
+  transform: scale(1.28);
 }
 
 .section-features-images-img__overlay-second {
   max-height: 236px;
+  transform: scale(0.71);
 }
 
 .section-features-images__img {
@@ -3905,6 +3908,20 @@ rect.burger-svg__base { fill: none; }
 .section-features-images__img-first {
   max-width: 567px;
   transition: transform 1s;
+  transform: scale(1.28);
+}
+
+.section-features-images__img-second {
+  transition: transform 1s;
+  max-width: 635px;
+  transform: scale(0.71);
+}
+
+.js-section-features-images__img-first--finish {
+  transform: scale(0.71);
+}
+.js-section-features-images__img-second--finish {
+  transform: scale(1.28);
 }
 
 .js-scale-up-img {
