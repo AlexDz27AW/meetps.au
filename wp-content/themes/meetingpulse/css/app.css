@@ -3891,6 +3891,11 @@ rect.burger-svg__base { fill: none; }
   opacity: 0;
   transform: scale(1.28);
 }
+@media (max-width: 768px) {
+  .section-features-images-img__overlay-first {
+    transform: scale(1.1);
+  }
+}
 
 .section-features-images-img__overlay-second {
   max-height: 236px;
@@ -3927,6 +3932,11 @@ rect.burger-svg__base { fill: none; }
 }
 .js-section-features-images__img-second--finish {
   transform: scale(1.28);
+}
+@media (max-width: 768px) {
+  .js-section-features-images__img-second--finish {
+    transform: scale(1.1);
+  }
 }
 
 .js-scale-up-img {
