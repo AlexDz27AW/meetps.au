@@ -3814,6 +3814,13 @@ rect.burger-svg__base { fill: none; }
   align-items: center;
   padding-bottom: 35px;
 }
+@media (max-width: 768px) {
+  .section-icon-title {
+    max-width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .section-icon-title__icon {
   margin-right: 38px;
@@ -3951,6 +3958,7 @@ rect.burger-svg__base { fill: none; }
 @media (max-width: 768px) {
   .engage {
     padding-bottom: 25px;
+    padding-top: 55px;
   }
 }
 
