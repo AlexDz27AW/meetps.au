@@ -3910,6 +3910,11 @@ rect.burger-svg__base { fill: none; }
   transition: transform 1s;
   transform: scale(1.28);
 }
+@media (max-width: 768px) {
+  .section-features-images__img-first {
+    transform: scale(1.1);
+  }
+}
 
 .section-features-images__img-second {
   transition: transform 1s;
@@ -3926,6 +3931,11 @@ rect.burger-svg__base { fill: none; }
 
 .js-scale-up-img {
   transform: scale(1.28);
+}
+@media (max-width: 768px) {
+  .js-scale-up-img {
+    transform: scale(1.1);
+  }
 }
 .js-scale-down-img {
   transform: scale(0.71);
