@@ -142,7 +142,7 @@
     </div>
   </div>
   <!-- simple-setup-->
-  <div class="simple-setup">
+  <div class="simple-setup mob-container">
     <div class="section-icon-title-wrapper center">
 
       <div class="section-icon-title simple-setup__section-icon-title">
@@ -228,7 +228,7 @@
   </div>
 
   <!-- engage-->
-  <div class="engage" style="background-image: url(<?php echo get_template_directory_uri() . '/img/engage-bg-cc.jpg' ?>);">
+  <div class="engage mob-container" style="background-image: url(<?php echo get_template_directory_uri() . '/img/engage-bg-cc.jpg' ?>);">
     <div class="section-icon-title-wrapper engage__section-icon-title-wrapper center">
       <div class="section-icon-title engage__section-icon-title">
       <div class="section-icon-title__icon engage__section-icon-title-icon">
@@ -516,7 +516,7 @@
       </video></div>
     <div class="company__bg"></div>
     <div class="company__container">
-      <div class="company__center center">
+      <div class="company__center center mob-container">
         <div class="company__list">
           <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-1.png" width="150px"></div>
           <div class="company__item"><img class="company__pic" src="/wp-content/themes/meetingpulse/img/partners-w-2.png" width="123px"></div>

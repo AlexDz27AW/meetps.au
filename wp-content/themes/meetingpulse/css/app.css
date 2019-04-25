@@ -4406,3 +4406,16 @@ rect.burger-svg__base { fill: none; }
   padding-right: 19px;
   margin-left: auto;
 }
+
+@media (max-width: 768px) {
+  .partners {
+    padding: 27px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .mob-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
