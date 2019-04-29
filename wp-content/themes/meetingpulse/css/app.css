@@ -3989,8 +3989,10 @@ rect.burger-svg__base { fill: none; }
 .engage {
   padding-top: 130px;
   padding-bottom: 130px;
+  background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  background-position: 50% 50%;
 }
 @media (max-width: 768px) {
   .engage {
